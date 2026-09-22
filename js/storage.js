@@ -21,6 +21,13 @@ export function defaultState() {
       watch: 0,
       day: 1,
       log: [],
+      trip: {
+        distanceHexes: 0,
+        remainingHexes: 0,
+        plannedDays: 0,
+        mounted: false,
+        difficult: false,
+      },
     },
   };
 }
@@ -32,7 +39,11 @@ function mergeWithDefaults(parsed) {
     ...parsed,
     party: { ...defaults.party, ...(parsed.party || {}) },
     delving: { ...defaults.delving, ...(parsed.delving || {}) },
-    travel: { ...defaults.travel, ...(parsed.travel || {}) },
+    travel: {
+      ...defaults.travel,
+      ...(parsed.travel || {}),
+      trip: { ...defaults.travel.trip, ...((parsed.travel || {}).trip || {}) },
+    },
     characters: Array.isArray(parsed.characters) ? parsed.characters : [],
     version: SCHEMA_VERSION,
   };
