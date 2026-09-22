@@ -1,0 +1,260 @@
+[
+  {
+    "id": "abilities",
+    "title": { "es": "Habilidades", "en": "Abilities" },
+    "body": {
+      "es": [
+        "Cada personaje tiene seis habilidades, normalmente entre 0 y 10: Fuerza (STR), Destreza (DEX), Constitución (CON), Inteligencia (INT), Sabiduría (WIS) y Carisma (CHA).",
+        "STR se suma en ataques cuerpo a cuerpo y en pruebas de fuerza bruta (trepar, forzar puertas, etc.).",
+        "DEX se suma en pruebas de agilidad, sigilo y manos rápidas.",
+        "CON determina los slots de inventario y las heridas que un PJ puede soportar antes de morir (ambos son 10 + CON), y se usa en pruebas de resistencia física.",
+        "INT se suma en pruebas de ingenio (forzar cerraduras, alquimia) y determina cuántos libros de hechizos puede usar un PJ por día.",
+        "WIS se suma en ataques a distancia y en pruebas de percepción/voluntad, e interviene en la iniciativa social o de exploración.",
+        "CHA se suma en pruebas de interacción social y en la iniciativa de combate, y limita cuántos aliados/bendiciones puede tener un PJ."
+      ],
+      "en": [
+        "Every character has six abilities, typically ranging 0 to 10: Strength (STR), Dexterity (DEX), Constitution (CON), Intelligence (INT), Wisdom (WIS) and Charisma (CHA).",
+        "STR is added on melee attacks and on brute-force checks (climbing, forcing doors, etc.).",
+        "DEX is added on agility, stealth, and sleight-of-hand checks.",
+        "CON sets both a PC's item slots and the wounds they can take before dying (both equal 10 + CON), and is used for physical endurance checks.",
+        "INT is added on cunning checks (lockpicking, alchemy) and sets how many spellbooks a PC can use per day.",
+        "WIS is added on ranged attacks and perception/willpower checks, and factors into exploration awareness.",
+        "CHA is added on social checks and combat initiative, and caps how many allies/blessings a PC can maintain."
+      ]
+    }
+  },
+  {
+    "id": "checks",
+    "title": { "es": "Pruebas de habilidad", "en": "Ability checks" },
+    "body": {
+      "es": [
+        "Para resolver algo incierto, se tira 1d20 y se suma la habilidad relevante más cualquier modificador. Si el total iguala o supera el número objetivo, la prueba tiene éxito.",
+        "El número objetivo por defecto es 16 (11 + una dificultad de 5). El GM puede subir o bajar la dificultad de 0 a 10 según lo complicado que sea el intento.",
+        "Ventajas y desventajas (herramientas adecuadas, tiempo extra, mala postura, oscuridad, etc.) se aplican en bloques de +5 o -5, nunca como bonos sueltos de otro tamaño.",
+        "Un plan inteligente, el uso del entorno o el equipo correcto puede evitar la tirada por completo: si la solución ya es ingeniosa, el GM puede dar éxito automático."
+      ],
+      "en": [
+        "To resolve something uncertain, roll 1d20 and add the relevant ability plus any modifiers. If the total meets or beats the target number, the check succeeds.",
+        "The default target number is 16 (11 + a difficulty of 5). The GM can raise or lower the difficulty from 0 to 10 depending on how hard the attempt is.",
+        "Advantages and disadvantages (the right tools, extra time, poor footing, darkness, etc.) apply in blocks of +5 or -5, never as odd-sized bonuses.",
+        "A clever plan, using the environment, or having the right gear can skip the roll entirely: if the solution is already smart, the GM can grant automatic success."
+      ]
+    }
+  },
+  {
+    "id": "pc-creation",
+    "title": { "es": "Creación de personaje", "en": "Character creation" },
+    "body": {
+      "es": [
+        "Se reparten 3 puntos entre las 6 habilidades (se puede repetir habilidad), o se tiran 3d6 y cada dado suma 1 punto a la habilidad que ocupa esa posición en el orden STR-DEX-CON-INT-WIS-CHA (un dado que sale 3 suma a CON, uno que sale 5 suma a WIS, etc.).",
+        "El PJ empieza en nivel 1 con 0 XP, HP máximo = 1d6, slots de inventario = 10 + CON y umbral de heridas = 10 + CON.",
+        "Este asistente deja la elección de carrera y equipo inicial como texto libre: cargá lo que corresponda según tu propia copia del libro (no se incluye la tabla de 100 carreras por motivos de derechos de autor)."
+      ],
+      "en": [
+        "Distribute 3 points across the 6 abilities (the same ability can get more than one point), or roll 3d6 and let each die add 1 point to the ability in that position of the order STR-DEX-CON-INT-WIS-CHA (a die showing 3 adds to CON, a die showing 5 adds to WIS, etc.).",
+        "The PC starts at level 1 with 0 XP, max HP = 1d6, item slots = 10 + CON, and wound threshold = 10 + CON.",
+        "This assistant leaves starting career and gear as free text: fill them in from your own copy of the book (the 100-entry career table isn't bundled here for copyright reasons)."
+      ]
+    }
+  },
+  {
+    "id": "item-slots-wounds",
+    "title": { "es": "Slots de inventario y heridas", "en": "Item slots and wounds" },
+    "body": {
+      "es": [
+        "Un PJ tiene 10 + CON slots para anotar su equipo. La mayoría de los objetos ocupan 1 slot; los objetos a dos manos o voluminosos ocupan 2; 500 monedas ocupan 1 slot.",
+        "El daño se resta primero del HP. Al llegar a 0 HP, cada punto de daño adicional llena un slot de inventario con una herida (empezando por el slot más alto), obligando a soltar lo que hubiera ahí.",
+        "El daño directo (caídas, trampas, ataques furtivos, etc.) ignora el HP y llena slots con heridas de inmediato.",
+        "El personaje muere cuando todos sus slots están llenos de heridas. Al descansar dos watches y comer, el HP vuelve al máximo; en un refugio seguro también se cura una herida."
+      ],
+      "en": [
+        "A PC has 10 + CON slots to track gear. Most items take 1 slot; two-handed or bulky items take 2; 500 coins fill 1 slot.",
+        "Damage is first subtracted from HP. Once HP hits 0, each further point of damage fills an inventory slot with a wound (starting from the highest slot), forcing whatever was stored there to be dropped.",
+        "Direct damage (falls, traps, sneak attacks, etc.) bypasses HP and fills slots with wounds immediately.",
+        "The character dies once every slot is filled with wounds. Resting two watches and eating restores HP to full; resting in a safe haven also heals one wound."
+      ]
+    }
+  },
+  {
+    "id": "leveling-up",
+    "title": { "es": "Subir de nivel", "en": "Leveling up" },
+    "body": {
+      "es": [
+        "Se gana experiencia (XP) igual a las monedas de tesoro recuperadas de lugares peligrosos y remotos, repartida en partes iguales entre quienes participaron.",
+        "Al alcanzar el umbral de XP del siguiente nivel, el PJ sube de nivel: reparte +1 en tres habilidades a elección (o al azar) y vuelve a tirar su dado de HP máximo (un dado más que antes), quedándose con el resultado más alto entre el nuevo y el anterior.",
+        "Umbrales de XP por nivel (mecánica del libro): nivel 1 = 0 XP (1d6 de HP), 2 = 2000 (2d6), 3 = 4000 (3d6), 4 = 8000 (4d6), 5 = 16000 (5d6), 6 = 32000 (6d6), 7 = 64000 (7d6), 8 = 125000 (8d6), 9 = 250000 (9d6), 10 = 500000 (10d6)."
+      ],
+      "en": [
+        "PCs earn experience (XP) equal to the treasure coins recovered from dangerous, remote places, split evenly among everyone who took part.",
+        "On reaching the next level's XP threshold, the PC levels up: add +1 to three abilities of choice (or at random) and reroll the max HP die (one die more than before), keeping the higher of the new and previous results.",
+        "XP thresholds per level (book mechanic): level 1 = 0 XP (1d6 HP), 2 = 2000 (2d6), 3 = 4000 (3d6), 4 = 8000 (4d6), 5 = 16000 (5d6), 6 = 32000 (6d6), 7 = 64000 (7d6), 8 = 125000 (8d6), 9 = 250000 (9d6), 10 = 500000 (10d6)."
+      ]
+    }
+  },
+  {
+    "id": "traveling",
+    "title": { "es": "Viaje", "en": "Traveling" },
+    "body": {
+      "es": [
+        "El día de viaje se divide en 6 watches de 4 horas (3 diurnos, 3 nocturnos). Casi toda acción importante (viajar, forrajear, buscar) ocupa un watch entero.",
+        "El grupo avanza un hexágono de 6 millas por watch, hasta 3 veces por día; cada watch extra de viaje inflige 1 daño directo salvo que se supere una prueba de CON. La velocidad se reduce a la mitad de noche, en terreno difícil o con mal clima, y se duplica si van montados.",
+        "En terrenos o climas desorientantes, el GM puede pedir en secreto una prueba de WIS al líder del grupo para ver si terminan en un hexágono vecino por error.",
+        "Explorar un hexágono completo (en vez de solo atravesarlo) ocupa un watch y revela puntos de interés que no se notarían de paso."
+      ],
+      "en": [
+        "The travel day is split into 6 four-hour watches (3 daytime, 3 night). Most major actions (traveling, foraging, searching) take up a whole watch.",
+        "The party moves one 6-mile hex per watch, up to 3 times a day; every extra watch of travel deals 1 direct damage unless a CON check succeeds. Speed is halved at night, in difficult terrain, or in severe weather, and doubled while riding.",
+        "In disorienting terrain or weather, the GM may secretly call for a WIS check from the party's leader to see if they end up in a neighboring hex by mistake.",
+        "Exploring a full hex (rather than just passing through) takes a watch and reveals points of interest that wouldn't otherwise be noticed."
+      ]
+    }
+  },
+  {
+    "id": "travel-hazard-die",
+    "title": { "es": "Travel Hazard Die", "en": "Travel Hazard Die" },
+    "body": {
+      "es": [
+        "Al final de cada watch de viaje se tira 1d6 y se aplica el resultado: 1 encuentro con una criatura de la región; 2 fatiga (1 de daño salvo que se descanse el próximo watch); 3 consumo (chequeo de deterioro de comida/objetos perecederos); 4 cambio de clima o inicio de un evento local; 5 aparece un rastro de que un encuentro está cerca; 6 sin efecto."
+      ],
+      "en": [
+        "At the end of every travel watch, roll 1d6 and apply the result: 1 encounter with a regional creature; 2 fatigue (1 damage unless the party rests next watch); 3 depletion (check for spoiled food/perishables); 4 the weather shifts or a local event begins; 5 a sign appears that an encounter is near; 6 no effect."
+      ]
+    }
+  },
+  {
+    "id": "weather",
+    "title": { "es": "Clima", "en": "Weather" },
+    "body": {
+      "es": [
+        "El clima puede cambiar al empezar la partida o cuando el Travel Hazard Die indica un cambio. Efectos típicos: la lluvia empapa y puede embarrar el terreno; el granizo y la niebla reducen visibilidad y desorientan; el viento lleva olores y dificulta ataques a distancia; la nieve reduce visibilidad y ralentiza; el calor o frío extremos aumentan el daño por fatiga o exigen pruebas de CON periódicas.",
+        "Este asistente no incluye la tabla de resultados de clima del libro (es contenido de tabla, no mecánica); cada mesa puede definir sus propios efectos según el género de la campaña."
+      ],
+      "en": [
+        "Weather can change at the start of the game or whenever the Travel Hazard Die indicates a shift. Typical effects: rain soaks everything and can turn ground to mud; hail and fog reduce visibility and disorient; wind carries scent and hampers ranged attacks; snow reduces visibility and slows movement; extreme heat or cold increases fatigue damage or calls for periodic CON checks.",
+        "This assistant doesn't bundle the book's weather results table (that's table content, not mechanics); each table can define its own effects to fit the campaign's tone."
+      ]
+    }
+  },
+  {
+    "id": "delving",
+    "title": { "es": "Exploración de mazmorra", "en": "Dungeon delving" },
+    "body": {
+      "es": [
+        "El tiempo en la mazmorra se mide en turnos de 10 minutos; casi toda acción (moverse, buscar, pelear, descansar) ocupa un turno.",
+        "Velocidad cauteloso: 120'/turno, detecta trampas automáticamente y permite mapear. Caminar: 2400'/turno, se disparan trampas y emboscadas pero se sigue pudiendo mapear. Correr: 4800'/turno, se apagan las velas, se disparan todas las trampas y no se puede mapear; se usa como último recurso.",
+        "Antorchas: iluminan formas a 40' y detalle a 10', ocupan 1 slot y se apagan con un resultado de 3 en el Dungeon Hazard Die (se pueden reencender de las brasas). Velas y linternas: formas a 20', detalle a 5', duran toda la expedición y no se apagan con el Hazard Die.",
+        "En oscuridad total: -10 a pruebas de movimiento/coordinación, sorpresa automática ante encuentros, se disparan todas las trampas y no se puede mapear."
+      ],
+      "en": [
+        "Time in the dungeon is measured in 10-minute turns; almost every action (moving, searching, fighting, resting) takes one turn.",
+        "Crawling speed: 120'/turn, automatically detects traps and allows mapping. Walking speed: 2400'/turn, traps and ambushes trigger but mapping is still possible. Running speed: 4800'/turn, candles blow out, every trap triggers, and mapping is impossible; used as a last resort.",
+        "Torches: reveal shapes at 40' and detail at 10', take 1 slot, and burn out on a result of 3 on the Dungeon Hazard Die (they can be relit from the embers). Candles and lanterns: shapes at 20', detail at 5', last the whole expedition and aren't affected by the Hazard Die.",
+        "In total darkness: -10 to movement/coordination checks, automatic surprise on encounters, every trap triggers, and mapping is impossible."
+      ]
+    }
+  },
+  {
+    "id": "dungeon-hazard-die",
+    "title": { "es": "Dungeon Hazard Die", "en": "Dungeon Hazard Die" },
+    "body": {
+      "es": [
+        "Al final de cada turno se tira 1d6 y se aplica el resultado: 1 encuentro con una criatura de la mazmorra; 2 fatiga (1 de daño salvo que se descanse el próximo turno); 3 se apagan las antorchas encendidas; 4 el entorno de la mazmorra cambia; 5 aparece un rastro de que un encuentro está cerca; 6 sin efecto."
+      ],
+      "en": [
+        "At the end of every turn, roll 1d6 and apply the result: 1 encounter with a dungeon creature; 2 fatigue (1 damage unless the party rests next turn); 3 lit torches burn out; 4 the dungeon environment shifts; 5 a sign appears that an encounter is near; 6 no effect."
+      ]
+    }
+  },
+  {
+    "id": "encounters",
+    "title": { "es": "Encuentros", "en": "Encounters" },
+    "body": {
+      "es": [
+        "Cuando aparece un encuentro, el GM define la distancia inicial, qué está haciendo la criatura y si hay sorpresa.",
+        "Si el encuentro ocurre a corta distancia, el bando más cercano hace una prueba de WIS contra la WIS del oponente más cercano; ganar por 5 o más otorga sorpresa: el bando sorprendente actúa primero y tiene +5 en sus tiradas de combate durante la primera ronda.",
+        "La reacción de una criatura (hostil, neutral, amistosa, etc.) depende del contexto narrativo; puede ir desde un ataque inmediato hasta unirse al grupo, y las acciones de los PJs pueden cambiarla rápidamente."
+      ],
+      "en": [
+        "When an encounter occurs, the GM sets the initial distance, what the creature is doing, and whether there's surprise.",
+        "If the encounter happens at close range, the nearer side makes a WIS check against the closest opponent's WIS; winning by 5 or more grants surprise: the surprising side acts first and gets +5 on combat rolls during the first round.",
+        "A creature's reaction (hostile, neutral, friendly, etc.) depends on narrative context; it can range from an immediate attack to joining the party, and the PCs' actions can shift it quickly."
+      ]
+    }
+  },
+  {
+    "id": "combat",
+    "title": { "es": "Combate", "en": "Combat" },
+    "body": {
+      "es": [
+        "La iniciativa se decide con una prueba de CHA contra CHA entre los líderes de cada bando; quien gana actúa primero, y en su turno todas sus criaturas pueden moverse (40' para un PJ) y realizar una acción.",
+        "Un ataque es una prueba de STR (cuerpo a cuerpo) o WIS (a distancia) contra la Clase de Armadura del objetivo (11 + sus Puntos de Armadura). Un total de 21 o más otorga además una maniobra gratuita (desarmar, empujar, derribar, etc.); un 1 natural rompe el arma del atacante.",
+        "Los ataques a distancia no se pueden hacer estando en cuerpo a cuerpo, y sufren -5 si el objetivo está en cuerpo a cuerpo con otro.",
+        "El daño de un impacto es el dado del arma. Antes de tirar daño, se puede declarar un ataque poderoso: dobla los dados de daño pero rompe el arma tras el golpe.",
+        "Los ataques furtivos contra un enemigo desprevenido siempre impactan y causan daño directo; atacar a alguien totalmente indefenso lo mata automáticamente.",
+        "Cuando un bando de PNJs llega a un punto de quiebre (mitad de sus HP estando solos, primera baja, mitad de sus fuerzas perdidas, muerte de su líder, etc.), hacen un test de moral: 2d6 contra su valoración de moral; si se pasan del valor, el bando huye o se rinde."
+      ],
+      "en": [
+        "Initiative is decided with a CHA vs CHA check between each side's leaders; the winner acts first, and on their turn all their creatures may move (40' for a PC) and take one action.",
+        "An attack is a STR (melee) or WIS (ranged) check against the target's Armor Class (11 + their Armor Points). A total of 21 or higher also grants a free maneuver (disarm, push, trip, etc.); a natural 1 breaks the attacker's weapon.",
+        "Ranged attacks can't be made while in melee, and take a -5 penalty if the target is in melee with someone else.",
+        "Damage on a hit is the weapon's damage die. Before rolling damage, a power attack can be declared: it doubles the damage dice but breaks the weapon afterward.",
+        "Sneak attacks against an unaware foe always hit and deal direct damage; attacking someone truly defenseless kills them automatically.",
+        "When an NPC side reaches a breaking point (half their HP if alone, their first casualty, half their forces lost, their leader's death, etc.), they make a morale test: 2d6 against their morale rating; rolling over it means the side routs or surrenders."
+      ]
+    }
+  },
+  {
+    "id": "hazards",
+    "title": { "es": "Peligros ambientales", "en": "Environmental hazards" },
+    "body": {
+      "es": [
+        "Fuego: 1d6 de daño directo por ronda; estar en llamas: 2d6 por ronda; sumergirse en lava es muerte instantánea.",
+        "Ahogo: se puede aguantar la respiración 30 segundos más 30 por cada punto de CON; después hay que superar una prueba de CON cada ronda o morir.",
+        "Congelamiento: 1 de daño directo por turno salvo que se supere una prueba de CON.",
+        "Caídas: 1d6 de daño directo por cada 10' caídos; si al menos tres dados salen 6, la caída mata instantáneamente.",
+        "Sed: cada día sin beber agua da -5 a todas las pruebas; tras tres días hay que superar una prueba de CON cada día o morir."
+      ],
+      "en": [
+        "Fire: 1d6 direct damage per round; being on fire: 2d6 per round; falling into lava is instant death.",
+        "Drowning: you can hold your breath for 30 seconds plus 30 more per point of CON; after that, a CON check is needed every round or you die.",
+        "Freezing: 1 direct damage per turn unless a CON check succeeds.",
+        "Falling: 1d6 direct damage per 10' fallen; if at least three dice come up 6, the fall kills instantly.",
+        "Thirst: each day without water gives -5 to all checks; after three days, a CON check is needed every day or death follows."
+      ]
+    }
+  },
+  {
+    "id": "spellcasting",
+    "title": { "es": "Lanzamiento de hechizos", "en": "Spellcasting" },
+    "body": {
+      "es": [
+        "Un libro de hechizos ocupa un slot de inventario y contiene un único hechizo. No se pueden crear ni copiar; se consiguen explorando o quitándoselos a otros usuarios de magia.",
+        "Lanzar un hechizo ocupa una acción. Cada libro solo puede usarse una vez por día, pero un PJ puede usar tantos libros distintos por día como su puntaje de INT.",
+        "La lista completa de 100 hechizos del libro no está incluida aquí (es contenido, no mecánica); usá los campos de texto libre de la ficha para anotar los hechizos que consiga tu grupo."
+      ],
+      "en": [
+        "A spellbook takes one item slot and holds a single spell. Spellbooks can't be created or copied by PCs; they're found while exploring or taken from other spellcasters.",
+        "Casting a spell takes one action. Each spellbook can only be used once per day, but a PC can use a number of different spellbooks per day equal to their INT.",
+        "The book's full 100-spell list isn't bundled here (that's content, not mechanics); use the character sheet's free-text fields to note down whatever spells your party finds."
+      ]
+    }
+  },
+  {
+    "id": "equipment",
+    "title": { "es": "Equipo", "en": "Equipment" },
+    "body": {
+      "es": [
+        "Los costos se miden en monedas (c); 10c equivale al salario diario de un trabajador no calificado.",
+        "Armas de una mano: 1 slot, dado de daño d6. Armas a dos manos: 2 slots, dado de daño d8. Hondas: 1 slot, d4, 60' de alcance. Arcos: 2 slots, d6, 120' de alcance; los carcajes llevan 20 flechas.",
+        "Un PJ puede llevar hasta 7 piezas de armadura; cada una ocupa 1 slot y da +1 de Puntos de Armadura (máximo 7 AP, o Clase de Armadura 18).",
+        "Objetos comunes se consiguen en cualquier asentamiento; los poco comunes solo en pueblos o ciudades; los raros solo en ciudades grandes. Este asistente no incluye los listados de objetos concretos del libro (son contenido, no mecánica)."
+      ],
+      "en": [
+        "Costs are measured in coins (c); 10c is a day's wage for unskilled labor.",
+        "One-handed weapons: 1 slot, d6 damage die. Two-handed weapons: 2 slots, d8 damage die. Slings: 1 slot, d4, 60' range. Bows: 2 slots, d6, 120' range; quivers hold 20 arrows.",
+        "A PC can wear up to 7 armor pieces; each takes 1 slot and grants +1 Armor Point (max 7 AP, or Armor Class 18).",
+        "Common items are found in any settlement; uncommon ones only in towns or cities; rare ones only in large cities. This assistant doesn't bundle the book's specific item lists (that's content, not mechanics)."
+      ]
+    }
+  }
+]
