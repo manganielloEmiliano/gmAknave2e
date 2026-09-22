@@ -18,15 +18,6 @@ export function renderDelving(container) {
       <p class="hint">${t("delving.subtitle", lang)}</p>
 
       <div class="card">
-        <h2>${t("delving.turn", lang)}</h2>
-        <p class="result">${d.turn}</p>
-        <div class="btn-row">
-          <button id="d-next-turn">${t("delving.nextTurn", lang)}</button>
-          <button id="d-reset-turn" class="secondary">${t("delving.resetTurn", lang)}</button>
-        </div>
-      </div>
-
-      <div class="card">
         <h2>${t("delving.speedTitle", lang)}</h2>
         <div class="field">
           <select id="d-speed">
@@ -57,10 +48,15 @@ export function renderDelving(container) {
       </div>
 
       <div class="card">
-        <h2>${t("delving.hazardDie", lang)}</h2>
-        <p class="hint">${t("delving.hazardHint", lang)}</p>
-        <button id="d-roll-hazard">${t("delving.rollHazard", lang)}</button>
-        <div id="d-hazard-result"></div>
+        <h2>${t("delving.turn", lang)}: <span class="result" style="display:inline;">${d.turn}</span></h2>
+        <p class="hint">${t("delving.resolveHint", lang)}</p>
+        <div class="btn-row">
+          <button id="d-resolve-turn">${t("delving.resolveTurn", lang)}</button>
+        </div>
+        <div class="btn-row">
+          <button id="d-next-turn" class="secondary">${t("delving.nextTurnOnly", lang)}</button>
+          <button id="d-reset-turn" class="secondary">${t("delving.resetTurn", lang)}</button>
+        </div>
         <h3>${t("delving.log", lang)}</h3>
         <div class="log">
           ${
@@ -77,14 +73,6 @@ export function renderDelving(container) {
       </div>
     `;
 
-    container.querySelector("#d-next-turn").addEventListener("click", () => {
-      updateState((s) => ({ ...s, delving: { ...s.delving, turn: s.delving.turn + 1 } }));
-      draw();
-    });
-    container.querySelector("#d-reset-turn").addEventListener("click", () => {
-      updateState((s) => ({ ...s, delving: { ...s.delving, turn: 0, log: [] } }));
-      draw();
-    });
     container.querySelector("#d-speed").addEventListener("change", (e) => {
       updateState((s) => ({ ...s, delving: { ...s.delving, speed: e.target.value } }));
       draw();
@@ -107,19 +95,31 @@ export function renderDelving(container) {
       });
     }
 
-    container.querySelector("#d-roll-hazard").addEventListener("click", () => {
+    function resolveTurn() {
       const roll = rollDie(6);
       const desc = t(`delving.hazardResult.${roll}`, lang);
       updateState((s) => {
+        const turn = s.delving.turn + 1;
         const light = { ...s.delving.light };
         let extra = "";
         if (roll === 3 && light.type === "torch") {
           light.remaining = false;
           extra = ` — ${t("delving.torchBurnsOut", lang)}`;
         }
-        const entry = `${t("delving.turn", lang)} ${s.delving.turn}: d6=${roll} — ${desc}${extra}`;
-        return { ...s, delving: { ...s.delving, light, log: [...s.delving.log, entry] } };
+        const entry = `${t("delving.turn", lang)} ${turn}: d6=${roll} — ${desc}${extra}`;
+        return { ...s, delving: { ...s.delving, turn, light, log: [...s.delving.log, entry] } };
       });
+      draw();
+    }
+
+    container.querySelector("#d-resolve-turn").addEventListener("click", resolveTurn);
+
+    container.querySelector("#d-next-turn").addEventListener("click", () => {
+      updateState((s) => ({ ...s, delving: { ...s.delving, turn: s.delving.turn + 1 } }));
+      draw();
+    });
+    container.querySelector("#d-reset-turn").addEventListener("click", () => {
+      updateState((s) => ({ ...s, delving: { ...s.delving, turn: 0, log: [] } }));
       draw();
     });
 

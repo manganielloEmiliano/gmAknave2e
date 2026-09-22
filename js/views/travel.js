@@ -81,8 +81,8 @@ export function renderTravel(container) {
       </div>
 
       <div class="card">
-        <h2>${t("travel.watch", lang)}</h2>
-        <p class="result">${t("travel.day", lang)} ${tr.day} — ${t("travel.watchNumber", lang)} ${watchInDay} / 6</p>
+        <h2>${t("travel.watch", lang)}: <span class="result" style="display:inline;">${t("travel.day", lang)} ${tr.day} — ${watchInDay}/6</span></h2>
+        <p class="hint">${t("travel.resolveHint", lang)}</p>
         ${
           extraWatch
             ? `<p class="pill">${t("travel.extraWatch", lang)}</p>
@@ -92,16 +92,12 @@ export function renderTravel(container) {
             : ""
         }
         <div class="btn-row">
-          <button id="t-next-watch">${t("travel.nextWatch", lang)}</button>
+          <button id="t-resolve-watch">${t("travel.resolveWatch", lang)}</button>
+        </div>
+        <div class="btn-row">
+          <button id="t-next-watch" class="secondary">${t("travel.nextWatchOnly", lang)}</button>
           <button id="t-reset-watch" class="secondary">${t("travel.resetWatch", lang)}</button>
         </div>
-      </div>
-
-      <div class="card">
-        <h2>${t("travel.hazardDie", lang)}</h2>
-        <p class="hint">${t("travel.hazardHint", lang)}</p>
-        <button id="t-roll-hazard">${t("travel.rollHazard", lang)}</button>
-        <div id="t-hazard-result"></div>
         <h3>${t("travel.log", lang)}</h3>
         <div class="log">
           ${
@@ -176,15 +172,40 @@ export function renderTravel(container) {
       draw();
     });
 
+    function advanceWatch(s) {
+      const watch = s.travel.watch + 1;
+      const day = s.travel.day + (watch % 6 === 1 && watch > 1 ? 1 : 0);
+      const currentRate = hexesPerWatch(s.travel.trip);
+      const remainingHexes =
+        s.travel.trip.distanceHexes > 0
+          ? Math.max(0, s.travel.trip.remainingHexes - currentRate)
+          : s.travel.trip.remainingHexes;
+      return { watch, day, remainingHexes };
+    }
+
+    container.querySelector("#t-resolve-watch").addEventListener("click", () => {
+      const roll = rollDie(6);
+      const desc = t(`travel.hazardResult.${roll}`, lang);
+      updateState((s) => {
+        const { watch, day, remainingHexes } = advanceWatch(s);
+        const entry = `${t("travel.day", lang)} ${day}: d6=${roll} — ${desc}`;
+        return {
+          ...s,
+          travel: {
+            ...s.travel,
+            watch,
+            day,
+            trip: { ...s.travel.trip, remainingHexes },
+            log: [...s.travel.log, entry],
+          },
+        };
+      });
+      draw();
+    });
+
     container.querySelector("#t-next-watch").addEventListener("click", () => {
       updateState((s) => {
-        const watch = s.travel.watch + 1;
-        const day = s.travel.day + (watch % 6 === 1 && watch > 1 ? 1 : 0);
-        const currentRate = hexesPerWatch(s.travel.trip);
-        const remainingHexes =
-          s.travel.trip.distanceHexes > 0
-            ? Math.max(0, s.travel.trip.remainingHexes - currentRate)
-            : s.travel.trip.remainingHexes;
+        const { watch, day, remainingHexes } = advanceWatch(s);
         return {
           ...s,
           travel: { ...s.travel, watch, day, trip: { ...s.travel.trip, remainingHexes } },
@@ -204,16 +225,6 @@ export function renderTravel(container) {
         alert(t("travel.extraDamageApplied", lang));
       });
     }
-
-    container.querySelector("#t-roll-hazard").addEventListener("click", () => {
-      const roll = rollDie(6);
-      const desc = t(`travel.hazardResult.${roll}`, lang);
-      updateState((s) => {
-        const entry = `${t("travel.day", lang)} ${s.travel.day}: d6=${roll} — ${desc}`;
-        return { ...s, travel: { ...s.travel, log: [...s.travel.log, entry] } };
-      });
-      draw();
-    });
 
     container.querySelector("#t-clear-log").addEventListener("click", () => {
       updateState((s) => ({ ...s, travel: { ...s.travel, log: [] } }));
