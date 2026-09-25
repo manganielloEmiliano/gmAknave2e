@@ -21,6 +21,11 @@ edificios, reclutamiento). Donde la mecánica necesita ese tipo de dato
 (carrera inicial, hechizos conocidos), la app deja campos de texto libre
 para que cargues el contenido desde tu propia copia del libro.
 
+Además incluye una sección opcional **Slayers** (`/slayers`) con contenido de
+fan homebrew (escuelas de magia, hechizos, entidades, artefactos y un
+tracker de lanzador por personaje), separada del resto de la ficha y sin
+relación con el libro de Knave 2e ni con su licencia.
+
 ## Cómo correrlo en local
 
 Como usa `fetch()` para cargar los diccionarios de idioma y las reglas

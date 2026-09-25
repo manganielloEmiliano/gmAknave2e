@@ -29,6 +29,12 @@ export function defaultState() {
         difficult: false,
       },
     },
+    // Optional homebrew Slayers section: per-character spell pools, known
+    // spells, entity favor and artifacts. Keyed by character id so it survives
+    // independently of the base character sheet.
+    slayers: {
+      byCharacter: {},
+    },
   };
 }
 
@@ -43,6 +49,11 @@ function mergeWithDefaults(parsed) {
       ...defaults.travel,
       ...(parsed.travel || {}),
       trip: { ...defaults.travel.trip, ...((parsed.travel || {}).trip || {}) },
+    },
+    slayers: {
+      ...defaults.slayers,
+      ...(parsed.slayers || {}),
+      byCharacter: (parsed.slayers || {}).byCharacter || {},
     },
     characters: Array.isArray(parsed.characters) ? parsed.characters : [],
     version: SCHEMA_VERSION,

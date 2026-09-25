@@ -375,6 +375,18 @@ button:disabled {
   margin: 6px 0;
 }
 
+.charge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.charge-chip {
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
 .dice-row {
   display: flex;
   align-items: center;

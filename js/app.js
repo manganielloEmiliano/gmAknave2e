@@ -9,6 +9,7 @@ import { renderCombat } from "./views/combat.js";
 import { renderDelving } from "./views/delving.js";
 import { renderTravel } from "./views/travel.js";
 import { renderSettings } from "./views/settings.js";
+import { renderSlayers } from "./views/slayers.js";
 
 const NAV_ITEMS = [
   { path: "/", labelKey: "nav.home" },
@@ -18,6 +19,7 @@ const NAV_ITEMS = [
   { path: "/combate", labelKey: "nav.combat" },
   { path: "/delving", labelKey: "nav.delving" },
   { path: "/viaje", labelKey: "nav.travel" },
+  { path: "/slayers", labelKey: "nav.slayers" },
   { path: "/ajustes", labelKey: "nav.settings" },
 ];
 
@@ -52,6 +54,7 @@ async function main() {
   registerRoute("/combate", renderCombat);
   registerRoute("/delving", renderDelving);
   registerRoute("/viaje", renderTravel);
+  registerRoute("/slayers", renderSlayers);
   registerRoute("/ajustes", renderSettings);
 
   renderNav();
