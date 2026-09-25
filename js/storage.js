@@ -55,7 +55,12 @@ function mergeWithDefaults(parsed) {
       ...(parsed.slayers || {}),
       byCharacter: (parsed.slayers || {}).byCharacter || {},
     },
-    characters: Array.isArray(parsed.characters) ? parsed.characters : [],
+    // Old saves/imports predate the Knave/Slayers character type flag: default
+    // any character missing it to "knave" here so every read site downstream
+    // can assume char.system is always set.
+    characters: Array.isArray(parsed.characters)
+      ? parsed.characters.map((c) => ({ ...c, system: c.system === "slayers" ? "slayers" : "knave" }))
+      : [],
     version: SCHEMA_VERSION,
   };
 }

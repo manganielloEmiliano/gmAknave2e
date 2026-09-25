@@ -54,7 +54,10 @@
     "unnamed": "Unnamed",
     "level": "Level",
     "slots": "Slots",
-    "noCareer": "No career"
+    "noCareer": "No career",
+    "systemLabel": "System",
+    "systemKnave": "Knave",
+    "systemSlayers": "Slayers"
   },
   "wizard": {
     "title": "Character creation",
@@ -65,6 +68,10 @@
     "save": "Save character",
     "step1Title": "Abilities",
     "name": "Name",
+    "systemLabel": "System",
+    "systemHint": "Choose whether this character plays with base Knave rules or the Slayers homebrew module (adds its own magic, entities and artifacts).",
+    "systemKnave": "Standard Knave",
+    "systemSlayers": "Slayers",
     "abilitiesHint": "Distribute 3 points across the 6 abilities (more than 1 point can go on the same ability), or roll 3d6 to assign them automatically based on each die's number (1=STR, 2=DEX, 3=CON, 4=INT, 5=WIS, 6=CHA).",
     "roll3d6": "Roll 3d6",
     "resetAbilities": "Reset",
@@ -87,6 +94,14 @@
     "armorPlaceholder": "Piece name (e.g. helmet, breastplate)",
     "armorAdd": "Add",
     "ac": "Armor Class (AC)",
+    "spellsStepTitle": "Starting spells",
+    "spellsHint": "For each point in a school's ability (Black Magic → INT, Shamanistic Magic → CHA, White Magic → WIS), pick 1 weak spell of that school. If the ability is 2 or higher, one of those picks may be a medium spell instead. Nobody starts with strong spells or Lost Magic.",
+    "spellsSkipHint": "This step is optional: you can leave picks unmade and finish creation with no starting spells at all.",
+    "spellsPicksRemaining": "Picks made",
+    "spellsMedioAllowedHint": "One of this school's picks may be a medium spell instead of weak.",
+    "spellsNoneAvailable": "No spells available for this school.",
+    "spellsZeroStatsTitle": "Minor artifact",
+    "spellsZeroStatsHint": "With INT, CHA and WIS all at 0 the character can't cast any school of magic. Instead, choose a minor artifact (Swords of Light are unique and handed out by the GM: they aren't available here).",
     "step5Title": "Summary"
   },
   "sheet": {
@@ -133,6 +148,7 @@
     "spellbooksHint": "Each spellbook takes one slot and holds a single spell. It can be used once per day; the PC can use a number of spellbooks per day equal to their INT.",
     "spellName": "Spell name",
     "spellDesc": "Effect (own summary)",
+    "slayersSectionTitle": "Slayers Magic",
     "blessings": "Blessings",
     "blessingsHint": "Active bonds with a patron (an aura, a minor blessing, etc.), which don't take up inventory slots.",
     "blessingsCap": "Suggested cap, equal to the character's CHA:",
@@ -348,7 +364,7 @@
     "awakeningsEmpty": "No awakenings recorded.",
     "tracker": {
       "selectCharacter": "Character",
-      "noCharacters": "No characters yet. Create one first in Characters.",
+      "noCharacters": "No Slayers-system characters yet. Create one, or mark an existing one as Slayers, in Characters.",
       "pools": "Spell pools",
       "poolsHint": "Each point of the matching ability is a charge. Casting commits an empty charge to a tier: strong consumes the whole charge, medium yields 2 uses, weak yields 3.",
       "newDay": "New day (resets charges)",

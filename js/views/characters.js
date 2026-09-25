@@ -1,6 +1,20 @@
-import { t } from "../i18n.js";
+import { t, getSlayers } from "../i18n.js";
 import { getState, updateState } from "../state.js";
 import { rollDice, parseDiceNotation } from "../dice.js";
+import { renderSlayersTracker, defaultCharSlayerState, applyLearnedSpell } from "./slayers/tracker.js";
+
+// Weapons of Light are unique, GM-placed artifacts (heirloom or campaign
+// goal — see data/slayers.json rules id "artefactos" and "creacion-personajes"):
+// never offered as the wizard's all-zero-magic-stats minor artifact pick.
+const UNIQUE_WEAPONS_OF_LIGHT = ["gorun-nova", "ragdo-mezegis", "nezard", "boldigar", "galveila"];
+// Wizard step 5's "Hechizos iniciales" school -> ability key map (negra/INT,
+// chamanica/CHA, blanca/WIS), same schools tracker.js's STAT_KEY_MAP covers.
+const SLAYERS_SCHOOL_STAT = { negra: "int", chamanica: "cha", blanca: "wis" };
+
+function localized(field, lang) {
+  if (!field) return "";
+  return field[lang] || field.es || "";
+}
 
 const ABILITIES = ["str", "dex", "con", "int", "wis", "cha"];
 const LEVEL_TABLE = [
@@ -136,6 +150,9 @@ export function renderCharacters(container) {
                 <div class="hint">${t("characters.level", lang)} ${c.level} · HP ${c.hpCurrent}/${c.hpMax} · AC ${d.ac} · ${t("characters.slots", lang)} ${d.usedSlots}/${d.slotsMax}</div>
               </div>
               <span class="pill">${c.career || t("characters.noCareer", lang)}</span>
+              <span class="pill">${
+                c.system === "slayers" ? t("characters.systemSlayers", lang) : t("characters.systemKnave", lang)
+              }</span>
             </div>
           `;
         })
@@ -157,6 +174,7 @@ export function renderCharacters(container) {
     const wizard = {
       step: 1,
       name: "",
+      system: "knave", // "knave" | "slayers" — see wizard.systemLabel in step 1
       abilities: blankAbilities(),
       pointsRemaining: 3,
       hpMax: null,
@@ -165,7 +183,18 @@ export function renderCharacters(container) {
       coins: 0,
       inventory: [],
       armor: [],
+      // Slayers-only, step 5 "Hechizos iniciales": spellId (or null) per pick
+      // slot per school, sized to that school's ability score at render time.
+      spellPicks: { negra: [], chamanica: [], blanca: [] },
+      // Slayers-only, same step: chosen artifact id when INT/CHA/WIS are all 0.
+      artifactPick: null,
     };
+
+    // Slayers adds an optional step between armor and the summary; Knave
+    // keeps the original 5-step flow.
+    function totalSteps() {
+      return wizard.system === "slayers" ? 6 : 5;
+    }
 
     function renderStep() {
       const stepEl = container.querySelector("#wizard-step");
@@ -176,6 +205,14 @@ export function renderCharacters(container) {
             <label>${t("wizard.name", lang)}</label>
             <input id="w-name" type="text" value="${wizard.name}" />
           </div>
+          <div class="field">
+            <label>${t("wizard.systemLabel", lang)}</label>
+            <select id="w-system">
+              <option value="knave" ${wizard.system === "knave" ? "selected" : ""}>${t("wizard.systemKnave", lang)}</option>
+              <option value="slayers" ${wizard.system === "slayers" ? "selected" : ""}>${t("wizard.systemSlayers", lang)}</option>
+            </select>
+          </div>
+          <p class="hint">${t("wizard.systemHint", lang)}</p>
           <p class="hint">${t("wizard.abilitiesHint", lang)}</p>
           <div class="btn-row">
             <button id="w-roll3d6" class="secondary">${t("wizard.roll3d6", lang)}</button>
@@ -187,6 +224,11 @@ export function renderCharacters(container) {
         renderAbilityInputs();
         stepEl.querySelector("#w-name").addEventListener("input", (e) => {
           wizard.name = e.target.value;
+        });
+        stepEl.querySelector("#w-system").addEventListener("change", (e) => {
+          wizard.system = e.target.value === "slayers" ? "slayers" : "knave";
+          const pillEl = container.querySelector(".pill");
+          if (pillEl) pillEl.textContent = `${t("wizard.stepLabel", lang)} ${wizard.step} / ${totalSteps()}`;
         });
         stepEl.querySelector("#w-roll3d6").addEventListener("click", () => {
           const order = ABILITIES;
@@ -355,7 +397,9 @@ export function renderCharacters(container) {
           }
         });
         renderArmorList();
-      } else if (wizard.step === 5) {
+      } else if (wizard.step === 5 && wizard.system === "slayers") {
+        renderSpellsStep(stepEl);
+      } else if (wizard.step === totalSteps()) {
         const slotsMax = 10 + wizard.abilities.con;
         const itemSlots = wizard.inventory.reduce((sum, it) => sum + (it.slots || 1), 0);
         const usedSlots = Math.min(slotsMax, itemSlots + coinSlotCount(wizard.coins));
@@ -363,7 +407,10 @@ export function renderCharacters(container) {
           <h2>${t("wizard.step5Title", lang)}</h2>
           <div class="card">
             <p><strong>${wizard.name || t("characters.unnamed", lang)}</strong> — ${wizard.career || t("characters.noCareer", lang)}</p>
-            <p class="hint">${ABILITIES.map((a) => `${a.toUpperCase()} ${wizard.abilities[a]}`).join(" · ")}</p>
+            <p class="hint">${ABILITIES.map((a) => `${a.toUpperCase()} ${wizard.abilities[a]}`).join(" · ")} · ${t(
+          "wizard.systemLabel",
+          lang
+        )}: ${wizard.system === "slayers" ? t("wizard.systemSlayers", lang) : t("wizard.systemKnave", lang)}</p>
             <p class="hint">HP ${wizard.hpMax || "?"} · ${t("characters.slots", lang)} ${usedSlots}/${slotsMax} · AC ${11 + wizard.armor.length} · ${wizard.coins}c</p>
             ${
               wizard.inventory.length > 0
@@ -373,6 +420,117 @@ export function renderCharacters(container) {
           </div>
         `;
       }
+    }
+
+    // Step 5, Slayers only: optional starting spells (1 debil pick per point
+    // in a school's ability, one of which may be medio if that ability is
+    // 2+), or — if INT/CHA/WIS are all 0 — a single minor artifact instead.
+    // See data/slayers.json rules id "creacion-personajes" for the full rule.
+    function renderSpellsStep(stepEl) {
+      const data = getSlayers();
+      stepEl.innerHTML = `
+        <h2>${t("wizard.spellsStepTitle", lang)}</h2>
+        <p class="hint">${t("wizard.spellsHint", lang)}</p>
+        <p class="hint">${t("wizard.spellsSkipHint", lang)}</p>
+        <div id="w-spells-body"></div>
+      `;
+      const bodyEl = stepEl.querySelector("#w-spells-body");
+      if (!data) {
+        bodyEl.innerHTML = `<p class="hint">${t("slayers.dataMissing", lang)}</p>`;
+        return;
+      }
+
+      const allZero = !wizard.abilities.int && !wizard.abilities.cha && !wizard.abilities.wis;
+
+      if (allZero) {
+        const eligibleArtifacts = (data.artifacts || []).filter((a) => !UNIQUE_WEAPONS_OF_LIGHT.includes(a.id));
+        bodyEl.innerHTML = `
+          <div class="card">
+            <h3>${t("wizard.spellsZeroStatsTitle", lang)}</h3>
+            <p class="hint">${t("wizard.spellsZeroStatsHint", lang)}</p>
+            <select id="w-artifact-pick">
+              <option value="">…</option>
+              ${eligibleArtifacts
+                .map(
+                  (a) =>
+                    `<option value="${a.id}" ${wizard.artifactPick === a.id ? "selected" : ""}>${a.name}</option>`
+                )
+                .join("")}
+            </select>
+          </div>
+        `;
+        bodyEl.querySelector("#w-artifact-pick").addEventListener("change", (e) => {
+          wizard.artifactPick = e.target.value || null;
+        });
+        return;
+      }
+
+      bodyEl.innerHTML = ["negra", "chamanica", "blanca"]
+        .map((schoolId) => {
+          const statKey = SLAYERS_SCHOOL_STAT[schoolId];
+          const stat = wizard.abilities[statKey] || 0;
+          const school = (data.schools || []).find((s) => s.id === schoolId);
+          const schoolName = school ? localized(school.name, lang) : schoolId;
+          if (stat <= 0) {
+            return `
+              <div class="card">
+                <h3>${schoolName} — ${statKey.toUpperCase()} 0</h3>
+              </div>
+            `;
+          }
+
+          const picks = wizard.spellPicks[schoolId];
+          while (picks.length < stat) picks.push(null);
+          picks.length = stat;
+
+          const debilPool = (data.spells || []).filter((sp) => sp.school === schoolId && sp.tier === "debil");
+          const medioPool = (data.spells || []).filter((sp) => sp.school === schoolId && sp.tier === "medio");
+          const chosenCount = picks.filter(Boolean).length;
+
+          const slotsHtml = picks
+            .map((pickedId, i) => {
+              const chosenElsewhere = picks.filter((v, idx) => idx !== i && v);
+              const pool = i === 0 && stat >= 2 ? [...debilPool, ...medioPool] : debilPool;
+              const options = pool.filter((sp) => !chosenElsewhere.includes(sp.id));
+              if (options.length === 0 && !pickedId) {
+                return `<p class="hint">${t("wizard.spellsNoneAvailable", lang)}</p>`;
+              }
+              return `
+                <select class="w-spell-pick" data-school="${schoolId}" data-slot="${i}">
+                  <option value="">…</option>
+                  ${options
+                    .map(
+                      (sp) =>
+                        `<option value="${sp.id}" ${sp.id === pickedId ? "selected" : ""}>${sp.name} — ${t(
+                          `slayers.tierLabel.${sp.tier}`,
+                          lang
+                        )}</option>`
+                    )
+                    .join("")}
+                </select>
+              `;
+            })
+            .join("");
+
+          return `
+            <div class="card">
+              <h3>${schoolName} — ${statKey.toUpperCase()} ${stat}</h3>
+              <p class="hint">${t("wizard.spellsPicksRemaining", lang)}: ${chosenCount} / ${stat}</p>
+              ${stat >= 2 ? `<p class="hint">${t("wizard.spellsMedioAllowedHint", lang)}</p>` : ""}
+              ${slotsHtml}
+            </div>
+          `;
+        })
+        .join("");
+
+      bodyEl.querySelectorAll(".w-spell-pick").forEach((sel) => {
+        sel.addEventListener("change", (e) => {
+          const schoolId = sel.getAttribute("data-school");
+          const slot = Number(sel.getAttribute("data-slot"));
+          wizard.spellPicks[schoolId][slot] = e.target.value || null;
+          renderSpellsStep(stepEl);
+        });
+      });
     }
 
     function updatePointsDisplay() {
@@ -404,7 +562,7 @@ export function renderCharacters(container) {
 
     container.innerHTML = `
       <h1>${t("wizard.title", lang)}</h1>
-      <p class="pill">${t("wizard.stepLabel", lang)} ${wizard.step} / 5</p>
+      <p class="pill">${t("wizard.stepLabel", lang)} ${wizard.step} / ${totalSteps()}</p>
       <div class="card" id="wizard-step"></div>
       <div class="btn-row">
         <button id="w-back" class="secondary">${t("wizard.back", lang)}</button>
@@ -427,7 +585,7 @@ export function renderCharacters(container) {
     });
 
     container.querySelector("#w-next").addEventListener("click", () => {
-      if (wizard.step < 5) {
+      if (wizard.step < totalSteps()) {
         wizard.step += 1;
         rerenderWizardChrome();
       } else {
@@ -438,17 +596,64 @@ export function renderCharacters(container) {
     });
 
     function rerenderWizardChrome() {
-      container.querySelector(".pill").textContent = `${t("wizard.stepLabel", lang)} ${wizard.step} / 5`;
+      container.querySelector(".pill").textContent = `${t("wizard.stepLabel", lang)} ${wizard.step} / ${totalSteps()}`;
       container.querySelector("#w-next").textContent =
-        wizard.step === 5 ? t("wizard.save", lang) : t("wizard.next", lang);
+        wizard.step === totalSteps() ? t("wizard.save", lang) : t("wizard.next", lang);
       renderStep();
     }
   }
 
+  // Builds the new character's initial state.slayers.byCharacter entry from
+  // the wizard's step 5 picks: known spells (source "aprendido", entities
+  // auto-added the same way learning a spell always does — see
+  // applyLearnedSpell in slayers/tracker.js) or, if INT/CHA/WIS are all 0, a
+  // single minor artifact with all awakenings locked. Returns
+  // { slayerState, extraInventory } — extraInventory holds the artifact item
+  // (if any) so it takes an inventory slot like any other item.
+  function buildInitialSlayerState(wizard) {
+    const data = getSlayers();
+    if (!data) return { slayerState: defaultCharSlayerState(), extraInventory: [] };
+
+    const allZero = !wizard.abilities.int && !wizard.abilities.cha && !wizard.abilities.wis;
+    let slayerState = defaultCharSlayerState();
+    const extraInventory = [];
+
+    if (allZero) {
+      const def = (data.artifacts || []).find((a) => a.id === wizard.artifactPick);
+      if (def) {
+        slayerState = {
+          ...slayerState,
+          artifacts: [
+            {
+              artifactId: def.id,
+              awakenings: (def.awakenings || []).map(() => ({ unlocked: false, active: false })),
+            },
+          ],
+        };
+        extraInventory.push({ name: def.name, slots: def.slots || 1, consumable: false, qty: 1 });
+      }
+    } else {
+      for (const schoolId of ["negra", "chamanica", "blanca"]) {
+        for (const spellId of wizard.spellPicks[schoolId] || []) {
+          if (!spellId) continue;
+          const spell = (data.spells || []).find((sp) => sp.id === spellId);
+          if (spell) slayerState = applyLearnedSpell(slayerState, spell, data, "aprendido");
+        }
+      }
+    }
+
+    return { slayerState, extraInventory };
+  }
+
   function saveCharacterFromWizard(wizard) {
+    const system = wizard.system === "slayers" ? "slayers" : "knave";
+    const { slayerState, extraInventory } =
+      system === "slayers" ? buildInitialSlayerState(wizard) : { slayerState: null, extraInventory: [] };
+
     const character = {
       id: uid(),
       name: wizard.name || "",
+      system,
       abilities: wizard.abilities,
       level: 1,
       xp: 0,
@@ -466,6 +671,7 @@ export function renderCharacters(container) {
           qty: 1,
           isArmor: true,
         })),
+        ...extraInventory,
       ],
       spellbooks: [],
       blessings: [],
@@ -475,7 +681,16 @@ export function renderCharacters(container) {
       restedLastNight: false,
       daysWithoutWater: 0,
     };
-    updateState((state) => ({ ...state, characters: [...state.characters, character] }));
+    updateState((state) => {
+      const next = { ...state, characters: [...state.characters, character] };
+      if (slayerState) {
+        next.slayers = {
+          ...next.slayers,
+          byCharacter: { ...next.slayers.byCharacter, [character.id]: slayerState },
+        };
+      }
+      return next;
+    });
   }
 
   function findChar(state, id) {
@@ -509,7 +724,7 @@ export function renderCharacters(container) {
 
       <div class="card">
         <h2>${t("sheet.identity", lang)}</h2>
-        <div class="grid grid-2">
+        <div class="grid grid-3">
           <div class="field">
             <label>${t("wizard.name", lang)}</label>
             <input id="s-name" type="text" value="${char.name || ""}" />
@@ -517,6 +732,13 @@ export function renderCharacters(container) {
           <div class="field">
             <label>${t("wizard.career", lang)}</label>
             <input id="s-career" type="text" value="${char.career || ""}" />
+          </div>
+          <div class="field">
+            <label>${t("characters.systemLabel", lang)}</label>
+            <select id="s-system">
+              <option value="knave" ${char.system === "slayers" ? "" : "selected"}>${t("characters.systemKnave", lang)}</option>
+              <option value="slayers" ${char.system === "slayers" ? "selected" : ""}>${t("characters.systemSlayers", lang)}</option>
+            </select>
           </div>
         </div>
         <div class="field">
@@ -688,6 +910,17 @@ export function renderCharacters(container) {
             .join("")}
         </ul>
       </div>
+
+      ${
+        char.system === "slayers"
+          ? `
+      <div class="card">
+        <h2>${t("sheet.slayersSectionTitle", lang)}</h2>
+        <div id="s-slayers-tracker"></div>
+      </div>
+      `
+          : ""
+      }
 
       <div class="card">
         <h2>${t("sheet.blessings", lang)}</h2>
@@ -999,6 +1232,22 @@ export function renderCharacters(container) {
         return c;
       });
     });
+
+    container.querySelector("#s-system").addEventListener("change", (e) => {
+      updateChar(id, (c) => {
+        c.system = e.target.value === "slayers" ? "slayers" : "knave";
+        return c;
+      });
+      drawSheet(container, lang, id);
+    });
+
+    // Slayers characters get the same reusable tracker body as the Magos tab
+    // (js/views/slayers/tracker.js), embedded right here — reacting to a
+    // char-changing action (wounds from a fuerte cast, a grimoire added) by
+    // redrawing the whole sheet so wounds/spellbooks stay in sync elsewhere.
+    if (char.system === "slayers") {
+      renderSlayersTracker(container.querySelector("#s-slayers-tracker"), id, lang, () => drawSheet(container, lang, id));
+    }
   }
 
   draw();

@@ -20,6 +20,33 @@
       }
     },
     {
+      "id": "creacion-personajes",
+      "title": {
+        "es": "Creacion de personajes",
+        "en": "Character creation"
+      },
+      "body": {
+        "es": [
+          "La creacion de personaje sigue las reglas base de Knave 2e: reparti 3 puntos entre las 6 habilidades, o tira 3d6 para que cada dado sume 1 punto a la habilidad en esa posicion (ver Habilidades y Carrera y equipo en Reglas).",
+          "Despues de las habilidades, elegi el sistema del personaje: Knave estandar o Slayers. Un personaje Slayers puede, de forma opcional, elegir hechizos iniciales segun sus atributos de escuela: Magia Negra por INT, Magia Chamanica por CAR, Magia Blanca por SAB. Por cada punto en ese atributo se elige 1 hechizo debil de esa escuela; si el atributo es 2 o mas, UNA de esas elecciones puede ser un hechizo medio en su lugar. Este paso puede saltearse por completo.",
+          "Nadie empieza con hechizos fuertes ni con Magia Perdida. El atributo maximo de una escuela en la creacion es 3 (los 3 puntos repartidos en una sola habilidad), y un hechizo fuerte exige 5 o mas en ese atributo. Al subir de nivel se reparte +1 en tres habilidades a eleccion por nivel, asi que llegar a 5 en una sola habilidad recien es posible, como muy pronto, en el nivel 3.",
+          "Si INT, CAR y SAB quedan las tres en 0, el personaje no puede lanzar ninguna escuela de magia: en su lugar elige UN artefacto menor de la lista de Artefactos (ocupa inventario segun sus slots). Las Espadas de Luz (Gorun Nova, Ragdo Mezegis, Nezard, Boldigar, Galveila) son unicas: no se eligen en la creacion, las reparte el GM como legado familiar o como meta de campaña.",
+          "Un personaje que aprende Magia Negra elige, junto con sus hechizos, un Señor Mazoku principal (normalmente el que da nombre a la mayoria de sus hechizos conocidos): si ese Señor muere, es sellado o rechaza al lanzador, sus hechizos dejan de funcionar hasta que el GM diga lo contrario.",
+          "Un chaman empieza en terminos neutrales con los espiritus elementales de sus hechizos conocidos: el favor o desfavor se gana o se pierde jugando, nunca se asigna en la creacion.",
+          "Carrera y equipo inicial se cargan igual que en un personaje Knave estandar: como texto libre y como items reales de inventario (ver Carrera y equipo en Reglas); este modulo no agrega una tabla de carreras propia."
+        ],
+        "en": [
+          "Character creation follows Knave 2e's base rules: distribute 3 points across the 6 abilities, or roll 3d6 and let each die add 1 point to the ability in that position (see Abilities and Career and gear in Rules).",
+          "After abilities, choose the character's system: standard Knave or Slayers. A Slayers character may, optionally, pick starting spells based on their school abilities: Black Magic from INT, Shamanistic Magic from CHA, White Magic from WIS. For each point in that ability, pick 1 weak spell of that school; if the ability is 2 or higher, ONE of those picks may be a medium spell instead. This step can be skipped entirely.",
+          "Nobody starts with strong spells or Lost Magic. A school's maximum ability at creation is 3 (all 3 points spent on a single ability), and a strong spell requires 5 or more in that ability. Leveling up adds +1 to three abilities of choice per level, so reaching 5 in a single ability is only possible, at the earliest, at level 3.",
+          "If INT, CHA and WIS are all 0, the character can't cast any school of magic: instead they choose ONE minor artifact from the Artifacts list (it takes inventory slots per its slot count). The Swords of Light (Gorun Nova, Ragdo Mezegis, Nezard, Boldigar, Galveila) are unique: they are never chosen at creation, the GM hands them out as a family heirloom or a campaign goal.",
+          "A character who learns Black Magic picks, alongside their spells, a main Mazoku Lord (usually whichever one names most of their known spells): if that Lord dies, is sealed, or rejects the caster, their spells stop working until the GM says otherwise.",
+          "A shaman starts on neutral terms with the elemental spirits of their known spells: favor or disfavor is earned or lost through play, never assigned at creation.",
+          "Career and starting gear are entered the same way as for a standard Knave character: as free text and as real inventory items (see Career and gear in Rules); this module doesn't add a career table of its own."
+        ]
+      }
+    },
+    {
       "id": "escuelas-y-atributos",
       "title": {
         "es": "Escuelas y atributos",

@@ -54,7 +54,10 @@
     "unnamed": "Sin nombre",
     "level": "Nivel",
     "slots": "Slots",
-    "noCareer": "Sin carrera"
+    "noCareer": "Sin carrera",
+    "systemLabel": "Sistema",
+    "systemKnave": "Knave",
+    "systemSlayers": "Slayers"
   },
   "wizard": {
     "title": "Creación de personaje",
@@ -65,6 +68,10 @@
     "save": "Guardar personaje",
     "step1Title": "Habilidades",
     "name": "Nombre",
+    "systemLabel": "Sistema",
+    "systemHint": "Elegí si este personaje juega con las reglas base de Knave o con el módulo homebrew de Slayers (agrega magia, entidades y artefactos propios).",
+    "systemKnave": "Knave estándar",
+    "systemSlayers": "Slayers",
     "abilitiesHint": "Repartí 3 puntos entre las 6 habilidades (podés poner más de 1 en la misma), o tirá 3d6 para que el sistema los asigne según el número de cada dado (1=STR, 2=DEX, 3=CON, 4=INT, 5=WIS, 6=CHA).",
     "roll3d6": "Tirar 3d6",
     "resetAbilities": "Reiniciar",
@@ -87,6 +94,14 @@
     "armorPlaceholder": "Nombre de la pieza (ej: casco, coraza)",
     "armorAdd": "Agregar",
     "ac": "Clase de Armadura (AC)",
+    "spellsStepTitle": "Hechizos iniciales",
+    "spellsHint": "Por cada punto en el atributo de una escuela (Magia Negra → INT, Magia Chamánica → CAR, Magia Blanca → SAB), elegí 1 hechizo débil de esa escuela. Si el atributo es 2 o más, una de esas elecciones puede ser un hechizo medio en su lugar. Nadie empieza con hechizos fuertes ni de Magia Perdida.",
+    "spellsSkipHint": "Este paso es opcional: podés dejar elecciones sin hacer y terminar la creación sin ningún hechizo inicial.",
+    "spellsPicksRemaining": "Elecciones hechas",
+    "spellsMedioAllowedHint": "Una de las elecciones de esta escuela puede ser un hechizo medio en vez de débil.",
+    "spellsNoneAvailable": "No hay hechizos disponibles para esta escuela.",
+    "spellsZeroStatsTitle": "Artefacto menor",
+    "spellsZeroStatsHint": "Con INT, CAR y SAB en 0 el personaje no puede lanzar ninguna escuela de magia. En su lugar, elegí un artefacto menor (las Espadas de Luz son únicas y las reparte el GM: no están disponibles acá).",
     "step5Title": "Resumen"
   },
   "sheet": {
@@ -133,6 +148,7 @@
     "spellbooksHint": "Cada libro ocupa un slot y contiene un único hechizo. Se puede usar una vez por día; el PJ puede usar tantos libros por día como su INT.",
     "spellName": "Nombre del hechizo",
     "spellDesc": "Efecto (resumen propio)",
+    "slayersSectionTitle": "Magia Slayers",
     "blessings": "Bendiciones",
     "blessingsHint": "Vínculos activos con un patrón (aura, bendición menor, etc.), sin ocupar slots de inventario.",
     "blessingsCap": "Máximo sugerido, igual al CHA del personaje:",
@@ -348,7 +364,7 @@
     "awakeningsEmpty": "Sin despertares registrados.",
     "tracker": {
       "selectCharacter": "Personaje",
-      "noCharacters": "Todavía no hay personajes. Creá uno primero en Personajes.",
+      "noCharacters": "Todavía no hay personajes con sistema Slayers. Creá uno o marcá uno existente como Slayers en Personajes.",
       "pools": "Reservas de conjuro",
       "poolsHint": "Cada punto de la habilidad correspondiente es una carga. Al lanzar, una carga vacía se compromete a un nivel: fuerte consume la carga entera, medio rinde 2 usos, débil rinde 3.",
       "newDay": "Nuevo día (reinicia cargas)",

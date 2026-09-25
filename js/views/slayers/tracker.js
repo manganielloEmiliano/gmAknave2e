@@ -1,12 +1,19 @@
-import { t } from "../../i18n.js";
+import { t, getSlayers } from "../../i18n.js";
 import { getState, updateState } from "../../state.js";
 import { rollDie } from "../../dice.js";
 
-// Per-character Slayers tracker (the "Magos" tab): spell pools/charges,
-// known spells, entity favor and artifacts. Everything lives under
-// state.slayers.byCharacter[charId] so it never touches the base character
-// sheet (js/views/characters.js), only char.spellbooks and char.wounds
-// through the same state API characters.js itself uses.
+// Per-character Slayers tracker: spell pools/charges, known spells, entity
+// favor and artifacts. Everything lives under state.slayers.byCharacter[charId]
+// so it never touches the rest of the base character record, only
+// char.spellbooks and char.wounds through the same state API characters.js
+// itself uses.
+//
+// renderSlayersTracker() below is the reusable body, used both by the
+// standalone "Magos" tab (renderTrackerTab, which keeps its own character
+// selector) and embedded directly inside a Slayers character's sheet in
+// js/views/characters.js. Only one view is ever mounted in the app's single
+// #view outlet at a time (see js/router.js), so the DOM ids below never
+// clash even though both hosts can use this function.
 
 const STAT_KEY_MAP = { INT: "int", CHA: "cha", WIS: "wis" };
 // débil holds 3 uses, medio 2, fuerte 1 — a charge committed to a tier is
@@ -40,7 +47,9 @@ function schoolLabel(data, id, lang) {
   return school ? localized(school.name, lang) : id;
 }
 
-function defaultCharSlayerState() {
+// Exported so the character wizard (js/views/characters.js) can seed a new
+// Slayers character's state the same way this module does.
+export function defaultCharSlayerState() {
   return {
     charges: { negra: [], chamanica: [], blanca: [] },
     knownSpells: [], // { spellId, source: "aprendido"|"grimorio"|"maestro" }
@@ -49,6 +58,24 @@ function defaultCharSlayerState() {
     spiritBlessings: [], // { id, text, active }
     lastCast: null, // for "deshacer": { school, index, prevTier, prevUsesLeft }
   };
+}
+
+// Adds a known spell to a (already-cloned) char slayer state, auto-adding its
+// entity at the right default status the same way learning a spell always
+// does: Mazoku start "activo" (nothing has soured yet), everything else
+// (spirits, etc.) start "neutral" (favor is earned, never assumed). Exported
+// so the wizard's "Hechizos iniciales" step (characters.js) seeds new
+// characters through the exact same rule instead of duplicating it.
+export function applyLearnedSpell(cs, spell, data, source = "aprendido") {
+  const next = { ...cs, knownSpells: [...cs.knownSpells, { spellId: spell.id, source }] };
+  if (spell.entity && !next.entities[spell.entity]) {
+    const entityDef = findEntity(data, spell.entity);
+    next.entities = {
+      ...next.entities,
+      [spell.entity]: { status: entityDef && entityDef.kind === "mazoku" ? "activo" : "neutral" },
+    };
+  }
+  return next;
 }
 
 function getCharSlayerState(state, charId) {
@@ -206,16 +233,14 @@ function castSpell(char, data, spell) {
   return spell.tier === "fuerte" ? rollDie(4) : null;
 }
 
-export function renderTrackerTab(container, lang, data) {
+// The "Magos" tab: a character selector (restricted to system === "slayers"
+// characters) wrapped around renderSlayersTracker's reusable body.
+export function renderTrackerTab(container, lang) {
   let selectedCharId = null;
-  // Holds the pending "you took X direct damage" prompt for a fuerte cast
-  // until the GM applies or dismisses it. Kept outside drawBody so it
-  // survives a refresh() but resets when the tab is re-entered.
-  const rollState = { current: null };
 
   function draw() {
     const state = getState();
-    const characters = state.characters;
+    const characters = state.characters.filter((c) => c.system === "slayers");
 
     if (characters.length === 0) {
       container.innerHTML = `
@@ -228,8 +253,6 @@ export function renderTrackerTab(container, lang, data) {
     if (!selectedCharId || !characters.some((c) => c.id === selectedCharId)) {
       selectedCharId = characters[0].id;
     }
-    const char = characters.find((c) => c.id === selectedCharId);
-    const slayerState = getCharSlayerState(state, char.id);
 
     container.innerHTML = `
       <h2>${t("slayers.tabs.tracker", lang)}</h2>
@@ -239,7 +262,7 @@ export function renderTrackerTab(container, lang, data) {
           ${characters
             .map(
               (c) =>
-                `<option value="${c.id}" ${c.id === char.id ? "selected" : ""}>${c.name || t("characters.unnamed", lang)}</option>`
+                `<option value="${c.id}" ${c.id === selectedCharId ? "selected" : ""}>${c.name || t("characters.unnamed", lang)}</option>`
             )
             .join("")}
         </select>
@@ -249,11 +272,49 @@ export function renderTrackerTab(container, lang, data) {
 
     container.querySelector("#sl-tr-char").addEventListener("change", (e) => {
       selectedCharId = e.target.value;
-      rollState.current = null;
       draw();
     });
 
-    drawBody(container.querySelector("#sl-tr-body"), lang, data, char, slayerState, draw, rollState);
+    renderSlayersTracker(container.querySelector("#sl-tr-body"), selectedCharId, lang);
+  }
+
+  draw();
+}
+
+// Reusable per-character tracker body: pools/charges, known spells (cast /
+// undo / new day / d4 direct-damage prompt), entity favor, artifacts and
+// awakenings, and spirit blessings + the CHA counter. Fetches its own
+// character/data/state by id on every (re)draw so a host only needs to give
+// it a container and an id.
+//
+// onChange is called only when this tracker mutated something on the base
+// character record itself (wounds from a fuerte cast, or a grimoire added to
+// spellbooks) — never for slayer-state-only changes — so a host like the
+// character sheet can re-render the parts of itself that show that data
+// without tearing down an in-progress "apply wounds" prompt for no reason.
+export function renderSlayersTracker(container, charId, lang, onChange) {
+  // Holds the pending "you took X direct damage" prompt for a fuerte cast
+  // until the GM applies or dismisses it. Kept outside draw() so it survives
+  // a same-tracker refresh but resets if the host fully remounts us.
+  const rollState = { current: null };
+
+  function draw() {
+    const data = getSlayers();
+    if (!data) {
+      container.innerHTML = `<p class="hint">${t("slayers.dataMissing", lang)}</p>`;
+      return;
+    }
+    const state = getState();
+    const char = state.characters.find((c) => c.id === charId);
+    if (!char) {
+      container.innerHTML = `<p class="hint">${t("slayers.tracker.noCharacters", lang)}</p>`;
+      return;
+    }
+    const slayerState = getCharSlayerState(state, char.id);
+    drawBody(container, lang, data, char, slayerState, (charChanged) => {
+      draw();
+      if (charChanged && onChange) onChange();
+    }, rollState);
   }
 
   draw();
@@ -541,25 +602,19 @@ function drawBody(bodyEl, lang, data, char, slayerState, refresh, rollState) {
     if (!spellId) return;
     const spell = (data.spells || []).find((sp) => sp.id === spellId);
     const source = addSourceSelect.value;
-    updateCharSlayerState(char.id, (cs) => {
-      cs.knownSpells = [...cs.knownSpells, { spellId, source }];
-      if (spell.entity && !cs.entities[spell.entity]) {
-        const entityDef = findEntity(data, spell.entity);
-        cs.entities = {
-          ...cs.entities,
-          [spell.entity]: { status: entityDef && entityDef.kind === "mazoku" ? "activo" : "neutral" },
-        };
-      }
-      return cs;
-    });
+    updateCharSlayerState(char.id, (cs) => applyLearnedSpell(cs, spell, data, source));
+    let grimorioAdded = false;
     if (source === "grimorio") {
       const prompt = `${t("slayers.tracker.addGrimorioBookPromptPrefix", lang)} ${spell.name}${t(
         "slayers.tracker.addGrimorioBookPromptSuffix",
         lang
       )}`;
-      if (confirm(prompt)) addGrimorioEntry(char.id, spell, lang);
+      if (confirm(prompt)) {
+        addGrimorioEntry(char.id, spell, lang);
+        grimorioAdded = true;
+      }
     }
-    refresh();
+    refresh(grimorioAdded);
   });
 
   bodyEl.querySelectorAll(".sl-tr-cast").forEach((btn) => {
@@ -589,7 +644,7 @@ function drawBody(bodyEl, lang, data, char, slayerState, refresh, rollState) {
     applyWoundsBtn.addEventListener("click", () => {
       applyWounds(char.id, rollState.current.amount);
       rollState.current = null;
-      refresh();
+      refresh(true);
     });
   }
 

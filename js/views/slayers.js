@@ -51,7 +51,7 @@ export function renderSlayers(container) {
     else if (activeTab === "spells") renderSpellsTab(contentEl, lang, data);
     else if (activeTab === "entities") renderEntitiesTab(contentEl, lang, data);
     else if (activeTab === "artifacts") renderArtifactsTab(contentEl, lang, data);
-    else if (activeTab === "tracker") renderTrackerTab(contentEl, lang, data);
+    else if (activeTab === "tracker") renderTrackerTab(contentEl, lang);
   }
 
   draw();
