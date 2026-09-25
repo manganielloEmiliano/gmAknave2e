@@ -8,8 +8,8 @@
       },
       "body": {
         "es": [
-          "Este modulo es contenido de fans (fan content), no oficial, inspirado en la novela ligera, el manga y el anime de Slayers de Hajime Kanzaka. Se ofrece sin fines de lucro, solo para jugar Knave 2e en una mesa con ese sabor.",
-          "Los nombres de hechizos, entidades y objetos son los usados habitualmente en el fandom hispanohablante (romanizaciones tipo 'Dragon Slave', 'Fireball', 'Ra Tilt'). Las mecanicas fueron adaptadas y simplificadas para Knave 2e; no buscan replicar el sistema original de la novela.",
+          "Este módulo es contenido de fans (fan content), no oficial, inspirado en la novela ligera, el manga y el anime de Slayers de Hajime Kanzaka. Se ofrece sin fines de lucro, solo para jugar Knave 2e en una mesa con ese sabor.",
+          "Los nombres de hechizos, entidades y objetos son los usados habitualmente en el fandom hispanohablante (romanizaciones tipo 'Dragon Slave', 'Fireball', 'Ra Tilt'). Las mecánicas fueron adaptadas y simplificadas para Knave 2e; no buscan replicar el sistema original de la novela.",
           "Cuando la fuente no es clara o hay versiones contradictorias entre anime, manga y novela, se indica en el campo de notas de cada entrada en vez de inventar un dato."
         ],
         "en": [
@@ -22,18 +22,18 @@
     {
       "id": "creacion-personajes",
       "title": {
-        "es": "Creacion de personajes",
+        "es": "Creación de personajes",
         "en": "Character creation"
       },
       "body": {
         "es": [
-          "La creacion de personaje sigue las reglas base de Knave 2e: reparti 3 puntos entre las 6 habilidades, o tira 3d6 para que cada dado sume 1 punto a la habilidad en esa posicion (ver Habilidades y Carrera y equipo en Reglas).",
-          "Despues de las habilidades, elegi el sistema del personaje: Knave estandar o Slayers. Un personaje Slayers puede, de forma opcional, elegir hechizos iniciales segun sus atributos de escuela: Magia Negra por INT, Magia Chamanica por CAR, Magia Blanca por SAB. Por cada punto en ese atributo se elige 1 hechizo debil de esa escuela; si el atributo es 2 o mas, UNA de esas elecciones puede ser un hechizo medio en su lugar. Este paso puede saltearse por completo.",
-          "Nadie empieza con hechizos fuertes ni con Magia Perdida. El atributo maximo de una escuela en la creacion es 3 (los 3 puntos repartidos en una sola habilidad), y un hechizo fuerte exige 5 o mas en ese atributo. Al subir de nivel se reparte +1 en tres habilidades a eleccion por nivel, asi que llegar a 5 en una sola habilidad recien es posible, como muy pronto, en el nivel 3.",
-          "Si INT, CAR y SAB quedan las tres en 0, el personaje no puede lanzar ninguna escuela de magia: en su lugar elige UN artefacto menor de la lista de Artefactos (ocupa inventario segun sus slots). Las Espadas de Luz (Gorun Nova, Ragdo Mezegis, Nezard, Boldigar, Galveila) son unicas: no se eligen en la creacion, las reparte el GM como legado familiar o como meta de campaña.",
-          "Un personaje que aprende Magia Negra elige, junto con sus hechizos, un Señor Mazoku principal (normalmente el que da nombre a la mayoria de sus hechizos conocidos): si ese Señor muere, es sellado o rechaza al lanzador, sus hechizos dejan de funcionar hasta que el GM diga lo contrario.",
-          "Un chaman empieza en terminos neutrales con los espiritus elementales de sus hechizos conocidos: el favor o desfavor se gana o se pierde jugando, nunca se asigna en la creacion.",
-          "Carrera y equipo inicial se cargan igual que en un personaje Knave estandar: como texto libre y como items reales de inventario (ver Carrera y equipo en Reglas); este modulo no agrega una tabla de carreras propia."
+          "La creación de personaje sigue las reglas base de Knave 2e: reparti 3 puntos entre las 6 habilidades, o tira 3d6 para que cada dado sume 1 punto a la habilidad en esa posición (ver Habilidades y Carrera y equipo en Reglas).",
+          "Después de las habilidades, elegí el sistema del personaje: Knave estándar o Slayers. Un personaje Slayers puede, de forma opcional, elegir hechizos iniciales según sus atributos de escuela: Magia Negra por INT, Magia Chamánica por CAR, Magia Blanca por SAB. Por cada punto en ese atributo se elige 1 hechizo débil de esa escuela; si el atributo es 2 o más, UNA de esas elecciones puede ser un hechizo medio en su lugar. Este paso puede saltearse por completo.",
+          "Nadie empieza con hechizos fuertes ni con Magia Perdida. El atributo máximo de una escuela en la creación es 3 (los 3 puntos repartidos en una sola habilidad), y un hechizo fuerte exige 5 o más en ese atributo. Al subir de nivel se reparte +1 en tres habilidades a elección por nivel, así que llegar a 5 en una sola habilidad recién es posible, como muy pronto, en el nivel 3.",
+          "Si INT, CAR y SAB quedan las tres en 0, el personaje no puede lanzar ninguna escuela de magia: en su lugar elige UN artefacto menor de la lista de Artefactos (ocupa inventario según sus slots). Las Espadas de Luz (Gorun Nova, Ragdo Mezegis, Nezard, Boldigar, Galveila) son únicas: no se eligen en la creación, las reparte el GM como legado familiar o como meta de campaña.",
+          "Un personaje que aprende Magia Negra elige, junto con sus hechizos, un Señor Mazoku principal (normalmente el que da nombre a la mayoría de sus hechizos conocidos): si ese Señor muere, es sellado o rechaza al lanzador, sus hechizos dejan de funcionar hasta que el GM diga lo contrario.",
+          "Un chamán empieza en términos neutrales con los espíritus elementales de sus hechizos conocidos: el favor o desfavor se gana o se pierde jugando, nunca se asigna en la creación.",
+          "Carrera y equipo inicial se cargan igual que en un personaje Knave estándar: como texto libre y como items reales de inventario (ver Carrera y equipo en Reglas); este módulo no agrega una tabla de carreras propia."
         ],
         "en": [
           "Character creation follows Knave 2e's base rules: distribute 3 points across the 6 abilities, or roll 3d6 and let each die add 1 point to the ability in that position (see Abilities and Career and gear in Rules).",
@@ -54,9 +54,9 @@
       },
       "body": {
         "es": [
-          "Hay tres escuelas lanzables: Magia Negra (INT), Magia Chamanica (CAR) y Magia Blanca (SAB). Cada una tiene su propia reserva diaria de cargas igual al valor actual del atributo correspondiente del personaje.",
-          "La Magia Perdida (Giga Slave, Ragna Blade y similares) no es lanzable por personajes jugadores: son recursos narrativos del GM, con riesgo de catastrofe si alguien insiste en intentarlos.",
-          "Un personaje puede aprender hechizos de mas de una escuela si cumple los requisitos de cada una, pero cada escuela consume su propia reserva; no se comparten cargas entre INT, CAR y SAB."
+          "Hay tres escuelas lanzables: Magia Negra (INT), Magia Chamánica (CAR) y Magia Blanca (SAB). Cada una tiene su propia reserva diaria de cargas igual al valor actual del atributo correspondiente del personaje.",
+          "La Magia Perdida (Giga Slave, Ragna Blade y similares) no es lanzable por personajes jugadores: son recursos narrativos del GM, con riesgo de catástrofe si alguien insiste en intentarlos.",
+          "Un personaje puede aprender hechizos de más de una escuela si cumple los requisitos de cada una, pero cada escuela consume su propia reserva; no se comparten cargas entre INT, CAR y SAB."
         ],
         "en": [
           "There are three castable schools: Black Magic (INT), Shamanistic Magic (CHA) and White Magic (WIS). Each has its own daily charge pool equal to the character's current score in that ability.",
@@ -73,10 +73,10 @@
       },
       "body": {
         "es": [
-          "Cada punto de la reserva diaria es una 'carga'. Una carga se gasta como 1 hechizo fuerte, O como 2 hechizos medios, O como 3 hechizos debiles. Una vez que una carga se compromete a un nivel, ese uso queda fijado: no se puede lanzar 'medio hechizo fuerte' con el resto de una carga ya partida en debiles.",
-          "Ejemplo: una hechicera con INT 4 tiene 4 cargas de Magia Negra por dia. Puede lanzar 4 hechizos fuertes, o 8 medios, o 12 debiles, o cualquier combinacion siempre que cada carga individual se reparta en un solo nivel (por ejemplo, 2 cargas como 2 fuertes, 1 carga como 2 medios y 1 carga como 3 debiles).",
-          "Las reservas se recargan cada manana tras un descanso completo, igual que los espacios de hechizo de Knave 2e.",
-          "El nivel de un hechizo (cuanto 'nivel' de daño o efecto se invierte, hasta el limite del atributo) se decide al lanzarlo, dentro de lo que el nivel de carga permita."
+          "Cada punto de la reserva diaria es una 'carga'. Una carga se gasta como 1 hechizo fuerte, O como 2 hechizos medios, O como 3 hechizos débiles. Una vez que una carga se compromete a un nivel, ese uso queda fijado: no se puede lanzar 'medio hechizo fuerte' con el resto de una carga ya partida en débiles.",
+          "Ejemplo: una hechicera con INT 4 tiene 4 cargas de Magia Negra por día. Puede lanzar 4 hechizos fuertes, o 8 medios, o 12 débiles, o cualquier combinación siempre que cada carga individual se reparta en un solo nivel (por ejemplo, 2 cargas como 2 fuertes, 1 carga como 2 medios y 1 carga como 3 débiles).",
+          "Las reservas se recargan cada mañana tras un descanso completo, igual que los espacios de hechizo de Knave 2e.",
+          "El nivel de un hechizo (cuánto 'nivel' de daño o efecto se invierte, hasta el límite del atributo) se decide al lanzarlo, dentro de lo que el nivel de carga permita."
         ],
         "en": [
           "Each point in the daily pool is a 'charge'. A charge is spent as 1 strong (fuerte) spell, OR 2 medium (medio) spells, OR 3 weak (debil) spells. Once a charge commits to a tier, that use is locked in: you cannot cast 'half a strong spell' from a charge already split into weak castings.",
@@ -94,10 +94,10 @@
       },
       "body": {
         "es": [
-          "Debil: el atributo de la escuela debe ser 1 o mas. Medio: el atributo debe ser 2 o mas. Fuerte: el atributo debe ser 5 o mas Y el hechizo debe haberse aprendido de un grimorio o de un maestro.",
-          "Los hechizos debiles y medios se aprenden y se memorizan sin mas: forman parte del repertorio normal del personaje una vez que cumple el atributo minimo.",
-          "Los hechizos fuertes son distintos. Solo se pueden lanzar de dos maneras: cargando un grimorio (igual que un libro de hechizos de Knave: ocupa 1 espacio de inventario y debe llevarse encima para lanzar desde el) o habiendolos memorizado tras aprenderlos de un maestro en persona.",
-          "Encontrar o convencer a un maestro que ensene un hechizo fuerte es, de por si, un gancho de aventura: puede exigir un favor, una prueba, una peregrinacion a un santuario o pagar con algo mas que oro."
+          "Débil: el atributo de la escuela debe ser 1 o más. Medio: el atributo debe ser 2 o más. Fuerte: el atributo debe ser 5 o más Y el hechizo debe haberse aprendido de un grimorio o de un maestro.",
+          "Los hechizos débiles y medios se aprenden y se memorizan sin más: forman parte del repertorio normal del personaje una vez que cumple el atributo mínimo.",
+          "Los hechizos fuertes son distintos. Solo se pueden lanzar de dos maneras: cargando un grimorio (igual que un libro de hechizos de Knave: ocupa 1 espacio de inventario y debe llevarse encima para lanzar desde él) o habiéndolos memorizado tras aprenderlos de un maestro en persona.",
+          "Encontrar o convencer a un maestro que enseñe un hechizo fuerte es, de por sí, un gancho de aventura: puede exigir un favor, una prueba, una peregrinación a un santuario o pagar con algo más que oro."
         ],
         "en": [
           "Weak: the school's ability score must be 1 or higher. Medium: the ability must be 2 or higher. Strong: the ability must be 5 or higher AND the spell must have been learned from a grimoire or from a teacher.",
@@ -115,8 +115,8 @@
       },
       "body": {
         "es": [
-          "Todo hechizo fuerte, sin excepcion, inflige 1d4 de daño directo al lanzador en el momento de completarlo (el daño directo salta la Vitalidad y va derecho a las heridas). El poder de ese nivel simplemente pasa factura al cuerpo.",
-          "Este daño se suma a cualquier otro costo especifico del hechizo (por ejemplo, requerir el favor de un espiritu o depender de que un Señor Mazoku siga con vida).",
+          "Todo hechizo fuerte, sin excepción, inflige 1d4 de daño directo al lanzador en el momento de completarlo (el daño directo salta la Vitalidad y va derecho a las heridas). El poder de ese nivel simplemente pasa factura al cuerpo.",
+          "Este daño se suma a cualquier otro costo específico del hechizo (por ejemplo, requerir el favor de un espíritu o depender de que un Señor Mazoku siga con vida).",
           "Un lanzador sin heridas libres para absorber ese 1d4 sufre las consecuencias normales de Knave 2e para daño directo sin espacios disponibles."
         ],
         "en": [
@@ -134,10 +134,10 @@
       },
       "body": {
         "es": [
-          "Toda la Magia Negra tira de un poder que no es del todo propio: cada hechizo esta ligado a un Señor Mazoku especifico (Shabranigdo, Dark Star Dugradigdu, Deep Sea Dolphin, el Dragon del Caos Gaav, Hellmaster Phibrizzo, Dynast Grausherra, la Bestia Mayor Zelas, etc.), indicado en el campo 'entidad' del hechizo.",
-          "Si ese Señor Mazoku muere, es sellado por completo, o rechaza activamente al lanzador (por ejemplo, por romper un pacto o por interferir con sus planes), todos los hechizos ligados a el dejan de funcionar hasta nuevo aviso del GM.",
-          "Esto es, a proposito, un gancho de campaña: el canon de las novelas dice que tanto el Dragon del Caos Gaav como Hellmaster Phibrizzo mueren durante la saga de Phibrizzo. En una mesa que siga esa cronologia, Gaav Flare y los hechizos de Phibrizzo (Ragna Blast, Ragna Drive) deberian dejar de funcionar a partir de ese punto, salvo que el GM decida lo contrario.",
-          "Distinto es el caso de Shabranigdo: su alma fue fragmentada en siete partes selladas en humanos; mientras queden fragmentos sin destruir, Drag Slave y el resto de hechizos ligados a el siguen funcionando en algun punto del mundo."
+          "Toda la Magia Negra tira de un poder que no es del todo propio: cada hechizo está ligado a un Señor Mazoku específico (Shabranigdo, Dark Star Dugradigdu, Deep Sea Dolphin, el Dragón del Caos Gaav, Hellmaster Phibrizzo, Dynast Grausherra, la Bestia Mayor Zelas, etc.), indicado en el campo 'entidad' del hechizo.",
+          "Si ese Señor Mazoku muere, es sellado por completo, o rechaza activamente al lanzador (por ejemplo, por romper un pacto o por interferir con sus planes), todos los hechizos ligados a él dejan de funcionar hasta nuevo aviso del GM.",
+          "Esto es, a propósito, un gancho de campaña: el canon de las novelas dice que tanto el Dragón del Caos Gaav como Hellmaster Phibrizzo mueren durante la saga de Phibrizzo. En una mesa que siga esa cronología, Gaav Flare y los hechizos de Phibrizzo (Ragna Blast, Ragna Drive) deberían dejar de funcionar a partir de ese punto, salvo que el GM decida lo contrario.",
+          "Distinto es el caso de Shabranigdo: su alma fue fragmentada en siete partes selladas en humanos; mientras queden fragmentos sin destruir, Drag Slave y el resto de hechizos ligados a él siguen funcionando en algún punto del mundo."
         ],
         "en": [
           "All Black Magic draws on a power that is not entirely the caster's own: every spell is tied to a specific Mazoku Lord (Shabranigdo, Dark Star Dugradigdu, Deep Sea Dolphin, Chaos Dragon Gaav, Hellmaster Phibrizzo, Dynast Grausherra, Greater Beast Zelas, etc.), shown in the spell's 'entity' field.",
@@ -150,15 +150,15 @@
     {
       "id": "magia-chamanica",
       "title": {
-        "es": "Magia Chamanica y los espiritus",
+        "es": "Magia Chamánica y los espíritus",
         "en": "Shamanistic Magic and the spirits"
       },
       "body": {
         "es": [
-          "La Magia Chamanica se lanza desde la reserva de CAR, igual que las otras escuelas. Pero los cinco elementos (fuego, agua, tierra, viento, astral/espiritu) tienen, ademas, un espiritu elemental que funciona como un Patron de Knave 2e.",
-          "Los hechizos debiles y medios de un elemento se lanzan libremente si se cumple el atributo minimo, sin necesidad de tratar con el espiritu. Los hechizos fuertes de ese elemento, en cambio, requieren el FAVOR del espiritu correspondiente.",
-          "El favor se gana como cualquier mision de Patron: acudiendo a un santuario elemental, cumpliendo un encargo del espiritu (proteger un lugar sagrado, recuperar algo robado, un sacrificio simbolico). El desfavor -romper un juramento, profanar un santuario, servir a un enemigo del espiritu- retira el acceso a los hechizos fuertes de ese elemento hasta que el personaje haga las paces.",
-          "Ademas de permitir hechizos fuertes, un espiritu con el que el personaje esta en buenos terminos puede conceder UNA bendicion (un aura o efecto menor y permanente) sobre un objeto foco o reliquia personal. Esa bendicion cuenta como una bendicion activa mas para el limite de CAR del personaje: un chaman con CAR 3 solo puede sostener 3 bendiciones activas en total, sin importar si vienen de un Patron distinto o de un espiritu elemental."
+          "La Magia Chamánica se lanza desde la reserva de CAR, igual que las otras escuelas. Pero los cinco elementos (fuego, agua, tierra, viento, astral/espíritu) tienen, además, un espíritu elemental que funciona como un Patrón de Knave 2e.",
+          "Los hechizos débiles y medios de un elemento se lanzan libremente si se cumple el atributo mínimo, sin necesidad de tratar con el espíritu. Los hechizos fuertes de ese elemento, en cambio, requieren el FAVOR del espíritu correspondiente.",
+          "El favor se gana como cualquier misión de Patrón: acudiendo a un santuario elemental, cumpliendo un encargo del espíritu (proteger un lugar sagrado, recuperar algo robado, un sacrificio simbólico). El desfavor -romper un juramento, profanar un santuario, servir a un enemigo del espíritu- retira el acceso a los hechizos fuertes de ese elemento hasta que el personaje haga las paces.",
+          "Además de permitir hechizos fuertes, un espíritu con el que el personaje está en buenos términos puede conceder UNA bendición (un aura o efecto menor y permanente) sobre un objeto foco o reliquia personal. Esa bendición cuenta como una bendición activa más para el límite de CAR del personaje: un chamán con CAR 3 solo puede sostener 3 bendiciones activas en total, sin importar si vienen de un Patrón distinto o de un espíritu elemental."
         ],
         "en": [
           "Shamanistic Magic is cast from the CHA pool, like the other schools. But the five elements (fire, water, earth, wind, astral/spirit) also each have an elemental spirit that functions as a Knave 2e Patron.",
@@ -176,9 +176,9 @@
       },
       "body": {
         "es": [
-          "La Magia Blanca se lanza desde la reserva de SAB. A diferencia de la Negra y la Chamanica, no depende de ninguna entidad: ningun Señor Mazoku ni espiritu puede negarle un hechizo a quien tiene el atributo necesario.",
-          "Por sabor, muchas curanderas y sacerdotisas atribuyen su poder a Ceiphied (el Dios Dragon) o a los Reyes Dragon, pero eso es devocion, no un requisito mecanico: un personaje puede lanzar Magia Blanca sin creer en nada en particular.",
-          "Es la escuela mas fiable de las tres precisamente por eso: no se puede cortar por decision de un tercero, solo por falta de SAB o de cargas."
+          "La Magia Blanca se lanza desde la reserva de SAB. A diferencia de la Negra y la Chamánica, no depende de ninguna entidad: ningún Señor Mazoku ni espíritu puede negarle un hechizo a quien tiene el atributo necesario.",
+          "Por sabor, muchas curanderas y sacerdotisas atribuyen su poder a Ceiphied (el Dios Dragón) o a los Reyes Dragón, pero eso es devoción, no un requisito mecánico: un personaje puede lanzar Magia Blanca sin creer en nada en particular.",
+          "Es la escuela más fiable de las tres precisamente por eso: no se puede cortar por decisión de un tercero, solo por falta de SAB o de cargas."
         ],
         "en": [
           "White Magic is cast from the WIS pool. Unlike Black and Shamanistic Magic, it depends on no entity: no Mazoku Lord and no spirit can deny a spell to someone who has the required ability score.",
@@ -196,8 +196,8 @@
       "body": {
         "es": [
           "Giga Slave, Ragna Blade y el resto de la Magia Perdida no tienen nivel, no consumen cargas y NO son lanzables por personajes jugadores bajo ninguna circunstancia normal. Son recursos de trama que el GM despliega (o amenaza con desplegar) cuando la historia lo pide.",
-          "Si un PJ insiste en intentar uno de todos modos -por desesperacion, por poseer un objeto o conocimiento extremadamente raro- el GM deberia tratarlo como una apuesta narrativa con riesgo real de catastrofe (perdida de control, invocacion de algo peor, daño al propio lanzador o al entorno a una escala que ninguna hoja de personaje deberia intentar sostener), nunca como una tirada mas.",
-          "Estos hechizos existen en el modulo sobre todo para que el GM los use como amenazas, giros de trama o el ultimo recurso de un villano acorralado."
+          "Si un PJ insiste en intentar uno de todos modos -por desesperación, por poseer un objeto o conocimiento extremadamente raro- el GM debería tratarlo como una apuesta narrativa con riesgo real de catástrofe (perdida de control, invocación de algo peor, daño al propio lanzador o al entorno a una escala que ninguna hoja de personaje debería intentar sostener), nunca como una tirada más.",
+          "Estos hechizos existen en el módulo sobre todo para que el GM los use como amenazas, giros de trama o el último recurso de un villano acorralado."
         ],
         "en": [
           "Giga Slave, Ragna Blade and the rest of Lost Magic have no tier, cost no charges, and are NOT castable by player characters under any normal circumstance. They are plot resources the GM deploys (or threatens to deploy) when the story calls for it.",
@@ -214,9 +214,9 @@
       },
       "body": {
         "es": [
-          "Los artefactos de este modulo (Espadas de Luz, talismanes de Sangre de Demonio, la Biblia de Claire, etc.) tienen un poder BASE que siempre funciona para quien los empuña, sepa o no de magia. Un guerrero sin una sola carga de hechizo puede llevar la Espada de Luz y cortar mazoku con ella.",
-          "Cada artefacto puede tener 'despertares' adicionales: efectos mas fuertes que el poder base, desbloqueados por una mision especifica (encontrar un fragmento perdido, ganarse la confianza de la entidad ligada al objeto, superar una prueba). Cada despertar activo cuenta como una bendicion mas contra el limite de CAR del personaje, igual que las bendiciones de Patron.",
-          "Esto explica por que los artefactos importan incluso en un grupo lleno de lanzadores: son la unica manera razonable de que un personaje sin escuela de magia (o con CAR/INT/SAB bajo) plante cara a un mazoku, que es inmune a las armas mundanas y solo puede ser danado por magia, por Magia Perdida o por un arma de luz.",
+          "Los artefactos de este módulo (Espadas de Luz, talismanes de Sangre de Demonio, la Biblia de Claire, etc.) tienen un poder BASE que siempre funciona para quien los empuña, sepa o no de magia. Un guerrero sin una sola carga de hechizo puede llevar la Espada de Luz y cortar mazoku con ella.",
+          "Cada artefacto puede tener 'despertares' adicionales: efectos más fuertes que el poder base, desbloqueados por una misión específica (encontrar un fragmento perdido, ganarse la confianza de la entidad ligada al objeto, superar una prueba). Cada despertar activo cuenta como una bendición más contra el límite de CAR del personaje, igual que las bendiciones de Patrón.",
+          "Esto explica por que los artefactos importan incluso en un grupo lleno de lanzadores: son la única manera razonable de que un personaje sin escuela de magia (o con CAR/INT/SAB bajo) plante cara a un mazoku, que es inmune a las armas mundanas y solo puede ser dañado por magia, por Magia Perdida o por un arma de luz.",
           "La Espada de Luz (Gorun Nova) es el ejemplo central: su filo de luz ignora la armadura y daña a seres astrales, algo que ninguna espada de acero corriente puede hacer."
         ],
         "en": [
@@ -235,9 +235,9 @@
       },
       "body": {
         "es": [
-          "Se usa la regla estandar de Knave 2e: cuando un hechizo apunta a una criatura no dispuesta cuyo nivel es mayor que el nivel del hechizo lanzado, esa criatura tira una salvacion contra el nivel del hechizo.",
-          "Un exito reduce el efecto a la mitad. Un exito por 10 o mas anula el efecto por completo.",
-          "El nivel de un hechizo, para este proposito, es cualquier numero hasta el atributo relevante del lanzador (INT, CAR o SAB segun la escuela) que el jugador elija invertir al lanzarlo, dentro de lo que permita la carga usada."
+          "Se usa la regla estándar de Knave 2e: cuando un hechizo apunta a una criatura no dispuesta cuyo nivel es mayor que el nivel del hechizo lanzado, esa criatura tira una salvación contra el nivel del hechizo.",
+          "Un éxito reduce el efecto a la mitad. Un éxito por 10 o más anula el efecto por completo.",
+          "El nivel de un hechizo, para este propósito, es cualquier número hasta el atributo relevante del lanzador (INT, CAR o SAB según la escuela) que el jugador elija invertir al lanzarlo, dentro de lo que permita la carga usada."
         ],
         "en": [
           "The standard Knave 2e rule applies: when a spell targets an unwilling creature whose level is higher than the cast spell's level, that creature rolls a save against the spell's level.",
@@ -256,19 +256,19 @@
       },
       "stat": "INT",
       "description": {
-        "es": "Magia que invoca el poder de los Señores Mazoku. Reserva diaria igual a INT. Cada hechizo depende de una entidad especifica: si esa entidad muere o rechaza al lanzador, el hechizo deja de funcionar.",
+        "es": "Magia que invoca el poder de los Señores Mazoku. Reserva diaria igual a INT. Cada hechizo depende de una entidad específica: si esa entidad muere o rechaza al lanzador, el hechizo deja de funcionar.",
         "en": "Magic that invokes the power of the Mazoku Lords. Daily pool equal to INT. Every spell depends on a specific entity: if that entity dies or rejects the caster, the spell stops working."
       }
     },
     {
       "id": "chamanica",
       "name": {
-        "es": "Magia Chamanica",
+        "es": "Magia Chamánica",
         "en": "Shamanistic Magic"
       },
       "stat": "CHA",
       "description": {
-        "es": "Magia elemental (fuego, agua, tierra, viento, astral) apoyada por los espiritus de cada elemento. Reserva diaria igual a CAR. Los hechizos fuertes de un elemento requieren el favor de su espiritu, tratado como un Patron.",
+        "es": "Magia elemental (fuego, agua, tierra, viento, astral) apoyada por los espíritus de cada elemento. Reserva diaria igual a CAR. Los hechizos fuertes de un elemento requieren el favor de su espíritu, tratado como un Patrón.",
         "en": "Elemental magic (fire, water, earth, wind, astral) supported by each element's spirits. Daily pool equal to CHA. An element's strong spells require that element's spirit favor, treated as a Patron."
       }
     },
@@ -280,7 +280,7 @@
       },
       "stat": "WIS",
       "description": {
-        "es": "Magia de curacion, proteccion y purificacion. Reserva diaria igual a SAB. No depende de ninguna entidad externa; a veces se atribuye a Ceiphied o a los Reyes Dragon por devocion, no por necesidad mecanica.",
+        "es": "Magia de curación, protección y purificación. Reserva diaria igual a SAB. No depende de ninguna entidad externa; a veces se atribuye a Ceiphied o a los Reyes Dragón por devoción, no por necesidad mecánica.",
         "en": "Magic of healing, protection and purification. Daily pool equal to WIS. It depends on no external entity; sometimes credited to Ceiphied or the Dragon Kings out of devotion, not mechanical necessity."
       }
     },
@@ -292,7 +292,7 @@
       },
       "stat": null,
       "description": {
-        "es": "Hechizos legendarios y catastroficos (Giga Slave, Ragna Blade). No son lanzables por personajes jugadores: son recursos de trama para el GM, con riesgo real de catastrofe.",
+        "es": "Hechizos legendarios y catastróficos (Giga Slave, Ragna Blade). No son lanzables por personajes jugadores: son recursos de trama para el GM, con riesgo real de catástrofe.",
         "en": "Legendary, catastrophic spells (Giga Slave, Ragna Blade). Not castable by player characters: they are GM plot resources, with real risk of catastrophe."
       }
     }
@@ -306,11 +306,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Debil. Un rayo de luz oscura reduce a cenizas parte de un objetivo pequeño u organico. 1d6 de daño a un objetivo.",
+        "es": "Débil. Un rayo de luz oscura reduce a cenizas parte de un objetivo pequeño u orgánico. 1d6 de daño a un objetivo.",
         "en": "Weak. A beam of dark light reduces part of a small or organic target to ash. 1d6 damage to one target."
       },
       "canon": {
-        "es": "Uno de los hechizos menores mas usados por Lina Inverse para trabajos sucios rapidos.",
+        "es": "Uno de los hechizos menores más usados por Lina Inverse para trabajos sucios rápidos.",
         "en": "One of the minor spells Lina Inverse most often uses for quick dirty work."
       },
       "source": "Novela, Anime",
@@ -324,11 +324,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Debil. Crea un latigo de luz oscura que corta a un objetivo, funciona igual contra cuerpos fisicos o astrales. 1d6 de daño.",
+        "es": "Débil. Crea un látigo de luz oscura que corta a un objetivo, funciona igual contra cuerpos físicos o astrales. 1d6 de daño.",
         "en": "Weak. Creates a whip of dark light that cuts a target, working the same against physical or astral bodies. 1d6 damage."
       },
       "canon": {
-        "es": "Hechizo de combate cuerpo a cuerpo poco comun, mencionado como arma flexible de Lina.",
+        "es": "Hechizo de combate cuerpo a cuerpo poco común, mencionado como arma flexible de Lina.",
         "en": "An uncommon melee-range spell, mentioned as one of Lina's flexible weapons."
       },
       "source": "Novela",
@@ -342,11 +342,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Debil, utilidad. Invoca un mazoku menor que posee a un animal pequeño cercano, convirtiendolo en espia o distraccion por una escena.",
+        "es": "Débil, utilidad. Invoca un mazoku menor que posee a un animal pequeño cercano, convirtiéndolo en espía o distracción por una escena.",
         "en": "Weak, utility. Summons a minor mazoku that possesses a nearby small animal, turning it into a spy or distraction for one scene."
       },
       "canon": {
-        "es": "Invocacion menor usada para vigilar o espiar sin llamar la atencion.",
+        "es": "Invocación menor usada para vigilar o espiar sin llamar la atención.",
         "en": "A minor summoning used to watch or spy without drawing attention."
       },
       "source": "Manga",
@@ -360,11 +360,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio. Genera una onda expansiva concentrada que perfora un agujero a traves de muros o un objetivo. INT d6 de daño a un objetivo o superficie.",
+        "es": "Medio. Genera una onda expansiva concentrada que perfora un agujero a través de muros o un objetivo. INT d6 de daño a un objetivo o superficie.",
         "en": "Medium. Generates a concentrated shockwave that punches a hole through walls or a target. INT d6 damage to one target or surface."
       },
       "canon": {
-        "es": "Usado por Lina para atravesar obstaculos solidos con precision.",
+        "es": "Usado por Lina para atravesar obstáculos sólidos con precisión.",
         "en": "Used by Lina to punch through solid obstacles with precision."
       },
       "source": "Novela, Anime",
@@ -378,11 +378,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio, area pequeña. Un manto de oscuridad envuelve una zona reduciendo a cenizas todo lo organico dentro. INT d6 de daño en area pequeña.",
+        "es": "Medio, área pequeña. Un manto de oscuridad envuelve una zona reduciendo a cenizas todo lo orgánico dentro. INT d6 de daño en área pequeña.",
         "en": "Medium, small area. A cloak of darkness envelops a zone, reducing everything organic within to ash. INT d6 damage in a small area."
       },
       "canon": {
-        "es": "Version de area de Assher Dist, mas costosa y mas letal.",
+        "es": "Versión de área de Assher Dist, más costosa y más letal.",
         "en": "An area-effect version of Assher Dist, costlier and more lethal."
       },
       "source": "Novela",
@@ -396,7 +396,7 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio, multiples objetivos. Crea varias esferas de energia negra que se lanzan contra distintos blancos, desintegrando lo que tocan. INT d6 de daño repartido entre hasta INT objetivos.",
+        "es": "Medio, múltiples objetivos. Crea varias esferas de energía negra que se lanzan contra distintos blancos, desintegrando lo que tocan. INT d6 de daño repartido entre hasta INT objetivos.",
         "en": "Medium, multiple targets. Creates several spheres of black energy that fly at different targets, disintegrating what they touch. INT d6 damage split among up to INT targets."
       },
       "canon": {
@@ -414,11 +414,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio. Transforma la sombra del objetivo en un dragon de oscuridad que lo ataca desde abajo. INT d6 de daño; dificil de esquivar si el objetivo proyecta sombra.",
+        "es": "Medio. Transforma la sombra del objetivo en un dragón de oscuridad que lo ataca desde abajo. INT d6 de daño; difícil de esquivar si el objetivo proyecta sombra.",
         "en": "Medium. Transforms the target's own shadow into a dragon of darkness that attacks from below. INT d6 damage; hard to dodge if the target casts a shadow."
       },
       "canon": {
-        "es": "Hechizo que ataca literalmente a traves de la sombra de la victima.",
+        "es": "Hechizo que ataca literalmente a través de la sombra de la víctima.",
         "en": "A spell that literally attacks through the victim's own shadow."
       },
       "source": "Novela",
@@ -432,7 +432,7 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio. Crea una lanza de oscuridad que drena energia vital mientras atraviesa al objetivo. INT d6 de daño directo (salta la Vitalidad).",
+        "es": "Medio. Crea una lanza de oscuridad que drena energía vital mientras atraviesa al objetivo. INT d6 de daño directo (salta la Vitalidad).",
         "en": "Medium. Creates a lance of darkness that drains vital energy as it pierces the target. INT d6 direct damage (skips Hit Points)."
       },
       "canon": {
@@ -450,11 +450,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio, utilidad de combate. Carga un arma con el poder de Shabranigdo, envolviendola en una espada de energia carmesi. Mientras dure (una escena), el arma cuenta como magica y suma 1d6 de daño extra por golpe.",
+        "es": "Medio, utilidad de combate. Carga un arma con el poder de Shabranigdo, envolviéndola en una espada de energía carmesí. Mientras dure (una escena), el arma cuenta como mágica y suma 1d6 de daño extra por golpe.",
         "en": "Medium, combat utility. Charges a weapon with Shabranigdo's power, wrapping it in a crimson blade of energy. While it lasts (one scene), the weapon counts as magical and adds 1d6 extra damage per hit."
       },
       "canon": {
-        "es": "Permite a un espadachin pactado golpear como si portara un arma sagrada oscura.",
+        "es": "Permite a un espadachín pactado golpear como si portara un arma sagrada oscura.",
         "en": "Lets a pact-bound swordsman strike as if wielding a dark sacred weapon."
       },
       "source": "Novela",
@@ -468,7 +468,7 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Medio, utilidad/horror. Invoca espiritus menores que poseen cadaveres cercanos, convirtiendolos en zombis obedientes durante una escena. Hasta INT zombis simples.",
+        "es": "Medio, utilidad/horror. Invoca espíritus menores que poseen cadáveres cercanos, convirtiéndolos en zombis obedientes durante una escena. Hasta INT zombis simples.",
         "en": "Medium, utility/horror. Summons minor spirits that possess nearby corpses, turning them into obedient zombies for one scene. Up to INT simple zombies."
       },
       "canon": {
@@ -490,7 +490,7 @@
         "en": "Medium. Compresses water or ambient moisture into a high-velocity shock lance. INT d6 piercing damage to one target."
       },
       "canon": {
-        "es": "Hechizo asociado a Deep Sea Dolphin, mas rapido que potente.",
+        "es": "Hechizo asociado a Deep Sea Dolphin, más rápido que potente.",
         "en": "A spell associated with Deep Sea Dolphin, favoring speed over raw power."
       },
       "source": "Novela",
@@ -504,7 +504,7 @@
       "element": null,
       "entity": "dynast-grausherra",
       "effect": {
-        "es": "Medio, area. Invoca un pentagrama que descarga rayos electricos sobre el area. INT d6 de daño en area mediana.",
+        "es": "Medio, área. Invoca un pentagrama que descarga rayos eléctricos sobre el área. INT d6 de daño en área mediana.",
         "en": "Medium, area. Invokes a pentagram that discharges lightning rays over the area. INT d6 damage in a medium area."
       },
       "canon": {
@@ -522,7 +522,7 @@
       "element": null,
       "entity": "dynast-grausherra",
       "effect": {
-        "es": "Medio. Crea un rayo o rafaga congelante de hielo magico. INT d6 de daño y el objetivo queda inmovilizado 1 ronda si falla la salvacion.",
+        "es": "Medio. Crea un rayo o ráfaga congelante de hielo mágico. INT d6 de daño y el objetivo queda inmovilizado 1 ronda si falla la salvación.",
         "en": "Medium. Creates a freezing ray or blast of magical ice. INT d6 damage, and the target is immobilized for 1 round if it fails the save."
       },
       "canon": {
@@ -540,11 +540,11 @@
       "element": null,
       "entity": "hellmaster-phibrizzo",
       "effect": {
-        "es": "Medio, utilidad/horror. Crea zombis inteligentes con voluntad propia, a diferencia de Necro Vood. Hasta INT/2 zombis con iniciativa y ordenes complejas, por una escena.",
+        "es": "Medio, utilidad/horror. Crea zombis inteligentes con voluntad propia, a diferencia de Necro Vood. Hasta INT/2 zombis con iniciativa y órdenes complejas, por una escena.",
         "en": "Medium, utility/horror. Creates intelligent zombies with their own will, unlike Necro Vood. Up to INT/2 zombies with initiative and complex orders, for one scene."
       },
       "canon": {
-        "es": "Version superior de la nigromancia de Phibrizzo, mas peligrosa por la autonomia de los muertos vivientes.",
+        "es": "Versión superior de la nigromancia de Phibrizzo, más peligrosa por la autonomía de los muertos vivientes.",
         "en": "A superior version of Phibrizzo's necromancy, more dangerous for the undead's autonomy."
       },
       "source": "Novela",
@@ -561,11 +561,11 @@
       "element": null,
       "entity": "greater-beast-zelas",
       "effect": {
-        "es": "Medio. Libera un rayo de luz que el lanzador puede curvar en pleno vuelo con su voluntad. INT d6 de daño; dificil de esquivar tras el primer giro.",
+        "es": "Medio. Libera un rayo de luz que el lanzador puede curvar en pleno vuelo con su voluntad. INT d6 de daño; difícil de esquivar tras el primer giro.",
         "en": "Medium. Releases a ray of light the caster can bend mid-flight with sheer will. INT d6 damage; hard to dodge after its first turn."
       },
       "canon": {
-        "es": "Hechizo de precision asociado a la Bestia Mayor Zelas.",
+        "es": "Hechizo de precisión asociado a la Bestia Mayor Zelas.",
         "en": "A precision spell associated with Greater Beast Zelas."
       },
       "source": "Novela",
@@ -579,11 +579,11 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Fuerte. Maldicion que transforma a la victima en una masa de carne autorregenerante, atrapada en tormento eterno hasta que se rompa el hechizo. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte. Maldición que transforma a la víctima en una masa de carne autorregenerante, atrapada en tormento eterno hasta que se rompa el hechizo. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong. A curse that transforms the victim into a self-regenerating mass of flesh, trapped in eternal torment until the spell is broken. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Una de las maldiciones mas crueles atribuidas a los mazoku en la novela.",
+        "es": "Una de las maldiciones más crueles atribuidas a los mazoku en la novela.",
         "en": "One of the cruelest curses attributed to the mazoku in the novel."
       },
       "source": "Novela",
@@ -597,11 +597,11 @@
       "element": null,
       "entity": "deep-sea-dolphin",
       "effect": {
-        "es": "Fuerte, area grande. Convierte el agua ambiente en hojas afiladisimas lanzadas en todas direcciones. INT d6 de daño cortante en area grande. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área grande. Convierte el agua ambiente en hojas afiladísimas lanzadas en todas direcciones. INT d6 de daño cortante en área grande. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, large area. Turns ambient water into razor-sharp blades launched in every direction. INT d6 slashing damage in a large area. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "El hechizo de agua mas devastador ligado a Deep Sea Dolphin.",
+        "es": "El hechizo de agua más devastador ligado a Deep Sea Dolphin.",
         "en": "The most devastating water spell tied to Deep Sea Dolphin."
       },
       "source": "Novela",
@@ -615,16 +615,16 @@
       "element": null,
       "entity": "chaos-dragon-gaav",
       "effect": {
-        "es": "Fuerte, linea. Acumula poder y lo libera como un rayo de fuego en linea recta que arrasa todo a su paso. INT d6 de daño a todos en la linea. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, línea. Acumula poder y lo libera como un rayo de fuego en línea recta que arrasa todo a su paso. INT d6 de daño a todos en la línea. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, line. Gathers power and releases it as a straight-line ray of fire that scorches everything in its path. INT d6 damage to everyone in the line. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Firma de combate del Dragon del Caos Gaav.",
+        "es": "Firma de combate del Dragón del Caos Gaav.",
         "en": "Chaos Dragon Gaav's signature combat spell."
       },
       "source": "Novela, Anime",
       "notes": {
-        "es": "Gancho de campaña: en el canon de las novelas Gaav muere a manos de Phibrizzo. Una mesa que siga esa cronologia deberia dejar de permitir este hechizo despues de ese punto.",
+        "es": "Gancho de campaña: en el canon de las novelas Gaav muere a manos de Phibrizzo. Una mesa que siga esa cronología debería dejar de permitir este hechizo después de ese punto.",
         "en": "Campaign hook: in novel canon Gaav dies at Phibrizzo's hands. A table following that timeline should stop allowing this spell after that point."
       }
     },
@@ -645,7 +645,7 @@
       },
       "source": "Novela",
       "notes": {
-        "es": "Gancho de campaña: Phibrizzo muere en la novela a manos de la Señora de las Pesadillas. Deberia dejar de funcionar tras ese punto en una campaña que siga el canon.",
+        "es": "Gancho de campaña: Phibrizzo muere en la novela a manos de la Señora de las Pesadillas. Debería dejar de funcionar tras ese punto en una campaña que siga el canon.",
         "en": "Campaign hook: Phibrizzo dies in the novel at the Lord of Nightmares' hands. It should stop working after that point in a canon-following campaign."
       }
     },
@@ -657,11 +657,11 @@
       "element": null,
       "entity": "greater-beast-zelas",
       "effect": {
-        "es": "Fuerte, multiples objetivos. Libera varios rayos de luz simultaneos, cada uno guiado por la voluntad del lanzador. INT d6 de daño repartido entre hasta INT objetivos. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, múltiples objetivos. Libera varios rayos de luz simultáneos, cada uno guiado por la voluntad del lanzador. INT d6 de daño repartido entre hasta INT objetivos. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, multiple targets. Releases several simultaneous rays of light, each guided by the caster's will. INT d6 damage split among up to INT targets. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Version multiplicada de Zelas Brid.",
+        "es": "Versión multiplicada de Zelas Brid.",
         "en": "A multiplied version of Zelas Brid."
       },
       "source": "Novela",
@@ -675,16 +675,16 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "Fuerte, area enorme. Concentra energia magica en un rayo rojizo que provoca una explosion capaz de arrasar un barrio entero. 10 x INT de daño en un area enorme; destruye edificios y terreno. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área enorme. Concentra energía mágica en un rayo rojizo que provoca una explosión capaz de arrasar un barrio entero. 10 x INT de daño en un área enorme; destruye edificios y terreno. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, huge area. Concentrates magical energy into a reddish ray that causes an explosion capable of leveling an entire neighborhood. 10 x INT damage in a huge area; destroys buildings and terrain. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "El hechizo mas famoso de Lina Inverse y de toda la serie; su firma personal.",
+        "es": "El hechizo más famoso de Lina Inverse y de toda la serie; su firma personal.",
         "en": "The most famous spell in Lina Inverse's repertoire and in the whole series; her personal signature."
       },
       "source": "Novela, Anime, Manga",
       "notes": {
-        "es": "Esta a proposito muy por encima del resto de los hechizos fuertes en daño bruto: es EL hechizo icono de la serie y debe sentirse apocaliptico. El resto de los hechizos fuertes de este modulo son deliberadamente mas modestos.",
+        "es": "Está a propósito muy por encima del resto de los hechizos fuertes en daño bruto: es EL hechizo icono de la serie y debe sentirse apocalíptico. El resto de los hechizos fuertes de este módulo son deliberadamente más modestos.",
         "en": "This is intentionally far above the rest of the strong spells in raw damage: it is THE iconic spell of the series and should feel apocalyptic. The rest of this module's strong spells are deliberately more modest."
       }
     },
@@ -696,11 +696,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Debil. La forma mas comun de magia de fuego: una esfera de llama entre las manos, lanzada a un objetivo. 1d6 de daño.",
+        "es": "Débil. La forma más común de magia de fuego: una esfera de llama entre las manos, lanzada a un objetivo. 1d6 de daño.",
         "en": "Weak. The most common form of fire magic: a sphere of flame between the caster's hands, thrown at a target. 1d6 damage."
       },
       "canon": {
-        "es": "El hechizo de fuego basico por excelencia, primero que aprende cualquier aprendiz.",
+        "es": "El hechizo de fuego básico por excelencia, primero que aprende cualquier aprendiz.",
         "en": "The quintessential basic fire spell, the first any apprentice learns."
       },
       "source": "Novela, Anime, Manga",
@@ -714,11 +714,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Debil. Genera varias flechas de fuego alrededor del lanzador, que puede disparar a un objetivo o repartir entre varios. CAR flechas de 1d6 de daño cada una.",
+        "es": "Débil. Genera varias flechas de fuego alrededor del lanzador, que puede disparar a un objetivo o repartir entre varios. CAR flechas de 1d6 de daño cada una.",
         "en": "Weak. Generates several fire arrows around the caster, fired at one target or split among several. CHA arrows of 1d6 damage each."
       },
       "canon": {
-        "es": "Hechizo versatil usado tanto para daño concentrado como para cubrir varios blancos.",
+        "es": "Hechizo versátil usado tanto para daño concentrado como para cubrir varios blancos.",
         "en": "A versatile spell used either for concentrated damage or to cover several targets."
       },
       "source": "Novela, Anime",
@@ -732,11 +732,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Debil. Un unico proyectil de llama concentrada que el lanzador puede sostener encendido antes de disparar. 1d6 de daño.",
+        "es": "Débil. Un único proyectil de llama concentrada que el lanzador puede sostener encendido antes de disparar. 1d6 de daño.",
         "en": "Weak. A single concentrated flame projectile the caster can hold lit before firing. 1d6 damage."
       },
       "canon": {
-        "es": "Variante mas controlada de Fire Ball, util para amenazar sin gastar el hechizo.",
+        "es": "Variante más controlada de Fire Ball, útil para amenazar sin gastar el hechizo.",
         "en": "A more controlled variant of Fire Ball, useful for threatening without spending the spell yet."
       },
       "source": "Novela",
@@ -750,11 +750,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Debil, area pequeña. Lluvia de pequeñas esferas de luz que explotan al contacto con daño minimo pero mucho impacto visual. 1d4 de daño en area pequeña.",
+        "es": "Débil, área pequeña. Lluvia de pequeñas esferas de luz que explotan al contacto con daño mínimo pero mucho impacto visual. 1d4 de daño en área pequeña.",
         "en": "Weak, small area. A rain of small light spheres that explode on contact with minimal damage but a big visual impact. 1d4 damage in a small area."
       },
       "canon": {
-        "es": "Mas util para intimidar o distraer que para hacer daño real.",
+        "es": "Más útil para intimidar o distraer que para hacer daño real.",
         "en": "More useful to intimidate or distract than to deal real damage."
       },
       "source": "Manga",
@@ -768,7 +768,7 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Protege por una escena al lanzador o a un aliado tocado de fuego y calor, natural o magico.",
+        "es": "Débil, utilidad, sin daño. Protege por una escena al lanzador o a un aliado tocado de fuego y calor, natural o mágico.",
         "en": "Weak, utility, no damage. Protects the caster or a touched ally from fire and heat, natural or magical, for one scene."
       },
       "canon": {
@@ -786,11 +786,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Medio. Crea un latigo de fuego controlable, mantenible sin atacar cada ronda. CAR d6 de daño al golpear.",
+        "es": "Medio. Crea un látigo de fuego controlable, mantenible sin atacar cada ronda. CAR d6 de daño al golpear.",
         "en": "Medium. Creates a controllable whip of fire, maintainable without attacking every round. CHA d6 damage on a hit."
       },
       "canon": {
-        "es": "Comparable en daño a Flare Lance pero mucho mas flexible en combate cuerpo a cuerpo.",
+        "es": "Comparable en daño a Flare Lance pero mucho más flexible en combate cuerpo a cuerpo.",
         "en": "Comparable in damage to Flare Lance but far more flexible in melee combat."
       },
       "source": "Novela",
@@ -804,11 +804,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Medio. Una unica flecha de fuego muy concentrada que provoca una explosion capaz de derribar un muro. CAR d6 de daño a un objetivo o pequeña area.",
+        "es": "Medio. Una única flecha de fuego muy concentrada que provoca una explosión capaz de derribar un muro. CAR d6 de daño a un objetivo o pequeña área.",
         "en": "Medium. A single, highly concentrated fire arrow that causes an explosion strong enough to bring down a wall. CHA d6 damage to one target or small area."
       },
       "canon": {
-        "es": "Uno de los hechizos de fuego intermedios mas usados en combates duros.",
+        "es": "Uno de los hechizos de fuego intermedios más usados en combates duros.",
         "en": "One of the mid-tier fire spells most used in tough fights."
       },
       "source": "Novela",
@@ -822,7 +822,7 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Medio, multiples objetivos. Descarga una salva de lanzas de energia pura. CAR d6 de daño repartido entre hasta CAR objetivos.",
+        "es": "Medio, múltiples objetivos. Descarga una salva de lanzas de energía pura. CAR d6 de daño repartido entre hasta CAR objetivos.",
         "en": "Medium, multiple targets. Unleashes a volley of pure energy lances. CHA d6 damage split among up to CHA targets."
       },
       "canon": {
@@ -840,7 +840,7 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Medio, riesgoso. Proyectil unico mas potente que Va Ru Flare, pero inestable: si la tirada de casteo falla por mucho el propio lanzador sufre 1d4 de daño ademas del efecto. CAR d6 de daño a un objetivo.",
+        "es": "Medio, riesgoso. Proyectil único más potente que Va Ru Flare, pero inestable: si la tirada de casteo falla por mucho el propio lanzador sufre 1d4 de daño además del efecto. CAR d6 de daño a un objetivo.",
         "en": "Medium, risky. A single projectile stronger than Va Ru Flare, but unstable: on a badly failed casting roll the caster also takes 1d4 damage on top of the effect. CHA d6 damage to one target."
       },
       "canon": {
@@ -858,7 +858,7 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Medio, linea. Lanza un potente chorro de energia flamigera en linea recta que el viento no puede desviar. CAR d6 de daño a todos en la linea.",
+        "es": "Medio, línea. Lanza un potente chorro de energía flamígera en línea recta que el viento no puede desviar. CAR d6 de daño a todos en la línea.",
         "en": "Medium, line. Launches a powerful stream of flaming energy in a straight line that wind cannot deflect. CHA d6 damage to everyone in the line."
       },
       "canon": {
@@ -867,7 +867,7 @@
       },
       "source": "Manga",
       "notes": {
-        "es": "Fuente limitada a un unico uso documentado (Luke); se incluye igual por pedido de cobertura amplia.",
+        "es": "Fuente limitada a un único uso documentado (Luke); se incluye igual por pedido de cobertura amplia.",
         "en": "Source limited to a single documented use (Luke); included anyway to keep coverage broad."
       }
     },
@@ -879,7 +879,7 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Fuerte, area. El maximo poder de fuego que un humano sin amplificadores puede manejar: una esfera de energia que estalla en una explosion blanquiazul capaz de fundir un golem de metal. CAR d6 de daño en area mediana. Requiere el favor de los espiritus del fuego. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área. El máximo poder de fuego que un humano sin amplificadores puede manejar: una esfera de energía que estalla en una explosión blanquiazul capaz de fundir un golem de metal. CAR d6 de daño en área mediana. Requiere el favor de los espíritus del fuego. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, area. The maximum fire power an unamplified human can handle: a sphere of energy that bursts into a white-blue explosion capable of melting a metal golem. CHA d6 damage in a medium area. Requires the fire spirits' favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
@@ -897,11 +897,11 @@
       "element": "fuego",
       "entity": "espiritu-del-fuego",
       "effect": {
-        "es": "Fuerte, area grande. El hechizo de fuego mas poderoso que existe, creado por el mago Lei Magnus; produce multiples esferas de luz que detonan con fuerza devastadora. Requiere amplificacion externa ademas del favor de los espiritus del fuego (por eso solo se aprende de grimorio o maestro). CAR d6 de daño en area grande. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área grande. El hechizo de fuego más poderoso que existe, creado por el mago Lei Magnus; produce múltiples esferas de luz que detonan con fuerza devastadora. Requiere amplificación externa además del favor de los espíritus del fuego (por eso solo se aprende de grimorio o maestro). CAR d6 de daño en área grande. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, large area. The single most powerful fire spell in existence, created by the mage Lei Magnus; it produces multiple spheres of light that detonate with devastating force. Requires external amplification besides the fire spirits' favor (hence learnable only from grimoire or teacher). CHA d6 damage in a large area. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Hechizo de fuego legendario, atribuido a un mago historico y no a Lina.",
+        "es": "Hechizo de fuego legendario, atribuido a un mago histórico y no a Lina.",
         "en": "A legendary fire spell, attributed to a historical mage rather than to Lina."
       },
       "source": "Novela",
@@ -915,11 +915,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Permite respirar y ver con normalidad bajo el agua por una escena, sin necesidad de mantener concentracion.",
+        "es": "Débil, utilidad, sin daño. Permite respirar y ver con normalidad bajo el agua por una escena, sin necesidad de mantener concentración.",
         "en": "Weak, utility, no damage. Allows breathing and seeing normally underwater for one scene, with no need to maintain concentration."
       },
       "canon": {
-        "es": "Hechizo de supervivencia basico para exploracion acuatica.",
+        "es": "Hechizo de supervivencia básico para exploración acuática.",
         "en": "A basic survival spell for underwater exploration."
       },
       "source": "Novela, Anime",
@@ -933,11 +933,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Condensa la humedad del ambiente y genera agua limpia, suficiente para apagar un fuego pequeño o llenar contenedores.",
+        "es": "Débil, utilidad, sin daño. Condensa la humedad del ambiente y genera agua limpia, suficiente para apagar un fuego pequeño o llenar contenedores.",
         "en": "Weak, utility, no damage. Condenses ambient moisture and produces clean water, enough to put out a small fire or fill containers."
       },
       "canon": {
-        "es": "Hechizo domestico tanto como de supervivencia.",
+        "es": "Hechizo doméstico tanto como de supervivencia.",
         "en": "As much a household spell as a survival one."
       },
       "source": "Novela",
@@ -951,11 +951,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Debil. Dispara pequeñas flechas de hielo, mas molestas que letales. 1d4 de daño.",
+        "es": "Débil. Dispara pequeñas flechas de hielo, más molestas que letales. 1d4 de daño.",
         "en": "Weak. Fires small ice arrows, more annoying than lethal. 1d4 damage."
       },
       "canon": {
-        "es": "El nivel mas bajo de ofensiva helada, comparable a Flare Arrow del lado de fuego.",
+        "es": "El nivel más bajo de ofensiva helada, comparable a Flare Arrow del lado de fuego.",
         "en": "The lowest tier of icy offense, comparable to Flare Arrow on the fire side."
       },
       "source": "Manga",
@@ -969,11 +969,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Debil. Dispara varios proyectiles de hielo afilado. 1d6 de daño.",
+        "es": "Débil. Dispara varios proyectiles de hielo afilado. 1d6 de daño.",
         "en": "Weak. Fires several sharpened ice projectiles. 1d6 damage."
       },
       "canon": {
-        "es": "Uno de los hechizos ofensivos de agua mas basicos y comunes.",
+        "es": "Uno de los hechizos ofensivos de agua más básicos y comunes.",
         "en": "One of the most basic and common offensive water spells."
       },
       "source": "Novela, Anime",
@@ -987,11 +987,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Medio. Mas potente que Freeze Arrow: una o varias lanzas de hielo lanzadas contra el objetivo. CAR d6 de daño.",
+        "es": "Medio. Más potente que Freeze Arrow: una o varias lanzas de hielo lanzadas contra el objetivo. CAR d6 de daño.",
         "en": "Medium. Stronger than Freeze Arrow: one or several ice spears launched at the target. CHA d6 damage."
       },
       "canon": {
-        "es": "Escalada natural de Freeze Arrow para enemigos mas resistentes.",
+        "es": "Escalada natural de Freeze Arrow para enemigos más resistentes.",
         "en": "A natural escalation of Freeze Arrow for tougher enemies."
       },
       "source": "Novela",
@@ -1005,11 +1005,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Medio. Dispara una esfera de hielo que explota al impacto; equivalente helado de Fire Ball en potencia y anula el fuego al chocar con el. CAR d6 de daño.",
+        "es": "Medio. Dispara una esfera de hielo que explota al impacto; equivalente helado de Fire Ball en potencia y anula el fuego al chocar con él. CAR d6 de daño.",
         "en": "Medium. Fires a sphere of ice that explodes on impact; the icy equivalent of Fire Ball in power, and cancels fire on collision. CHA d6 damage."
       },
       "canon": {
-        "es": "Version de agua de un hechizo de fuego equivalente, con la misma logica de contraataque elemental.",
+        "es": "Versión de agua de un hechizo de fuego equivalente, con la misma lógica de contraataque elemental.",
         "en": "The water version of an equivalent fire spell, with the same elemental-counter logic."
       },
       "source": "Novela",
@@ -1023,11 +1023,11 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Medio. Crea una niebla congelante que congela al contacto de forma casi instantanea. CAR d6 de daño y el objetivo queda inmovilizado si falla la salvacion.",
+        "es": "Medio. Crea una niebla congelante que congela al contacto de forma casi instantánea. CAR d6 de daño y el objetivo queda inmovilizado si falla la salvación.",
         "en": "Medium. Creates a freezing mist that freezes on contact almost instantly. CHA d6 damage, and the target is immobilized if it fails the save."
       },
       "canon": {
-        "es": "Descrito como muy efectivo por lo rapido de su efecto.",
+        "es": "Descrito como muy efectivo por lo rápido de su efecto.",
         "en": "Described as highly effective for how fast its effect lands."
       },
       "source": "Novela",
@@ -1041,7 +1041,7 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Medio. Provoca una explosion de agua desde cualquier superficie liquida cercana; puede hundir botes pequeños o interceptar otro ataque. CAR d6 de daño en area pequeña.",
+        "es": "Medio. Provoca una explosión de agua desde cualquier superficie líquida cercana; puede hundir botes pequeños o interceptar otro ataque. CAR d6 de daño en área pequeña.",
         "en": "Medium. Causes a water explosion from any nearby liquid surface; can sink small boats or intercept another attack. CHA d6 damage in a small area."
       },
       "canon": {
@@ -1059,7 +1059,7 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Medio. Extiende filamentos de hielo como enredaderas desde cualquier superficie, muy dificiles de esquivar una vez lanzados. CAR d6 de daño y el objetivo queda apresado si falla la salvacion.",
+        "es": "Medio. Extiende filamentos de hielo como enredaderas desde cualquier superficie, muy difíciles de esquivar una vez lanzados. CAR d6 de daño y el objetivo queda apresado si falla la salvación.",
         "en": "Medium. Extends ice filaments like vines from any surface, very hard to dodge once cast. CHA d6 damage, and the target is entangled if it fails the save."
       },
       "canon": {
@@ -1077,7 +1077,7 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Medio, area. Genera una ventisca poderosa que congela a todos los que atrapa. CAR d6 de daño en area mediana y los objetivos quedan mas lentos una ronda si fallan la salvacion.",
+        "es": "Medio, área. Genera una ventisca poderosa que congela a todos los que atrapa. CAR d6 de daño en área mediana y los objetivos quedan más lentos una ronda si fallan la salvación.",
         "en": "Medium, area. Generates a powerful blizzard that freezes everyone it catches. CHA d6 damage in a medium area, and targets are slowed for one round if they fail the save."
       },
       "canon": {
@@ -1095,7 +1095,7 @@
       "element": "agua",
       "entity": "undine",
       "effect": {
-        "es": "Fuerte, area. El hechizo de agua mas poderoso que un humano puede manejar sin amplificar, equivalente en potencia a Burst Flare. CAR d6 de daño en area mediana. Requiere el favor de Undine. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área. El hechizo de agua más poderoso que un humano puede manejar sin amplificar, equivalente en potencia a Burst Flare. CAR d6 de daño en área mediana. Requiere el favor de Undine. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, area. The most powerful water spell a human can handle unamplified, on par with Burst Flare in power. CHA d6 damage in a medium area. Requires Undine's favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
@@ -1113,11 +1113,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Debil, utilidad. Crea un golem de tierra debil, suficiente para servir de distraccion o guardia simple, no para combate serio.",
+        "es": "Débil, utilidad. Crea un golem de tierra débil, suficiente para servir de distracción o guardia simple, no para combate serio.",
         "en": "Weak, utility. Creates a weak earth golem, good enough as a distraction or simple guard, not for serious combat."
       },
       "canon": {
-        "es": "Version basica de la creacion de golems de tierra.",
+        "es": "Versión básica de la creación de golems de tierra.",
         "en": "The basic version of earth golem creation."
       },
       "source": "Manga",
@@ -1131,11 +1131,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Permite atravesar tierra, arena o piedra haciendo desaparecer la superficie a su paso; falla contra metal o raices vivas.",
+        "es": "Débil, utilidad, sin daño. Permite atravesar tierra, arena o piedra haciendo desaparecer la superficie a su paso; falla contra metal o raíces vivas.",
         "en": "Weak, utility, no damage. Allows passing through earth, sand or stone by making the surface vanish underfoot; fails against metal or living roots."
       },
       "canon": {
-        "es": "Muy usado para abrir tuneles improvisados o accesos subterraneos.",
+        "es": "Muy usado para abrir túneles improvisados o accesos subterráneos.",
         "en": "Widely used to open improvised tunnels or underground access."
       },
       "source": "Novela",
@@ -1149,11 +1149,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Debil. Hace estallar el suelo bajo el objetivo; funciona en casi cualquier terreno. 1d6 de daño.",
+        "es": "Débil. Hace estallar el suelo bajo el objetivo; funciona en casi cualquier terreno. 1d6 de daño.",
         "en": "Weak. Makes the ground beneath the target explode; works on almost any terrain. 1d6 damage."
       },
       "canon": {
-        "es": "Version menos potente de Grey Bomb, pero mas flexible con el tipo de terreno.",
+        "es": "Versión menos potente de Grey Bomb, pero más flexible con el tipo de terreno.",
         "en": "A less powerful version of Grey Bomb, but more flexible about terrain type."
       },
       "source": "Novela",
@@ -1167,11 +1167,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Medio, area. Hace brotar numerosas puas de roca del suelo junto con pequeños temblores localizados. CAR d6 de daño en area pequeña; dificil de esquivar.",
+        "es": "Medio, área. Hace brotar numerosas púas de roca del suelo junto con pequeños temblores localizados. CAR d6 de daño en área pequeña; difícil de esquivar.",
         "en": "Medium, area. Makes numerous rock spikes erupt from the ground along with small localized tremors. CHA d6 damage in a small area; hard to dodge."
       },
       "canon": {
-        "es": "Uno de los hechizos de tierra ofensivos mas comunes.",
+        "es": "Uno de los hechizos de tierra ofensivos más comunes.",
         "en": "One of the most common offensive earth spells."
       },
       "source": "Novela, Anime",
@@ -1185,7 +1185,7 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Medio, utilidad de combate. Carga un arma con magia de tierra, liberando ondas de choque al golpear que persiguen al enemigo. Mientras dure (una escena), el arma suma 1d6 de daño y es muy dificil de esquivar.",
+        "es": "Medio, utilidad de combate. Carga un arma con magia de tierra, liberando ondas de choque al golpear que persiguen al enemigo. Mientras dure (una escena), el arma suma 1d6 de daño y es muy difícil de esquivar.",
         "en": "Medium, combat utility. Charges a weapon with earth magic, releasing tracking shockwaves on hit. While it lasts (one scene), the weapon adds 1d6 damage and is very hard to dodge."
       },
       "canon": {
@@ -1203,11 +1203,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Medio, area. Invoca a los espiritus de la tierra para hacer estallar un area circular alrededor del lanzador; util cuando esta rodeado. CAR d6 de daño en area pequeña alrededor del lanzador (no lo afecta a el).",
+        "es": "Medio, área. Invoca a los espíritus de la tierra para hacer estallar un área circular alrededor del lanzador; útil cuando está rodeado. CAR d6 de daño en área pequeña alrededor del lanzador (no lo afecta a él).",
         "en": "Medium, area. Invokes the earth spirits to make a circular area around the caster explode; useful when surrounded. CHA d6 damage in a small area around the caster (does not affect the caster)."
       },
       "canon": {
-        "es": "Hechizo de escape usado cuando el lanzador esta cercado.",
+        "es": "Hechizo de escape usado cuando el lanzador está cercado.",
         "en": "An escape spell used when the caster is surrounded."
       },
       "source": "Novela",
@@ -1221,11 +1221,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Medio, utilidad/demolicion. Crea esferas de luz autodetonantes que generan vibraciones de alta frecuencia, ideales para demoler con precision sin derrumbar toda la estructura. CAR d6 de daño a una estructura u objetivo elegido.",
+        "es": "Medio, utilidad/demolición. Crea esferas de luz autodetonantes que generan vibraciones de alta frecuencia, ideales para demoler con precisión sin derrumbar toda la estructura. CAR d6 de daño a una estructura u objetivo elegido.",
         "en": "Medium, utility/demolition. Creates self-detonating light spheres that generate high-frequency vibrations, ideal for precise demolition without collapsing an entire structure. CHA d6 damage to a chosen structure or target."
       },
       "canon": {
-        "es": "Preferido para demoliciones controladas mas que para combate directo.",
+        "es": "Preferido para demoliciones controladas más que para combate directo.",
         "en": "Preferred for controlled demolitions rather than direct combat."
       },
       "source": "Novela",
@@ -1243,7 +1243,7 @@
         "en": "Medium, utility, no damage. Dispels a nearby active earth spell; especially effective against golems, which go inert."
       },
       "canon": {
-        "es": "Contra-hechizo especializado, util contra otros chamanes de tierra.",
+        "es": "Contra-hechizo especializado, útil contra otros chamanes de tierra.",
         "en": "A specialized counter-spell, useful against other earth shamans."
       },
       "source": "Novela",
@@ -1257,11 +1257,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Fuerte, area. Hace estallar el suelo con mucha mas fuerza que Dug Wave, pero requiere tierra natural expuesta (no funciona sobre piedra tallada o metal). CAR d6 de daño en area mediana. Requiere el favor de Bephimos. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área. Hace estallar el suelo con mucha más fuerza que Dug Wave, pero requiere tierra natural expuesta (no funciona sobre piedra tallada o metal). CAR d6 de daño en área mediana. Requiere el favor de Bephimos. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, area. Makes the ground explode with far more force than Dug Wave, but requires exposed natural earth (does not work on cut stone or metal). CHA d6 damage in a medium area. Requires Bephimos's favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Version mayor de Dug Wave, limitada por el tipo de terreno disponible.",
+        "es": "Versión mayor de Dug Wave, limitada por el tipo de terreno disponible.",
         "en": "A greater version of Dug Wave, limited by the type of terrain available."
       },
       "source": "Novela",
@@ -1275,11 +1275,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Fuerte, area grande. Version potenciada de Dill Brand: el radio de la explosion crece hasta poder destruir una mansion entera. CAR d6 de daño en area grande. Requiere el favor de Bephimos. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área grande. Versión potenciada de Dill Brand: el radio de la explosión crece hasta poder destruir una mansión entera. CAR d6 de daño en área grande. Requiere el favor de Bephimos. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, large area. An empowered version of Dill Brand: the blast radius grows enough to destroy an entire mansion. CHA d6 damage in a large area. Requires Bephimos's favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Uno de los hechizos de tierra mas destructivos documentados.",
+        "es": "Uno de los hechizos de tierra más destructivos documentados.",
         "en": "One of the most destructive documented earth spells."
       },
       "source": "Novela",
@@ -1293,11 +1293,11 @@
       "element": "tierra",
       "entity": "bephimos",
       "effect": {
-        "es": "Fuerte, area muy grande. El hechizo de tierra mas poderoso conocido: transforma el terreno en un lago de lava. CAR d6 de daño por ronda a quien permanezca en el area mientras dure; puede dañar a aliados descuidados. Requiere el favor de Bephimos. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área muy grande. El hechizo de tierra más poderoso conocido: transforma el terreno en un lago de lava. CAR d6 de daño por ronda a quien permanezca en el área mientras dure; puede dañar a aliados descuidados. Requiere el favor de Bephimos. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, very large area. The most powerful known earth spell: turns the terrain into a lake of lava. CHA d6 damage per round to anyone remaining in the area while it lasts; can hurt careless allies. Requires Bephimos's favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "El techo del poder de tierra, citado como el mas fuerte de su elemento.",
+        "es": "El techo del poder de tierra, citado como el más fuerte de su elemento.",
         "en": "The ceiling of earth power, cited as the strongest of its element."
       },
       "source": "Novela",
@@ -1311,11 +1311,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Debil. Libera un potente chorro de aire en linea recta desde las manos del lanzador; sirve para desviar ataques o para impulsarse. 1d6 de daño si se dirige contra un objetivo.",
+        "es": "Débil. Libera un potente chorro de aire en línea recta desde las manos del lanzador; sirve para desviar ataques o para impulsarse. 1d6 de daño si se dirige contra un objetivo.",
         "en": "Weak. Releases a powerful jet of air in a straight line from the caster's hands; useful to deflect attacks or to propel oneself. 1d6 damage if aimed at a target."
       },
       "canon": {
-        "es": "Hechizo muy versatil, tanto ofensivo como de movilidad.",
+        "es": "Hechizo muy versátil, tanto ofensivo como de movilidad.",
         "en": "A very versatile spell, both offensive and for mobility."
       },
       "source": "Novela, Anime",
@@ -1329,11 +1329,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Debil. Genera varias rafagas de aire comprimido afiladas como cuchillas. 1d6 de daño; tambien sirve para cortar cuerdas o vegetacion sin gastar el hechizo en combate.",
+        "es": "Débil. Genera varias ráfagas de aire comprimido afiladas como cuchillas. 1d6 de daño; también sirve para cortar cuerdas o vegetación sin gastar el hechizo en combate.",
         "en": "Weak. Generates several gusts of compressed air as sharp as blades. 1d6 damage; also useful to cut ropes or vegetation without spending it on combat."
       },
       "canon": {
-        "es": "Hechizo rapido de lanzar, tanto para combate menor como para tareas practicas.",
+        "es": "Hechizo rápido de lanzar, tanto para combate menor como para tareas prácticas.",
         "en": "A quick spell to cast, useful for both minor combat and practical chores."
       },
       "source": "Manga",
@@ -1347,7 +1347,7 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Debil. Crea una esfera compacta de aire que explota al contacto. 1d4 de daño; mas util para interceptar proyectiles menores que para atacar.",
+        "es": "Débil. Crea una esfera compacta de aire que explota al contacto. 1d4 de daño; más útil para interceptar proyectiles menores que para atacar.",
         "en": "Weak. Creates a compact sphere of air that explodes on contact. 1d4 damage; more useful to intercept minor projectiles than to attack."
       },
       "canon": {
@@ -1365,11 +1365,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Permite volar libremente controlando la direccion con el pensamiento durante una escena; requiere concentracion constante, por lo que no se pueden lanzar hechizos de nivel medio o mayor mientras se mantiene.",
+        "es": "Débil, utilidad, sin daño. Permite volar libremente controlando la dirección con el pensamiento durante una escena; requiere concentración constante, por lo que no se pueden lanzar hechizos de nivel medio o mayor mientras se mantiene.",
         "en": "Weak, utility, no damage. Allows free flight, controlling direction by thought, for one scene; requires constant concentration, so no medium-or-higher spell can be cast while sustaining it."
       },
       "canon": {
-        "es": "Hechizo de movilidad basico, comun entre magos experimentados.",
+        "es": "Hechizo de movilidad básico, común entre magos experimentados.",
         "en": "A basic mobility spell, common among experienced mages."
       },
       "source": "Novela, Anime",
@@ -1383,11 +1383,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Medio. Proyectil de aire comprimido extremadamente potente que explota al impacto liberando corrientes de aire violentas, capaz de atravesar muros gruesos. CAR d6 de daño a un objetivo o linea corta.",
+        "es": "Medio. Proyectil de aire comprimido extremadamente potente que explota al impacto liberando corrientes de aire violentas, capaz de atravesar muros gruesos. CAR d6 de daño a un objetivo o línea corta.",
         "en": "Medium. An extremely powerful compressed-air projectile that explodes on impact releasing violent air currents, able to punch through thick walls. CHA d6 damage to one target or a short line."
       },
       "canon": {
-        "es": "Uno de los hechizos ofensivos de viento mas fuertes antes del nivel fuerte.",
+        "es": "Uno de los hechizos ofensivos de viento más fuertes antes del nivel fuerte.",
         "en": "One of the strongest offensive wind spells below the strong tier."
       },
       "source": "Novela",
@@ -1401,11 +1401,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Medio. Genera flechas de aire comprimido invisibles que golpean con fuerza suficiente para derribar al objetivo. CAR d6 de daño y el objetivo cae si falla la salvacion.",
+        "es": "Medio. Genera flechas de aire comprimido invisibles que golpean con fuerza suficiente para derribar al objetivo. CAR d6 de daño y el objetivo cae si falla la salvación.",
         "en": "Medium. Generates invisible arrows of compressed air that hit hard enough to knock the target down. CHA d6 damage, and the target is knocked prone if it fails the save."
       },
       "canon": {
-        "es": "Version invisible y mas dificil de anticipar que Freeze Arrow o Flare Arrow.",
+        "es": "Versión invisible y más difícil de anticipar que Freeze Arrow o Flare Arrow.",
         "en": "An invisible version, harder to anticipate than Freeze Arrow or Flare Arrow."
       },
       "source": "Novela",
@@ -1419,11 +1419,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Medio, utilidad, sin daño. El hechizo de proteccion mas comun: crea una barrera de viento omnidireccional (salvo hacia abajo si el lanzador esta en el suelo). Varios lanzadores pueden combinar el efecto para reforzarlo.",
+        "es": "Medio, utilidad, sin daño. El hechizo de protección más común: crea una barrera de viento omnidireccional (salvo hacia abajo si el lanzador está en el suelo). Varios lanzadores pueden combinar el efecto para reforzarlo.",
         "en": "Medium, utility, no damage. The most common protection spell: creates an omnidirectional wind barrier (except downward if the caster is grounded). Several casters can combine the effect to reinforce it."
       },
       "canon": {
-        "es": "Hechizo defensivo estandar del elenco cuando esperan un ataque.",
+        "es": "Hechizo defensivo estándar del elenco cuando esperan un ataque.",
         "en": "The cast's standard defensive spell when expecting an attack."
       },
       "source": "Novela, Anime",
@@ -1437,11 +1437,11 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Medio, utilidad, sin daño. Envuelve al lanzador en una barrera de viento de alta velocidad que protege y permite desplazarse muy rapido, incluso bajo el agua; exige concentracion sostenida.",
+        "es": "Medio, utilidad, sin daño. Envuelve al lanzador en una barrera de viento de alta velocidad que protege y permite desplazarse muy rápido, incluso bajo el agua; exige concentración sostenida.",
         "en": "Medium, utility, no damage. Wraps the caster in a high-speed wind barrier that protects and allows very fast movement, even underwater; requires sustained concentration."
       },
       "canon": {
-        "es": "Uno de los hechizos de movilidad mas usados por Lina y compañia para huir o perseguir.",
+        "es": "Uno de los hechizos de movilidad más usados por Lina y compañía para huir o perseguir.",
         "en": "One of the mobility spells Lina and company use most to flee or give chase."
       },
       "source": "Novela, Anime",
@@ -1455,7 +1455,7 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Medio. Dispara un relampago desde las manos del lanzador, mas potente que Mono Volt; el contacto directo puede matar a un ser vivo comun. CAR d6 de daño.",
+        "es": "Medio. Dispara un relámpago desde las manos del lanzador, más potente que Mono Volt; el contacto directo puede matar a un ser vivo común. CAR d6 de daño.",
         "en": "Medium. Fires lightning from the caster's hands, stronger than Mono Volt; direct contact can kill an ordinary living being. CHA d6 damage."
       },
       "canon": {
@@ -1473,16 +1473,16 @@
       "element": "viento",
       "entity": "espiritus-del-viento",
       "effect": {
-        "es": "Fuerte, area grande. Invoca una lluvia de rayos indiscriminada sobre una zona designada. CAR d6 de daño en area grande, repartido en varios impactos. Requiere el favor de los espiritus del viento. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área grande. Invoca una lluvia de rayos indiscriminada sobre una zona designada. CAR d6 de daño en área grande, repartido en varios impactos. Requiere el favor de los espíritus del viento. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, large area. Summons an indiscriminate rain of lightning bolts over a designated zone. CHA d6 damage in a large area, spread over several strikes. Requires the wind spirits' favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Hechizo de tormenta a gran escala, poco comun por su falta de control fino.",
+        "es": "Hechizo de tormenta a gran escala, poco común por su falta de control fino.",
         "en": "A large-scale storm spell, uncommon for its lack of fine control."
       },
       "source": "Manga",
       "notes": {
-        "es": "Fuente secundaria (lista de 'otros hechizos'); se clasifico como viento por su naturaleza de tormenta electrica de area.",
+        "es": "Fuente secundaria (lista de 'otros hechizos'); se clasificó como viento por su naturaleza de tormenta eléctrica de área.",
         "en": "Secondary source ('other spells' list); classified as wind for its area electrical-storm nature."
       }
     },
@@ -1494,11 +1494,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Debil, daño directo. Crea una lanza de luz que ataca el espiritu del objetivo en vez de su cuerpo. 1d6 de daño directo (salta la Vitalidad); muy efectivo contra fantasmas, no-muertos y mazoku de bajo rango, pero solo deja inconsciente o debilita a los humanos.",
+        "es": "Débil, daño directo. Crea una lanza de luz que ataca el espíritu del objetivo en vez de su cuerpo. 1d6 de daño directo (salta la Vitalidad); muy efectivo contra fantasmas, no-muertos y mazoku de bajo rango, pero solo deja inconsciente o debilita a los humanos.",
         "en": "Weak, direct damage. Creates a lance of light that attacks the target's spirit rather than its body. 1d6 direct damage (skips Hit Points); very effective against ghosts, undead and low-rank mazoku, but only weakens or knocks out humans."
       },
       "canon": {
-        "es": "El hechizo astral mas popular y reconocible de la serie.",
+        "es": "El hechizo astral más popular y reconocible de la serie.",
         "en": "The most popular and recognizable astral spell in the series."
       },
       "source": "Novela, Anime, Manga",
@@ -1512,11 +1512,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Encanta un arma u objeto con energia astral temporal, permitiendole dañar a seres del plano astral durante una escena.",
+        "es": "Débil, utilidad, sin daño. Encanta un arma u objeto con energía astral temporal, permitiendole dañar a seres del plano astral durante una escena.",
         "en": "Weak, utility, no damage. Enchants a weapon or object with temporary astral energy, letting it harm astral-plane beings for one scene."
       },
       "canon": {
-        "es": "Recurso tactico para que un no-lanzador pueda dañar a un mazoku por una escena.",
+        "es": "Recurso táctico para que un no-lanzador pueda dañar a un mazoku por una escena.",
         "en": "A tactical resource so a non-caster can harm a mazoku for one scene."
       },
       "source": "Novela",
@@ -1530,11 +1530,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Debil, utilidad, sin daño. Permite comunicarse mentalmente con otro ser a corta distancia; el receptor tambien puede percibir fragmentos de los pensamientos del lanzador.",
+        "es": "Débil, utilidad, sin daño. Permite comunicarse mentalmente con otro ser a corta distancia; el receptor también puede percibir fragmentos de los pensamientos del lanzador.",
         "en": "Weak, utility, no damage. Allows mental communication with another being at short range; the receiver may also sense fragments of the caster's own thoughts."
       },
       "canon": {
-        "es": "En el canon aparece mas como un don innato que como un hechizo estudiado; se adapta aqui como hechizo debil por consistencia de juego.",
+        "es": "En el canon aparece más como un don innato que como un hechizo estudiado; se adapta aquí como hechizo débil por consistencia de juego.",
         "en": "In canon it appears more as an innate gift than a studied spell; adapted here as a weak spell for gameplay consistency."
       },
       "source": "Novela",
@@ -1551,11 +1551,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Medio, daño directo. Version mejorada de Elmekia Lance: un unico rayo o pilar de luz que ataca espiritualmente con fuerza suficiente para destruir el espiritu de un humano. CAR d6 de daño directo (salta la Vitalidad).",
+        "es": "Medio, daño directo. Versión mejorada de Elmekia Lance: un único rayo o pilar de luz que ataca espiritualmente con fuerza suficiente para destruir el espíritu de un humano. CAR d6 de daño directo (salta la Vitalidad).",
         "en": "Medium, direct damage. An improved version of Elmekia Lance: a single ray or pillar of light that attacks spiritually with enough force to destroy a human's spirit. CHA d6 direct damage (skips Hit Points)."
       },
       "canon": {
-        "es": "Hechizo considerablemente mas peligroso que su version debil.",
+        "es": "Hechizo considerablemente más peligroso que su versión débil.",
         "en": "A considerably more dangerous spell than its weak-tier counterpart."
       },
       "source": "Novela",
@@ -1569,11 +1569,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Medio, daño directo. Ataca directamente desde el plano astral; mas potente que Elmekia Flame, capaz de eliminar de un golpe a un demonio de bronce (Brass Demon). CAR d6 de daño directo (salta la Vitalidad).",
+        "es": "Medio, daño directo. Ataca directamente desde el plano astral; más potente que Elmekia Flame, capaz de eliminar de un golpe a un demonio de bronce (Brass Demon). CAR d6 de daño directo (salta la Vitalidad).",
         "en": "Medium, direct damage. Attacks directly from the astral plane; stronger than Elmekia Flame, able to destroy a Brass Demon in a single strike. CHA d6 direct damage (skips Hit Points)."
       },
       "canon": {
-        "es": "Uno de los hechizos astrales de nivel medio mas temidos.",
+        "es": "Uno de los hechizos astrales de nivel medio más temidos.",
         "en": "One of the most feared medium-tier astral spells."
       },
       "source": "Novela",
@@ -1591,7 +1591,7 @@
         "en": "Medium, direct damage. A spiraling ray of light, equivalent in power to Astral Break. CHA d6 direct damage (skips Hit Points)."
       },
       "canon": {
-        "es": "Variante visualmente distinta pero mecanicamente similar a Astral Break.",
+        "es": "Variante visualmente distinta pero mecánicamente similar a Astral Break.",
         "en": "A visually distinct but mechanically similar variant of Astral Break."
       },
       "source": "Manga",
@@ -1605,11 +1605,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Medio. Rayo azul que golpea tanto el cuerpo fisico como el espiritu, capaz de atravesar a un objetivo debil y seguir de largo hacia otro alineado detras. CAR d6 de daño (mitad fisico, mitad directo).",
+        "es": "Medio. Rayo azul que golpea tanto el cuerpo físico como el espíritu, capaz de atravesar a un objetivo débil y seguir de largo hacia otro alineado detrás. CAR d6 de daño (mitad físico, mitad directo).",
         "en": "Medium. A blue ray that hits both the physical body and the spirit, able to pierce a weak target and continue toward another one aligned behind it. CHA d6 damage (half physical, half direct)."
       },
       "canon": {
-        "es": "Uno de los pocos hechizos astrales que tambien hace daño fisico normal.",
+        "es": "Uno de los pocos hechizos astrales que también hace daño físico normal.",
         "en": "One of the few astral spells that also deals normal physical damage."
       },
       "source": "Novela",
@@ -1623,16 +1623,16 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Medio, area. Genera un vendaval de gran radio con daño fisico y espiritual combinado alrededor del lanzador; el propio centro es la zona mas segura. CAR d6 de daño en area mediana (no afecta al lanzador).",
+        "es": "Medio, área. Genera un vendaval de gran radio con daño físico y espiritual combinado alrededor del lanzador; el propio centro es la zona más segura. CAR d6 de daño en área mediana (no afecta al lanzador).",
         "en": "Medium, area. Generates a wide-radius windstorm with combined physical and spiritual damage around the caster; the very center is the safest spot. CHA d6 damage in a medium area (does not affect the caster)."
       },
       "canon": {
-        "es": "Hechizo de area poco comun que mezcla viento y daño astral.",
+        "es": "Hechizo de área poco común que mezcla viento y daño astral.",
         "en": "An uncommon area spell that blends wind and astral damage."
       },
       "source": "Manga",
       "notes": {
-        "es": "Se clasifico como astral por su componente de daño espiritual, aunque su forma es de vendaval; podria reclasificarse como viento en otra mesa.",
+        "es": "Se clasificó como astral por su componente de daño espiritual, aunque su forma es de vendaval; podría reclasificarse como viento en otra mesa.",
         "en": "Classified as astral for its spiritual-damage component, though its form is a windstorm; could be reclassified as wind at another table."
       }
     },
@@ -1644,16 +1644,16 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Fuerte, daño directo. El hechizo astral mas poderoso: un pilar de llama azulada envuelve al objetivo con un daño espiritual devastador. CAR d6 x2 de daño directo (salta la Vitalidad) a un unico objetivo; contra un ser puramente astral de nivel igual o menor, el objetivo debe superar una salvacion o ser destruido/desterrado por completo. Requiere el favor del espiritu astral. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, daño directo. El hechizo astral más poderoso: un pilar de llama azulada envuelve al objetivo con un daño espiritual devastador. CAR d6 x2 de daño directo (salta la Vitalidad) a un único objetivo; contra un ser puramente astral de nivel igual o menor, el objetivo debe superar una salvación o ser destruido/desterrado por completo. Requiere el favor del espíritu astral. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, direct damage. The most powerful astral spell: a pillar of bluish flame wraps the target in devastating spiritual damage. CHA d6 x2 direct damage (skips Hit Points) to a single target; against a purely astral being of equal or lower level, the target must beat a save or be destroyed/banished outright. Requires the astral spirit's favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Uno de los hechizos mas icónicos del elenco de apoyo, muy usado por Amelia y Zelgadis.",
+        "es": "Uno de los hechizos más icónicos del elenco de apoyo, muy usado por Amelia y Zelgadis.",
         "en": "One of the supporting cast's most iconic spells, heavily used by Amelia and Zelgadis."
       },
       "source": "Novela, Anime, Manga",
       "notes": {
-        "es": "El fandom hispano tambien lo llama 'La Tilt'; se opto por 'Ra Tilt' por ser la forma pedida en el encargo.",
+        "es": "El fandom hispano también lo llama 'La Tilt'; se optó por 'Ra Tilt' por ser la forma pedida en el encargo.",
         "en": "Spanish-speaking fandom also calls it 'La Tilt'; 'Ra Tilt' was chosen as the form requested for this module."
       }
     },
@@ -1665,11 +1665,11 @@
       "element": "astral",
       "entity": "espiritu-astral",
       "effect": {
-        "es": "Fuerte, daño directo, multiples objetivos. Salva de flechas de luz con daño puramente astral; cada una puede destruir por si sola a un demonio de bronce. CAR d6 de daño directo repartido entre hasta CAR objetivos. Requiere el favor del espiritu astral. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, daño directo, múltiples objetivos. Salva de flechas de luz con daño puramente astral; cada una puede destruir por sí sola a un demonio de bronce. CAR d6 de daño directo repartido entre hasta CAR objetivos. Requiere el favor del espíritu astral. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, direct damage, multiple targets. A volley of light arrows dealing purely astral damage; each one alone can destroy a Brass Demon. CHA d6 direct damage split among up to CHA targets. Requires the astral spirit's favor. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Probable version amplificada de Elmekia Lance, mucho mas letal.",
+        "es": "Probable versión amplificada de Elmekia Lance, mucho más letal.",
         "en": "Likely an amplified version of Elmekia Lance, far more lethal."
       },
       "source": "Manga",
@@ -1683,11 +1683,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Debil, utilidad, sin daño. Crea una esfera de luz que flota junto al lanzador, iluminando incluso bajo el agua, por varias horas.",
+        "es": "Débil, utilidad, sin daño. Crea una esfera de luz que flota junto al lanzador, iluminando incluso bajo el agua, por varias horas.",
         "en": "Weak, utility, no damage. Creates a sphere of light that floats near the caster, illuminating even underwater, for several hours."
       },
       "canon": {
-        "es": "El hechizo blanco mas basico y comun de toda la serie.",
+        "es": "El hechizo blanco más básico y común de toda la serie.",
         "en": "The most basic and common white spell in the whole series."
       },
       "source": "Novela, Anime, Manga",
@@ -1701,11 +1701,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Debil, utilidad, sin daño. Sella magicamente una puerta, ventana o cofre (Lock) o revierte ese sellado (Unlock).",
+        "es": "Débil, utilidad, sin daño. Sella mágicamente una puerta, ventana o cofre (Lock) o revierte ese sellado (Unlock).",
         "en": "Weak, utility, no damage. Magically seals a door, window or chest (Lock), or reverses that sealing (Unlock)."
       },
       "canon": {
-        "es": "Par de hechizos domesticos de seguridad, muy usados fuera de combate.",
+        "es": "Par de hechizos domésticos de seguridad, muy usados fuera de combate.",
         "en": "A pair of everyday security spells, widely used outside combat."
       },
       "source": "Novela",
@@ -1719,11 +1719,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Debil, sin daño. Elimina venenos y toxinas del cuerpo de un objetivo tocado.",
+        "es": "Débil, sin daño. Elimina venenos y toxinas del cuerpo de un objetivo tocado.",
         "en": "Weak, no damage. Removes poisons and toxins from a touched target's body."
       },
       "canon": {
-        "es": "Hechizo curativo menor, comun entre sanadoras de viaje.",
+        "es": "Hechizo curativo menor, común entre sanadoras de viaje.",
         "en": "A minor healing spell, common among traveling healers."
       },
       "source": "Novela",
@@ -1737,11 +1737,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Debil, utilidad, sin daño. Crea filamentos resistentes que pueden atar a un objetivo o sostener peso considerable.",
+        "es": "Débil, utilidad, sin daño. Crea filamentos resistentes que pueden atar a un objetivo o sostener peso considerable.",
         "en": "Weak, utility, no damage. Creates sturdy filaments that can bind a target or support considerable weight."
       },
       "canon": {
-        "es": "Hechizo de utilidad general, tanto para atar enemigos como para tareas practicas.",
+        "es": "Hechizo de utilidad general, tanto para atar enemigos como para tareas prácticas.",
         "en": "A general-utility spell, used both to bind enemies and for practical chores."
       },
       "source": "Novela",
@@ -1755,11 +1755,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Debil, sin daño. Cura la ceguera de un objetivo tocado, incluso si es de nacimiento.",
+        "es": "Débil, sin daño. Cura la ceguera de un objetivo tocado, incluso si es de nacimiento.",
         "en": "Weak, no damage. Cures a touched target's blindness, even if present since birth."
       },
       "canon": {
-        "es": "Ejemplo notable de la capacidad curativa de la Magia Blanca mas alla de heridas comunes.",
+        "es": "Ejemplo notable de la capacidad curativa de la Magia Blanca más allá de heridas comunes.",
         "en": "A notable example of White Magic's healing reach beyond ordinary wounds."
       },
       "source": "Novela",
@@ -1773,11 +1773,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Medio, utilidad, sin daño. Crea una barrera esferica alrededor de un objetivo tocado que absorbe el proximo ataque fisico o magico significativo.",
+        "es": "Medio, utilidad, sin daño. Crea una barrera esférica alrededor de un objetivo tocado que absorbe el próximo ataque físico o mágico significativo.",
         "en": "Medium, utility, no damage. Creates a spherical barrier around a touched target that absorbs the next significant physical or magical attack."
       },
       "canon": {
-        "es": "Escudo protector estandar del elenco antes de un combate dificil.",
+        "es": "Escudo protector estándar del elenco antes de un combate difícil.",
         "en": "The cast's standard protective shield before a tough fight."
       },
       "source": "Novela, Anime",
@@ -1791,11 +1791,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Medio. Potencia la curacion natural del cuerpo de un objetivo tocado. Cura SAB heridas (no Vitalidad).",
+        "es": "Medio. Potencia la curación natural del cuerpo de un objetivo tocado. Cura SAB heridas (no Vitalidad).",
         "en": "Medium. Boosts a touched target's natural healing. Heals WIS wounds (not Hit Points)."
       },
       "canon": {
-        "es": "El hechizo curativo de referencia, mas comun que Resurrection.",
+        "es": "El hechizo curativo de referencia, más común que Resurrection.",
         "en": "The go-to healing spell, more common than Resurrection."
       },
       "source": "Novela, Anime, Manga",
@@ -1809,11 +1809,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Medio, utilidad, sin daño. Crea ataduras de energia magica virtualmente irrompibles alrededor de un objetivo tocado.",
+        "es": "Medio, utilidad, sin daño. Crea ataduras de energía mágica virtualmente irrompibles alrededor de un objetivo tocado.",
         "en": "Medium, utility, no damage. Creates virtually unbreakable bindings of magical energy around a touched target."
       },
       "canon": {
-        "es": "Version mas fuerte de Chaos String, usada para inmovilizar amenazas serias.",
+        "es": "Versión más fuerte de Chaos String, usada para inmovilizar amenazas serias.",
         "en": "A stronger version of Chaos String, used to immobilize serious threats."
       },
       "source": "Novela",
@@ -1831,7 +1831,7 @@
         "en": "Medium, utility, no damage. Creates a hexagonal field that nullifies active spells within its radius."
       },
       "canon": {
-        "es": "Contra-hechizo general, muy util frente a encantamientos hostiles.",
+        "es": "Contra-hechizo general, muy útil frente a encantamientos hostiles.",
         "en": "A general counter-spell, very useful against hostile enchantments."
       },
       "source": "Novela",
@@ -1845,11 +1845,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Fuerte. Crea una llama blanca magica que purifica espiritus y hace daño real a seres sobrenaturales. SAB d6 de daño directo (salta la Vitalidad) contra no-muertos, fantasmas o espiritus; SAB d6 de daño normal contra otros objetivos. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte. Crea una llama blanca mágica que purifica espíritus y hace daño real a seres sobrenaturales. SAB d6 de daño directo (salta la Vitalidad) contra no-muertos, fantasmas o espíritus; SAB d6 de daño normal contra otros objetivos. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong. Creates a magical white flame that purifies spirits and does real harm to supernatural beings. WIS d6 direct damage (skips Hit Points) against undead, ghosts or spirits; WIS d6 normal damage against other targets. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "Hechizo blanco ofensivo, opuesto tematico de la magia negra de fuego oscuro.",
+        "es": "Hechizo blanco ofensivo, opuesto temático de la magia negra de fuego oscuro.",
         "en": "An offensive white spell, the thematic opposite of dark-fire black magic."
       },
       "source": "Novela",
@@ -1863,7 +1863,7 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Fuerte. El hechizo de curacion mas poderoso conocido. Cura todas las heridas de un objetivo tocado y puede restaurar un miembro perdido recientemente si el cuerpo sigue casi intacto. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte. El hechizo de curación más poderoso conocido. Cura todas las heridas de un objetivo tocado y puede restaurar un miembro perdido recientemente si el cuerpo sigue casi intacto. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong. The most powerful known healing spell. Heals all of a touched target's wounds and can restore a recently lost limb if the body is still nearly intact. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
@@ -1881,11 +1881,11 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "Fuerte, area. Emite una luz que purifica por completo una zona amplia. SAB d6 de daño directo (salta la Vitalidad) a todo no-muerto, fantasma o espiritu hostil en el area; los seres vivos no sufren daño. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
+        "es": "Fuerte, área. Emite una luz que purifica por completo una zona amplia. SAB d6 de daño directo (salta la Vitalidad) a todo no-muerto, fantasma o espíritu hostil en el área; los seres vivos no sufren daño. Requiere grimorio o maestro. El lanzador sufre 1d4 de daño directo al completarlo.",
         "en": "Strong, area. Emits a light that fully purifies a wide zone. WIS d6 direct damage (skips Hit Points) to every hostile undead, ghost or spirit in the area; living beings take no damage. Requires a grimoire or teacher. The caster takes 1d4 direct damage on completion."
       },
       "canon": {
-        "es": "El techo de la Magia Blanca contra amenazas sobrenaturales, citado como el mas potente de su tipo.",
+        "es": "El techo de la Magia Blanca contra amenazas sobrenaturales, citado como el más potente de su tipo.",
         "en": "The ceiling of White Magic against supernatural threats, cited as the most potent of its kind."
       },
       "source": "Novela",
@@ -1899,11 +1899,11 @@
       "element": null,
       "entity": "lord-of-nightmares",
       "effect": {
-        "es": "No lanzable por PJ. Invoca una porcion del Mar del Caos, creando una esfera de vacio que absorbe todo lo que toca hasta la nada. Su verdadero peligro no es el daño: es que puede escapar al control del lanzador e invocar directamente a la Señora de las Pesadillas.",
+        "es": "No lanzable por PJ. Invoca una porción del Mar del Caos, creando una esfera de vacío que absorbe todo lo que toca hasta la nada. Su verdadero peligro no es el daño: es que puede escapar al control del lanzador e invocar directamente a la Señora de las Pesadillas.",
         "en": "Not castable by PCs. Invokes a portion of the Chaos Sea, creating a sphere of void that absorbs everything it touches into nothing. Its true danger is not the damage: it is that it can slip beyond the caster's control and directly invoke the Lord of Nightmares."
       },
       "canon": {
-        "es": "El hechizo mas peligroso jamas lanzado por Lina Inverse; lo usa como ultimo recurso desesperado mas de una vez.",
+        "es": "El hechizo más peligroso jamás lanzado por Lina Inverse; lo usa como último recurso desesperado más de una vez.",
         "en": "The most dangerous spell Lina Inverse ever casts; she uses it as a desperate last resort more than once."
       },
       "source": "Novela, Anime",
@@ -1917,16 +1917,16 @@
       "element": null,
       "entity": "lord-of-nightmares",
       "effect": {
-        "es": "No lanzable por PJ (salvo mision especial de trama). Crea una espada de energia oscura que corta absolutamente cualquier cosa, incluidos seres astrales y conceptos que la magia normal no puede tocar.",
+        "es": "No lanzable por PJ (salvo misión especial de trama). Crea una espada de energía oscura que corta absolutamente cualquier cosa, incluidos seres astrales y conceptos que la magia normal no puede tocar.",
         "en": "Not castable by PCs (barring a special plot-driven mission). Creates a sword of dark energy that cuts through absolutely anything, including astral beings and things ordinary magic cannot touch."
       },
       "canon": {
-        "es": "Hechizo que Lina aprende a un costo enorme y usa contra amenazas que ningun otro hechizo puede tocar, como Zanaffer.",
+        "es": "Hechizo que Lina aprende a un costo enorme y usa contra amenazas que ningún otro hechizo puede tocar, como Zanaffer.",
         "en": "A spell Lina learns at enormous cost and uses against threats no other spell can touch, like Zanaffer."
       },
       "source": "Novela, Anime",
       "notes": {
-        "es": "En Slayers REVOLUTION se combina con la Espada de Luz para cortar a Zanaffer; el GM puede usar esa combinacion como set piece unico, no como opcion repetible de un PJ.",
+        "es": "En Slayers REVOLUTION se combina con la Espada de Luz para cortar a Zanaffer; el GM puede usar esa combinación como set piece único, no como opción repetible de un PJ.",
         "en": "In Slayers REVOLUTION it is combined with the Sword of Light to cut down Zanaffer; the GM can use that combo as a unique set piece, not a repeatable PC option."
       }
     },
@@ -1938,16 +1938,16 @@
       "element": null,
       "entity": null,
       "effect": {
-        "es": "No lanzable por PJ. Forma un pilar de luz azulada capaz de dañar o destruir a un mazoku, descrito como mas poderoso incluso que Ra Tilt.",
+        "es": "No lanzable por PJ. Forma un pilar de luz azulada capaz de dañar o destruir a un mazoku, descrito como más poderoso incluso que Ra Tilt.",
         "en": "Not castable by PCs. Forms a pillar of bluish light capable of harming or destroying a mazoku, described as even more powerful than Ra Tilt."
       },
       "canon": {
-        "es": "Magia divina de altisimo nivel, vista muy pocas veces en la serie.",
+        "es": "Magia divina de altísimo nivel, vista muy pocas veces en la serie.",
         "en": "Extremely high-level divine magic, seen very rarely in the series."
       },
       "source": "Manga",
       "notes": {
-        "es": "Fuente limitada (pagina de magia divina); se trata como Magia Perdida en este modulo por su escala, aunque el material original la agrupa como 'divina'.",
+        "es": "Fuente limitada (página de magia divina); se trata como Magia Perdida en este módulo por su escala, aunque el material original la agrupa como 'divina'.",
         "en": "Limited source (divine magic page); treated as Lost Magic here for its scale, though the original material groups it as 'divine'."
       }
     },
@@ -1959,16 +1959,16 @@
       "element": null,
       "entity": "shabranigdo",
       "effect": {
-        "es": "No lanzable por PJ. Ritual que reune el poder de Shabranigdo y sus cinco Confidentes en un unico pilar de energia de escala catastrofica.",
+        "es": "No lanzable por PJ. Ritual que reúne el poder de Shabranigdo y sus cinco Confidentes en un único pilar de energía de escala catastrófica.",
         "en": "Not castable by PCs. A ritual that gathers the power of Shabranigdo and his five Confidentes into a single pillar of energy on a catastrophic scale."
       },
       "canon": {
-        "es": "Se menciona como una de las combinaciones de poder negro mas extremas registradas.",
+        "es": "Se menciona como una de las combinaciones de poder negro más extremas registradas.",
         "en": "Mentioned as one of the most extreme combinations of black power on record."
       },
       "source": "Novela",
       "notes": {
-        "es": "Requiere, por definicion, que los cinco Confidentes esten vivos y cooperando; deja de ser posible si alguno muere o se niega, lo que la vuelve tematicamente end-game.",
+        "es": "Requiere, por definición, que los cinco Confidentes estén vivos y cooperando; deja de ser posible si alguno muere o se niega, lo que la vuelve temáticamente end-game.",
         "en": "By definition requires all five Confidentes alive and cooperating; it stops being possible if any dies or refuses, which makes it thematically end-game."
       }
     }
@@ -1984,15 +1984,15 @@
         "en": "Demon King of this world"
       },
       "description": {
-        "es": "El mas fuerte de todos los mazoku, contraparte oscura del Dios Dragon Ceiphied. Manda sobre el resto de los Señores Mazoku y creo a los Cinco Confidentes a partir de su propia energia.",
+        "es": "El más fuerte de todos los mazoku, contraparte oscura del Dios Dragón Ceiphied. Manda sobre el resto de los Señores Mazoku y creó a los Cinco Confidentes a partir de su propia energía.",
         "en": "The strongest of all mazoku, the dark counterpart of the Dragon God Ceiphied. He commands the rest of the Mazoku Lords and created the Five Confidentes from his own energy."
       },
       "favor": {
-        "es": "No tiene santuarios ni misiones formales: sus hechizos simplemente funcionan mientras algun fragmento suyo siga sin destruir en el mundo. Rechazar sus designios (o que un fragmento sea destruido) corta el acceso a los hechizos ligados a esa porcion de su poder.",
+        "es": "No tiene santuarios ni misiones formales: sus hechizos simplemente funcionan mientras algún fragmento suyo siga sin destruir en el mundo. Rechazar sus designios (o que un fragmento sea destruido) corta el acceso a los hechizos ligados a esa porción de su poder.",
         "en": "He has no shrines or formal missions: his spells simply keep working as long as some fragment of him remains undestroyed in the world. Defying his designs (or having a fragment destroyed) cuts off spells tied to that portion of his power."
       },
       "canonStatus": {
-        "es": "Ceiphied lo derroto pero no pudo destruirlo del todo hace 5000 años: dividio su alma en siete fragmentos sellados en almas humanas. Lina Inverse destruyo tres fragmentos conocidos (el del sacerdote Rezo, el del cazarrecompensas Luke, y uno mas); los otros permanecen sellados y su destino queda abierto para la mesa.",
+        "es": "Ceiphied lo derrotó pero no pudo destruirlo del todo hace 5000 años: dividió su alma en siete fragmentos sellados en almas humanas. Lina Inverse destruyó tres fragmentos conocidos (el del sacerdote Rezo, el del cazarrecompensas Luke, y uno más); los otros permanecen sellados y su destino queda abierto para la mesa.",
         "en": "Ceiphied defeated but could not fully destroy him 5000 years ago: his soul was split into seven fragments sealed inside human souls. Lina Inverse destroyed three known fragments (the priest Rezo's, the bounty hunter Luke's, and one more); the rest remain sealed, their fate left open for the table."
       }
     },
@@ -2006,15 +2006,15 @@
         "en": "Demon King of another world"
       },
       "description": {
-        "es": "Mazoku de clase alta y Señor Oscuro proveniente de un mundo distinto al de Ceiphied, contraparte del dios Dragon Nocturno Volphied. Creo las cinco Armas de Luz para contener su propio poder cuando fue invocado al mundo de Shabranigdo.",
+        "es": "Mazoku de clase alta y Señor Oscuro proveniente de un mundo distinto al de Ceiphied, contraparte del dios Dragón Nocturno Volphied. Creó las cinco Armas de Luz para contener su propio poder cuando fue invocado al mundo de Shabranigdo.",
         "en": "A high-class mazoku and Dark Lord from a world other than Ceiphied's, counterpart of the Night Dragon God Volphied. He created the five Weapons of Light to contain his own power when summoned into Shabranigdo's world."
       },
       "favor": {
-        "es": "No se le rinde culto de forma directa; su poder se invoca a traves del talisman Sangre de Demonio o de las Armas de Luz ligadas a el. Un lanzador que profane o destruya un fragmento de su poder corre el riesgo de perder el acceso a los hechizos que dependen de el.",
+        "es": "No se le rinde culto de forma directa; su poder se invoca a través del talismán Sangre de Demonio o de las Armas de Luz ligadas a él. Un lanzador que profane o destruya un fragmento de su poder corre el riesgo de perder el acceso a los hechizos que dependen de él.",
         "en": "He is not worshipped directly; his power is invoked through the Demon Blood talisman or the Weapons of Light tied to him. A caster who defiles or destroys a fragment of his power risks losing access to spells that depend on him."
       },
       "canonStatus": {
-        "es": "Su destruccion final queda ambigua en el canon: Volphied se dejo absorber a proposito para provocar una destruccion y renacimiento del universo, y Valgaav (fusion de Volphied y una porcion de Dark Star) renace mas tarde, lo que sugiere que no fue aniquilado del todo.",
+        "es": "Su destrucción final queda ambigua en el canon: Volphied se dejó absorber a propósito para provocar una destrucción y renacimiento del universo, y Valgaav (fusión de Volphied y una porción de Dark Star) renace más tarde, lo que sugiere que no fue aniquilado del todo.",
         "en": "His final destruction is left ambiguous in canon: Volphied let himself be absorbed on purpose to trigger the universe's destruction and rebirth, and Valgaav (a fusion of Volphied and a portion of Dark Star) is later reborn, suggesting he was not fully annihilated."
       }
     },
@@ -2028,15 +2028,15 @@
         "en": "Demon King of another world"
       },
       "description": {
-        "es": "Señor Oscuro de clase alta, contraparte del Dios Dragon Azul de su propio mundo. 'Chaotic Blue' es solo un titulo: su verdadero nombre no se conoce. Su poder se canaliza a traves de la gema azul del talisman Sangre de Demonio.",
+        "es": "Señor Oscuro de clase alta, contraparte del Dios Dragón Azul de su propio mundo. 'Chaotic Blue' es solo un título: su verdadero nombre no se conoce. Su poder se canaliza a través de la gema azul del talismán Sangre de Demonio.",
         "en": "A high-class Dark Lord, counterpart of the Blue Dragon God of his own world. 'Chaotic Blue' is only a title: his true name is unknown. His power is channeled through the blue gem of the Demon Blood talisman."
       },
       "favor": {
-        "es": "No aparece en el mundo de Ceiphied salvo a traves del talisman; no se conocen santuarios donde ganarle favor directamente.",
+        "es": "No aparece en el mundo de Ceiphied salvo a través del talismán; no se conocen santuarios donde ganarle favor directamente.",
         "en": "He does not appear in Ceiphied's world except through the talisman; no shrines are known where his favor could be earned directly."
       },
       "canonStatus": {
-        "es": "Segun el canon disponible no fue destruido durante la epoca de Lina Inverse.",
+        "es": "Según el canon disponible no fue destruido durante la época de Lina Inverse.",
         "en": "According to available canon he was not destroyed during Lina Inverse's era."
       }
     },
@@ -2050,7 +2050,7 @@
         "en": "Demon King of another world"
       },
       "description": {
-        "es": "Señor Oscuro de clase alta, contraparte del Dios Dragon Blanco de su propio mundo. Como Chaotic Blue, 'Death Fog' es un titulo y no su nombre real. Su poder se canaliza a traves de la gema blanca del talisman Sangre de Demonio.",
+        "es": "Señor Oscuro de clase alta, contraparte del Dios Dragón Blanco de su propio mundo. Como Chaotic Blue, 'Death Fog' es un título y no su nombre real. Su poder se canaliza a través de la gema blanca del talismán Sangre de Demonio.",
         "en": "A high-class Dark Lord, counterpart of the White Dragon God of his own world. Like Chaotic Blue, 'Death Fog' is a title, not his real name. His power is channeled through the white gem of the Demon Blood talisman."
       },
       "favor": {
@@ -2068,11 +2068,11 @@
       "kind": "mazoku",
       "element": null,
       "domain": {
-        "es": "Manipulacion, almas y renacimiento",
+        "es": "Manipulación, almas y renacimiento",
         "en": "Manipulation, souls and rebirth"
       },
       "description": {
-        "es": "El mas poderoso de los mazoku por debajo de Shabranigdo, y por eso su lider de facto entre los Cinco Confidentes. Cruel y sumamente calculador, adopta forma de niño para bajar la guardia de los adultos. Puede sentir y manipular almas, incluida la transmigracion en la reencarnacion.",
+        "es": "El más poderoso de los mazoku por debajo de Shabranigdo, y por eso su líder de facto entre los Cinco Confidentes. Cruel y sumamente calculador, adopta forma de niño para bajar la guardia de los adultos. Puede sentir y manipular almas, incluida la transmigración en la reencarnación.",
         "en": "The most powerful mazoku below Shabranigdo, and thus their de facto leader among the Five Confidentes. Cruel and extremely calculating, he takes a child's form to lower adults' guard. He can sense and manipulate souls, including transmigration through reincarnation."
       },
       "favor": {
@@ -2080,7 +2080,7 @@
         "en": "He seeks fragments of Shabranigdo's soul scattered across humanity to resurrect him; he manipulates nations and sows terror to awaken them. He is not an entity one bargains favor with: he only grants his spells to those who serve, knowingly or not, that plan."
       },
       "canonStatus": {
-        "es": "Muere en la novela: tras forzar a Lina Inverse a lanzar Giga Slave, esta pierde el control e invoca a la Señora de las Pesadillas, que lo destruye por completo al confundirlo con una amenaza. Una mesa que siga esa cronologia deberia cortar Ragna Blast y Ragna Drive a partir de ese punto.",
+        "es": "Muere en la novela: tras forzar a Lina Inverse a lanzar Giga Slave, esta pierde el control e invoca a la Señora de las Pesadillas, que lo destruye por completo al confundirlo con una amenaza. Una mesa que siga esa cronología debería cortar Ragna Blast y Ragna Drive a partir de ese punto.",
         "en": "He dies in the novel: after forcing Lina Inverse to cast Giga Slave, she loses control and invokes the Lord of Nightmares, who utterly destroys him after mistaking him for a threat. A table following that timeline should cut off Ragna Blast and Ragna Drive from that point on."
       }
     },
@@ -2090,19 +2090,19 @@
       "kind": "mazoku",
       "element": null,
       "domain": {
-        "es": "Guerra, fuego y ambicion",
+        "es": "Guerra, fuego y ambición",
         "en": "War, fire and ambition"
       },
       "description": {
-        "es": "Uno de los Cinco Confidentes, originalmente cruel y sin piedad. Sellado en forma humana por el Caballero de Aqualord, su fusion con esa alma humana termino por cambiarlo: dejo de desear la destruccion total del mundo y se rebelo contra Shabranigdo y los demas mazoku. Puede tomar forma de dragon rojo gigante de tres cabezas.",
+        "es": "Uno de los Cinco Confidentes, originalmente cruel y sin piedad. Sellado en forma humana por el Caballero de Aqualord, su fusión con esa alma humana terminó por cambiarlo: dejó de desear la destrucción total del mundo y se rebeló contra Shabranigdo y los demás mazoku. Puede tomar forma de dragón rojo gigante de tres cabezas.",
         "en": "One of the Five Confidentes, originally cruel and merciless. Sealed into human form by the Aqualord's Knight, his fusion with that human soul eventually changed him: he stopped wanting total world destruction and rebelled against Shabranigdo and the other mazoku. He can take the form of a giant three-headed red dragon."
       },
       "favor": {
-        "es": "No concede favor en el sentido de mision: sus hechizos (Gaav Flare) simplemente dependen de que siga existiendo.",
+        "es": "No concede favor en el sentido de misión: sus hechizos (Gaav Flare) simplemente dependen de que siga existiendo.",
         "en": "He does not grant favor in the mission sense: his spells (Gaav Flare) simply depend on him still existing."
       },
       "canonStatus": {
-        "es": "Muere en la novela: durante el enfrentamiento en el Pico del Dragon, Lina lo hiere con Ragna Blade y Phibrizzo revela su verdadera identidad y lo destruye por completo, aprovechando que sus mitades demonio y humana ya eran inseparables. Gaav Flare deberia dejar de funcionar tras este punto en una campaña que siga el canon.",
+        "es": "Muere en la novela: durante el enfrentamiento en el Pico del Dragón, Lina lo hiere con Ragna Blade y Phibrizzo revela su verdadera identidad y lo destruye por completo, aprovechando que sus mitades demonio y humana ya eran inseparables. Gaav Flare debería dejar de funcionar tras este punto en una campaña que siga el canon.",
         "en": "He dies in the novel: during the confrontation at Dragon Peak, Lina wounds him with Ragna Blade, and Phibrizzo reveals his true identity and destroys him completely, exploiting how inseparable his demon and human halves had become. Gaav Flare should stop working after this point in a campaign following canon."
       }
     },
@@ -2112,11 +2112,11 @@
       "kind": "mazoku",
       "element": null,
       "domain": {
-        "es": "Intriga politica y coordinacion demoniaca",
+        "es": "Intriga política y coordinación demoníaca",
         "en": "Political intrigue and demonic coordination"
       },
       "description": {
-        "es": "Uno de los Cinco Confidentes. Frio e instrumental, trata a sus subordinados como simples herramientas; segun el propio autor es 'el menos inteligente' de los Confidentes, y compensa con cantidad: crea cuatro sirvientes en vez de los dos habituales. Su forma verdadera es una masa oscura inmensa en el plano astral; su disfraz corporeo es una armadura plateada con casco de dos cuernos.",
+        "es": "Uno de los Cinco Confidentes. Frío e instrumental, trata a sus subordinados como simples herramientas; según el propio autor es 'el menos inteligente' de los Confidentes, y compensa con cantidad: crea cuatro sirvientes en vez de los dos habituales. Su forma verdadera es una masa oscura inmensa en el plano astral; su disfraz corpóreo es una armadura plateada con casco de dos cuernos.",
         "en": "One of the Five Confidentes. Cold and instrumental, he treats his subordinates as mere tools; per the author himself he is 'the least intelligent' of the Confidentes, and compensates with numbers: he creates four servants instead of the usual two. His true form is an immense dark mass on the astral plane; his physical disguise is heavy silver armor with a two-horned helmet."
       },
       "favor": {
@@ -2134,7 +2134,7 @@
       "kind": "mazoku",
       "element": "agua",
       "domain": {
-        "es": "El oceano y sus profundidades",
+        "es": "El océano y sus profundidades",
         "en": "The ocean and its depths"
       },
       "description": {
@@ -2156,11 +2156,11 @@
       "kind": "mazoku",
       "element": null,
       "domain": {
-        "es": "Bestias, caceria y voluntad",
+        "es": "Bestias, cacería y voluntad",
         "en": "Beasts, the hunt and will"
       },
       "description": {
-        "es": "Una de los Cinco Confidentes. A diferencia de los demas, concentro todo su poder de creacion en un unico sacerdote -Xellos- en vez de dos sirvientes. Su forma real es incierta, descrita como una bestia alada con espadas enormes; en forma humana aparenta unos veinte años, cabello rubio y ropa de viajera.",
+        "es": "Una de los Cinco Confidentes. A diferencia de los demás, concentró todo su poder de creación en un único sacerdote -Xellos- en vez de dos sirvientes. Su forma real es incierta, descrita como una bestia alada con espadas enormes; en forma humana aparenta unos veinte años, cabello rubio y ropa de viajera.",
         "en": "One of the Five Confidentes. Unlike the others, she poured all her creation power into a single priest -Xellos- instead of two servants. Her true form is uncertain, described as a winged beast with enormous swords; in human form she appears to be about twenty, with blonde hair and traveler's clothes."
       },
       "favor": {
@@ -2168,7 +2168,7 @@
         "en": "She has no usual human worship; her favor relates to Xellos and her own interests, almost never fully explained."
       },
       "canonStatus": {
-        "es": "Sigue activa y sin destruir en el canon disponible; presta a Xellos a Phibrizzo para vigilar a Lina Inverse y mas tarde apoya al fragmento de Shabranigdo despertado en Sairaag.",
+        "es": "Sigue activa y sin destruir en el canon disponible; presta a Xellos a Phibrizzo para vigilar a Lina Inverse y más tarde apoya al fragmento de Shabranigdo despertado en Sairaag.",
         "en": "She remains active and undestroyed in available canon; she lends Xellos to Phibrizzo to watch over Lina Inverse and later supports the awakened Shabranigdo fragment at Sairaag."
       }
     },
@@ -2178,60 +2178,60 @@
       "kind": "otro",
       "element": null,
       "domain": {
-        "es": "El vacio anterior a la creacion",
+        "es": "El vacío anterior a la creación",
         "en": "The void before creation"
       },
       "description": {
-        "es": "No es un mazoku ni un dios dragon, sino la fuente de la que ambos bandos provienen: la deidad creadora de toda la existencia, tambien llamada Mar del Caos en su aspecto mas primigenio. Solo se manifiesta cuando Lina Inverse pierde el control al lanzar Giga Slave.",
+        "es": "No es un mazoku ni un dios dragón, sino la fuente de la que ambos bandos provienen: la deidad creadora de toda la existencia, también llamada Mar del Caos en su aspecto más primigenio. Solo se manifiesta cuando Lina Inverse pierde el control al lanzar Giga Slave.",
         "en": "Neither a mazoku nor a dragon god, but the source both sides come from: the creator deity of all existence, also called the Chaos Sea in its most primal aspect. She only manifests when Lina Inverse loses control while casting Giga Slave."
       },
       "favor": {
-        "es": "No concede favor ni misiones: es un recurso de Magia Perdida, exclusivamente narrativo, jamas una fuente de hechizos lanzables por un PJ.",
+        "es": "No concede favor ni misiones: es un recurso de Magia Perdida, exclusivamente narrativo, jamás una fuente de hechizos lanzables por un PJ.",
         "en": "She grants no favor and no missions: she is a Lost Magic resource, purely narrative, never a source of spells a PC can cast."
       },
       "canonStatus": null
     },
     {
       "id": "ceiphied-flare-dragon",
-      "name": "Ceiphied, el Dios Dragon (Flare Dragon)",
+      "name": "Ceiphied, el Dios Dragón (Flare Dragon)",
       "kind": "dios",
       "element": null,
       "domain": {
-        "es": "Equilibrio, luz y proteccion del mundo",
+        "es": "Equilibrio, luz y protección del mundo",
         "en": "Balance, light and the world's protection"
       },
       "description": {
-        "es": "El Dios Dragon supremo del mundo de Shabranigdo, contraparte de este. Fuente de la Magia Divina, no de la Magia Blanca en si (una confusion comun entre fans). Muchas sacerdotisas y templos igualmente le atribuyen su devocion.",
+        "es": "El Dios Dragón supremo del mundo de Shabranigdo, contraparte de este. Fuente de la Magia Divina, no de la Magia Blanca en sí (una confusión común entre fans). Muchas sacerdotisas y templos igualmente le atribuyen su devoción.",
         "en": "The supreme Dragon God of Shabranigdo's world, his counterpart. Source of Divine Magic, not of White Magic itself (a common fan misconception). Many priestesses and temples nonetheless devote themselves to him."
       },
       "favor": {
-        "es": "Se le rinde culto en templos por todo el mundo; los Caballeros de Ceiphied (como Luna Inverse) reciben poder especial por gracia suya, pero eso excede el alcance de este modulo de reglas.",
+        "es": "Se le rinde culto en templos por todo el mundo; los Caballeros de Ceiphied (como Luna Inverse) reciben poder especial por gracia suya, pero eso excede el alcance de este módulo de reglas.",
         "en": "He is worshipped in temples across the world; the Knights of Ceiphied (like Luna Inverse) receive special power by his grace, but that goes beyond the scope of this rules module."
       },
       "canonStatus": {
-        "es": "Sellado desde hace unos 5000 años: tras enfrentar a Shabranigdo sin poder destruirlo, dividio su propio ser y poder en los cuatro Reyes Dragon, a quienes encargo la proteccion del mundo, y se retiro al Mar del Caos.",
+        "es": "Sellado desde hace unos 5000 años: tras enfrentar a Shabranigdo sin poder destruirlo, dividió su propio ser y poder en los cuatro Reyes Dragón, a quienes encargó la protección del mundo, y se retiró al Mar del Caos.",
         "en": "Sealed for around 5000 years: after fighting Shabranigdo without being able to destroy him, he split his own being and power into the four Dragon Kings, entrusting them with the world's protection, and withdrew into the Chaos Sea."
       }
     },
     {
       "id": "espiritu-del-fuego",
-      "name": "Espiritus del Fuego",
+      "name": "Espíritus del Fuego",
       "kind": "espiritu",
       "element": "fuego",
       "domain": {
-        "es": "Llama, calor y destruccion purificadora",
+        "es": "Llama, calor y destrucción purificadora",
         "en": "Flame, heat and purifying destruction"
       },
       "description": {
-        "es": "Los espiritus del fuego no tienen, en el canon disponible, un nombre individual tan marcado como el de otros elementos: se los invoca de forma colectiva ('espiritus de la llama que arde') al recitar hechizos de fuego. Para este modulo actuan como un unico Patron elemental.",
+        "es": "Los espíritus del fuego no tienen, en el canon disponible, un nombre individual tan marcado como el de otros elementos: se los invoca de forma colectiva ('espíritus de la llama que arde') al recitar hechizos de fuego. Para este módulo actúan como un único Patrón elemental.",
         "en": "The fire spirits do not have, in available canon, as distinct an individual name as other elements: they are invoked collectively ('spirits of the burning flame') when reciting fire spells. For this module they act as a single elemental Patron."
       },
       "favor": {
-        "es": "El favor se gana protegiendo fuentes de fuego sagrado (forjas, faros, hogares de un santuario) o realizando un sacrificio simbolico en llamas; el desfavor llega por apagar o profanar un fuego sagrado.",
+        "es": "El favor se gana protegiendo fuentes de fuego sagrado (forjas, faros, hogares de un santuario) o realizando un sacrificio simbólico en llamas; el desfavor llega por apagar o profanar un fuego sagrado.",
         "en": "Favor is earned by protecting sources of sacred fire (forges, beacons, a shrine's hearth) or performing a symbolic sacrifice in flame; disfavor comes from extinguishing or defiling a sacred fire."
       },
       "canonStatus": {
-        "es": "Nota de investigacion: a diferencia de Undine (agua) o Bephimos (tierra), no se encontro un nombre propio para el/los espiritu(s) de fuego en las fuentes consultadas; se documenta como colectivo por honestidad de investigacion.",
+        "es": "Nota de investigación: a diferencia de Undine (agua) o Bephimos (tierra), no se encontró un nombre propio para el/los espíritu(s) de fuego en las fuentes consultadas; se documenta como colectivo por honestidad de investigación.",
         "en": "Research note: unlike Undine (water) or Bephimos (earth), no proper name was found for the fire spirit(s) in the sources consulted; documented as a collective for research honesty."
       }
     },
@@ -2245,11 +2245,11 @@
         "en": "Water in all its forms"
       },
       "description": {
-        "es": "Espiritu principal del agua, invocado en los hechizos de esa escuela. Se lo describe como una presencia serena pero implacable cuando se le falta el respeto.",
+        "es": "Espíritu principal del agua, invocado en los hechizos de esa escuela. Se lo describe como una presencia serena pero implacable cuando se le falta el respeto.",
         "en": "The principal water spirit, invoked in that school's spells. Described as a calm presence, but relentless when disrespected."
       },
       "favor": {
-        "es": "El favor se gana cuidando fuentes de agua limpia (rios, pozos, manantiales de un santuario) o rescatando a quien se ahoga; el desfavor llega por contaminar o represar un curso de agua sagrado.",
+        "es": "El favor se gana cuidando fuentes de agua limpia (ríos, pozos, manantiales de un santuario) o rescatando a quien se ahoga; el desfavor llega por contaminar o represar un curso de agua sagrado.",
         "en": "Favor is earned by tending clean water sources (rivers, wells, a shrine's springs) or rescuing someone from drowning; disfavor comes from polluting or damming a sacred watercourse."
       },
       "canonStatus": null
@@ -2264,18 +2264,18 @@
         "en": "Rock, earth and stability"
       },
       "description": {
-        "es": "Espiritu principal de la tierra, junto a espiritus menores subordinados. Asociado a la solidez, la memoria de la piedra y los movimientos lentos pero imparables.",
+        "es": "Espíritu principal de la tierra, junto a espíritus menores subordinados. Asociado a la solidez, la memoria de la piedra y los movimientos lentos pero imparables.",
         "en": "The principal earth spirit, alongside lesser subordinate spirits. Associated with solidity, the memory of stone, and slow but unstoppable movement."
       },
       "favor": {
-        "es": "El favor se gana reparando estructuras antiguas, respetando tumbas y cuevas sagradas, o deteniendo mineria que profane un lugar sagrado; el desfavor llega por dinamitar o saquear esos lugares.",
+        "es": "El favor se gana reparando estructuras antiguas, respetando tumbas y cuevas sagradas, o deteniendo minería que profane un lugar sagrado; el desfavor llega por dinamitar o saquear esos lugares.",
         "en": "Favor is earned by repairing ancient structures, respecting sacred tombs and caves, or stopping mining that defiles a sacred place; disfavor comes from blasting or looting those places."
       },
       "canonStatus": null
     },
     {
       "id": "espiritus-del-viento",
-      "name": "Espiritus del Viento",
+      "name": "Espíritus del Viento",
       "kind": "espiritu",
       "element": "viento",
       "domain": {
@@ -2283,21 +2283,21 @@
         "en": "Air, speed and freedom"
       },
       "description": {
-        "es": "Invocados en plural ('espiritus del viento que soplan') mas que como una unica figura con nombre propio; se los trata en este modulo como un solo Patron colectivo por simplicidad de juego.",
+        "es": "Invocados en plural ('espíritus del viento que soplan') más que como una única figura con nombre propio; se los trata en este módulo como un solo Patrón colectivo por simplicidad de juego.",
         "en": "Invoked in the plural ('spirits of the blowing wind') rather than as a single named figure; treated in this module as one collective Patron for ease of play."
       },
       "favor": {
-        "es": "El favor se gana liberando cosas atrapadas (aves enjauladas, velas rotas, un valle sin viento por una maldicion) o entregando un mensaje urgente sin demora; el desfavor llega por encerrar el viento con magia o profanar torres/molinos consagrados a ellos.",
+        "es": "El favor se gana liberando cosas atrapadas (aves enjauladas, velas rotas, un valle sin viento por una maldición) o entregando un mensaje urgente sin demora; el desfavor llega por encerrar el viento con magia o profanar torres/molinos consagrados a ellos.",
         "en": "Favor is earned by freeing trapped things (caged birds, broken sails, a valley cursed with no wind) or delivering an urgent message without delay; disfavor comes from caging the wind with magic or defiling towers/mills consecrated to them."
       },
       "canonStatus": {
-        "es": "Nota de investigacion: como con el fuego, no se hallo un nombre propio individual para el/los espiritu(s) del viento en las fuentes consultadas.",
+        "es": "Nota de investigación: como con el fuego, no se halló un nombre propio individual para el/los espíritu(s) del viento en las fuentes consultadas.",
         "en": "Research note: as with fire, no individual proper name was found for the wind spirit(s) in the sources consulted."
       }
     },
     {
       "id": "espiritu-astral",
-      "name": "Espiritu Astral",
+      "name": "Espíritu Astral",
       "kind": "espiritu",
       "element": "astral",
       "domain": {
@@ -2305,15 +2305,15 @@
         "en": "The astral plane and souls"
       },
       "description": {
-        "es": "El elemento menos desarrollado como personaje propio en las fuentes consultadas: la 'magia astral/de espiritu' en Slayers se presenta mas como una categoria de daño (contra el alma, no el cuerpo) que como el dominio de un espiritu con personalidad definida. Se incluye aqui como Patron colectivo para sostener la simetria de las cinco escuelas chamanicas.",
+        "es": "El elemento menos desarrollado como personaje propio en las fuentes consultadas: la 'magia astral/de espíritu' en Slayers se presenta más como una categoría de daño (contra el alma, no el cuerpo) que como el dominio de un espíritu con personalidad definida. Se incluye aquí como Patrón colectivo para sostener la simetría de las cinco escuelas chamánicas.",
         "en": "The least developed element as its own character in the sources consulted: 'astral/spirit magic' in Slayers is presented more as a damage category (against the soul, not the body) than as the domain of a spirit with a defined personality. Included here as a collective Patron to keep the five shamanistic schools symmetrical."
       },
       "favor": {
-        "es": "El favor se gana ayudando a espiritus y almas atrapadas a cruzar o encontrar descanso, o protegiendo lugares donde el velo entre planos es fino; el desfavor llega por invocar o esclavizar espiritus menores de forma abusiva.",
+        "es": "El favor se gana ayudando a espíritus y almas atrapadas a cruzar o encontrar descanso, o protegiendo lugares donde el velo entre planos es fino; el desfavor llega por invocar o esclavizar espíritus menores de forma abusiva.",
         "en": "Favor is earned by helping trapped spirits and souls cross over or find rest, or protecting places where the veil between planes is thin; disfavor comes from summoning or enslaving lesser spirits abusively."
       },
       "canonStatus": {
-        "es": "Nota de investigacion: esta es la entidad con menos base canonica directa de las cinco; se marca explicitamente para que el GM la adapte o la reemplace con libertad.",
+        "es": "Nota de investigación: esta es la entidad con menos base canónica directa de las cinco; se marca explícitamente para que el GM la adapte o la reemplace con libertad.",
         "en": "Research note: this is the entity with the least direct canonical basis of the five; explicitly flagged so the GM can adapt or replace it freely."
       }
     }
@@ -2325,7 +2325,7 @@
       "slots": 1,
       "entity": "dark-star-dugradigdu",
       "description": {
-        "es": "La mas conocida de las cinco Armas de Luz creadas para contener el poder de Dark Star Dugradigdu. En reposo es una empuñadura gris con gemas rojizas; al activarse manifiesta una hoja de luz pura cuyo tamaño depende de la voluntad de quien la porta.",
+        "es": "La más conocida de las cinco Armas de Luz creadas para contener el poder de Dark Star Dugradigdu. En reposo es una empuñadura gris con gemas rojizas; al activarse manifiesta una hoja de luz pura cuyo tamaño depende de la voluntad de quien la porta.",
         "en": "The best known of the five Weapons of Light created to contain Dark Star Dugradigdu's power. At rest it is a gray hilt with reddish gems; when activated it manifests a blade of pure light whose size depends on the wielder's will."
       },
       "base": {
@@ -2345,11 +2345,11 @@
         },
         {
           "name": {
-            "es": "Reaccion en cadena",
+            "es": "Reacción en cadena",
             "en": "Chain reaction"
           },
           "effect": {
-            "es": "El portador conoce el peligroso truco de hacer chocar la hoja contra otra Arma de Luz a proposito, liberando una explosion de energia que daña a todos cerca de ambas armas (incluido el propio portador si no tiene cuidado).",
+            "es": "El portador conoce el peligroso truco de hacer chocar la hoja contra otra Arma de Luz a propósito, liberando una explosión de energía que daña a todos cerca de ambas armas (incluido el propio portador si no tiene cuidado).",
             "en": "The wielder knows the dangerous trick of deliberately clashing the blade against another Weapon of Light, releasing an energy explosion that damages everyone near both weapons (including the wielder if not careful)."
           }
         }
@@ -2362,11 +2362,11 @@
       "slots": 1,
       "entity": "dark-star-dugradigdu",
       "description": {
-        "es": "Una de las cinco Armas de Luz. Parece mas una espada de doble hoja que una lanza tradicional, generando dos filos de luz solida incluso en reposo.",
+        "es": "Una de las cinco Armas de Luz. Parece más una espada de doble hoja que una lanza tradicional, generando dos filos de luz sólida incluso en reposo.",
         "en": "One of the five Weapons of Light. It looks more like a double-bladed saber than a traditional spear, generating two solid light edges even at rest."
       },
       "base": {
-        "es": "Genera dos hojas de luz simultaneas que pueden atacar en dos direcciones en el mismo turno. Como toda Arma de Luz, ignora armadura y daña a seres astrales. d8 de daño (una hoja) o 2 x d6 (ambas hojas contra dos objetivos distintos).",
+        "es": "Genera dos hojas de luz simultáneas que pueden atacar en dos direcciones en el mismo turno. Como toda Arma de Luz, ignora armadura y daña a seres astrales. d8 de daño (una hoja) o 2 x d6 (ambas hojas contra dos objetivos distintos).",
         "en": "Generates two simultaneous blades of light that can strike in two directions in the same turn. Like every Weapon of Light, it ignores armor and harms astral beings. d8 damage (one blade) or 2 x d6 (both blades against two different targets)."
       },
       "awakenings": [
@@ -2403,7 +2403,7 @@
             "en": "Light ship"
           },
           "effect": {
-            "es": "El portador aprende a invocar una 'nave de luz' que dispara descargas de energia a distancia una vez por escena, 2d6 de daño en un objetivo o area pequeña.",
+            "es": "El portador aprende a invocar una 'nave de luz' que dispara descargas de energía a distancia una vez por escena, 2d6 de daño en un objetivo o área pequeña.",
             "en": "The wielder learns to invoke a 'light ship' that fires energy discharges at range once per scene, 2d6 damage to one target or a small area."
           }
         }
@@ -2416,11 +2416,11 @@
       "slots": 1,
       "entity": "dark-star-dugradigdu",
       "description": {
-        "es": "Una de las cinco Armas de Luz. No genera una hoja visible en reposo; su nombre alude a su proposito original de herir incluso a un dios dragon.",
+        "es": "Una de las cinco Armas de Luz. No genera una hoja visible en reposo; su nombre alude a su propósito original de herir incluso a un dios dragón.",
         "en": "One of the five Weapons of Light. It shows no visible blade at rest; its name refers to its original purpose of wounding even a dragon god."
       },
       "base": {
-        "es": "Genera una unica y pesada hoja de luz; ignora armadura y daña a seres astrales. d8 de daño, y +2 contra seres divinos o mazoku de alto rango.",
+        "es": "Genera una única y pesada hoja de luz; ignora armadura y daña a seres astrales. d8 de daño, y +2 contra seres divinos o mazoku de alto rango.",
         "en": "Generates a single, heavy blade of light; ignores armor and harms astral beings. d8 damage, and +2 against divine beings or high-rank mazoku."
       },
       "awakenings": [
@@ -2430,7 +2430,7 @@
             "en": "Light ark"
           },
           "effect": {
-            "es": "Combinada con Nezard, permite manifestar un 'arca de luz' en el cielo que dispara rayos de energia devastadores, 3d6 de daño en area mediana; requiere ambas armas presentes y un aliado dispuesto a portar la otra.",
+            "es": "Combinada con Nezard, permite manifestar un 'arca de luz' en el cielo que dispara rayos de energía devastadores, 3d6 de daño en área mediana; requiere ambas armas presentes y un aliado dispuesto a portar la otra.",
             "en": "Combined with Nezard, it can manifest a 'light ark' in the sky that fires devastating energy rays, 3d6 damage in a medium area; requires both weapons present and an ally willing to wield the other."
           }
         }
@@ -2439,11 +2439,11 @@
     },
     {
       "id": "galveila",
-      "name": "Arco Huracan (Galveila)",
+      "name": "Arco Huracán (Galveila)",
       "slots": 1,
       "entity": "dark-star-dugradigdu",
       "description": {
-        "es": "La mas poderosa de las cinco Armas de Luz. A diferencia de las otras, no forma una hoja de melee sino que dispara flechas de luz a distancia. Perteneció originalmente a los Dragones Antiguos antes de que los dragones dorados la reclamaran hace mil años.",
+        "es": "La más poderosa de las cinco Armas de Luz. A diferencia de las otras, no forma una hoja de melee sino que dispara flechas de luz a distancia. Perteneció originalmente a los Dragones Antiguos antes de que los dragones dorados la reclamaran hace mil años.",
         "en": "The most powerful of the five Weapons of Light. Unlike the others, it does not form a melee blade but fires arrows of light at range. It originally belonged to the Ancient Dragons before the golden dragons claimed it a thousand years ago."
       },
       "base": {
@@ -2453,11 +2453,11 @@
       "awakenings": [
         {
           "name": {
-            "es": "Explosion huracanada",
+            "es": "Explosión huracanada",
             "en": "Hurricane blast"
           },
           "effect": {
-            "es": "El portador aprende a cargar un disparo unico cuya explosion rivaliza en escala con Drag Slave. 6d6 de daño en area mediana alrededor del punto de impacto; requiere una ronda completa de carga sin moverse.",
+            "es": "El portador aprende a cargar un disparo único cuya explosión rivaliza en escala con Drag Slave. 6d6 de daño en área mediana alrededor del punto de impacto; requiere una ronda completa de carga sin moverse.",
             "en": "The wielder learns to charge a single shot whose explosion rivals Drag Slave in scale. 6d6 damage in a medium area around the impact point; requires a full round of charging without moving."
           }
         }
@@ -2470,11 +2470,11 @@
       "slots": 1,
       "entity": null,
       "description": {
-        "es": "Espada legendaria, distinta de las cinco Armas de Luz, que daña a los objetivos tanto en el plano fisico como en el astral.",
+        "es": "Espada legendaria, distinta de las cinco Armas de Luz, que daña a los objetivos tanto en el plano físico como en el astral.",
         "en": "A legendary sword, distinct from the five Weapons of Light, that harms targets on both the physical and the astral plane."
       },
       "base": {
-        "es": "Absorbe la energia magica de los ataques que recibe para reforzar sus propios golpes y puede rechazar hechizos ofensivos dirigidos contra su portador. Daña a mazoku de cualquier clase. d8 de daño (d10 si el portador absorbio un hechizo esa misma escena).",
+        "es": "Absorbe la energía mágica de los ataques que recibe para reforzar sus propios golpes y puede rechazar hechizos ofensivos dirigidos contra su portador. Daña a mazoku de cualquier clase. d8 de daño (d10 si el portador absorbió un hechizo esa misma escena).",
         "en": "Absorbs the magical energy of attacks it receives to reinforce its own strikes, and can reject offensive spells aimed at its wielder. Harms mazoku of any class. d8 damage (d10 if the wielder absorbed a spell that same scene)."
       },
       "awakenings": [
@@ -2497,11 +2497,11 @@
       "slots": 1,
       "entity": null,
       "description": {
-        "es": "Talisman con cuatro gemas, cada una ligada a uno de los cuatro Señores Oscuros documentados (Ruby Eye Shabranigdo, Dark Star Dugradigdu, Chaotic Blue y Death Fog). Lina Inverse lo obtuvo de Xellos y termino destruyendo cada gema por separado en su enfrentamiento final contra Shabranigdo.",
+        "es": "Talismán con cuatro gemas, cada una ligada a uno de los cuatro Señores Oscuros documentados (Ruby Eye Shabranigdo, Dark Star Dugradigdu, Chaotic Blue y Death Fog). Lina Inverse lo obtuvo de Xellos y terminó destruyendo cada gema por separado en su enfrentamiento final contra Shabranigdo.",
         "en": "A talisman with four gems, each tied to one of the four documented Dark Lords (Ruby Eye Shabranigdo, Dark Star Dugradigdu, Chaotic Blue and Death Fog). Lina Inverse obtained it from Xellos and ended up destroying each gem separately during her final confrontation with Shabranigdo."
       },
       "base": {
-        "es": "Mientras se lleve puesto, añade +1 carga a la reserva de Magia Negra del portador ese dia. Cada gema puede activarse una vez por escena para un efecto de 'Boost': el proximo hechizo negro del portador se lanza como si su INT fuera 2 puntos mas alta.",
+        "es": "Mientras se lleve puesto, añade +1 carga a la reserva de Magia Negra del portador ese día. Cada gema puede activarse una vez por escena para un efecto de 'Boost': el próximo hechizo negro del portador se lanza como si su INT fuera 2 puntos más alta.",
         "en": "While worn, it adds +1 charge to the wearer's Black Magic pool for that day. Each gem can be activated once per scene for a 'Boost' effect: the wearer's next black spell is cast as if their INT were 2 points higher."
       },
       "awakenings": [
@@ -2511,7 +2511,7 @@
             "en": "Full gem"
           },
           "effect": {
-            "es": "Una gema especifica (elegida al ganar este despertar) puede sacrificarse por completo para lanzar un efecto equivalente a un hechizo fuerte de esa gema una unica vez, sin gastar carga ni requerir grimorio, pero destruyendo la gema para siempre.",
+            "es": "Una gema específica (elegida al ganar este despertar) puede sacrificarse por completo para lanzar un efecto equivalente a un hechizo fuerte de esa gema una única vez, sin gastar carga ni requerir grimorio, pero destruyendo la gema para siempre.",
             "en": "A specific gem (chosen when this awakening is earned) can be fully sacrificed to unleash an effect equivalent to that gem's strong spell a single time, at no charge cost and with no grimoire required, but destroying the gem forever."
           }
         }
@@ -2524,11 +2524,11 @@
       "slots": 2,
       "entity": null,
       "description": {
-        "es": "Armadura viviente creada a partir de manuscritos de la Biblia de Claire, ligada a la naturaleza quimerica de la bestia Zanaffer.",
+        "es": "Armadura viviente creada a partir de manuscritos de la Biblia de Claire, ligada a la naturaleza quimérica de la bestia Zanaffer.",
         "en": "A living armor created from Claire Bible manuscripts, tied to the chimeric nature of the beast Zanaffer."
       },
       "base": {
-        "es": "Otorga gran proteccion contra hechizos de todo tipo (+3 a las salvaciones contra magia) y puede generar rayos de energia o una hoja improvisada una vez por escena (2d6 de daño), pero mientras esta activa impide que su portador lance sus propios hechizos.",
+        "es": "Otorga gran protección contra hechizos de todo tipo (+3 a las salvaciones contra magia) y puede generar rayos de energía o una hoja improvisada una vez por escena (2d6 de daño), pero mientras está activa impide que su portador lance sus propios hechizos.",
         "en": "Grants great protection against spells of every kind (+3 to saves against magic) and can generate energy rays or an improvised blade once per scene (2d6 damage), but while active it prevents its wearer from casting their own spells."
       },
       "awakenings": [
@@ -2538,7 +2538,7 @@
             "en": "Free form"
           },
           "effect": {
-            "es": "El portador aprende a remodelar la armadura a voluntad (peso, forma, aspecto) y a lanzar hechizos menores (debiles) mientras la lleva puesta, algo que la armadura sin modificar no permite.",
+            "es": "El portador aprende a remodelar la armadura a voluntad (peso, forma, aspecto) y a lanzar hechizos menores (débiles) mientras la lleva puesta, algo que la armadura sin modificar no permite.",
             "en": "The wearer learns to reshape the armor at will (weight, form, appearance) and to cast minor (weak) spells while wearing it, something the unmodified armor does not allow."
           }
         }
@@ -2551,11 +2551,11 @@
       "slots": 1,
       "entity": null,
       "description": {
-        "es": "Objeto capaz de ampliar el poder magico de quien lo porta a proporciones extraordinarias. El sacerdote Rezo la poseyo antes de que Lina Inverse la encontrara.",
+        "es": "Objeto capaz de ampliar el poder mágico de quien lo porta a proporciones extraordinarias. El sacerdote Rezo la poseyó antes de que Lina Inverse la encontrara.",
         "en": "An object capable of expanding its bearer's magical power to extraordinary proportions. The priest Rezo possessed it before Lina Inverse found it."
       },
       "base": {
-        "es": "Mientras se porte, +2 cargas a la reserva de la escuela de magia que el portador elija cada mañana. No requiere sintonia previa.",
+        "es": "Mientras se porte, +2 cargas a la reserva de la escuela de magia que el portador elija cada mañana. No requiere sintonía previa.",
         "en": "While carried, +2 charges to the pool of whichever magic school the bearer chooses each morning. Requires no prior attunement."
       },
       "awakenings": [
@@ -2565,7 +2565,7 @@
             "en": "Full resonance"
           },
           "effect": {
-            "es": "El portador aprende a canalizar la piedra sin limites de seguridad: por una escena, cualquier hechizo fuerte lanzado no inflige el 1d4 de daño directo habitual al lanzador. El GM deberia advertir que abusar de este despertar tiene sus propios riesgos narrativos (la piedra fue lo que desperto por accidente un fragmento de Shabranigdo).",
+            "es": "El portador aprende a canalizar la piedra sin límites de seguridad: por una escena, cualquier hechizo fuerte lanzado no inflige el 1d4 de daño directo habitual al lanzador. El GM debería advertir que abusar de este despertar tiene sus propios riesgos narrativos (la piedra fue lo que despertó por accidente un fragmento de Shabranigdo).",
             "en": "The wielder learns to channel the stone with no safety limits: for one scene, any strong spell cast does not inflict the usual 1d4 direct damage on the caster. The GM should warn that abusing this awakening carries its own narrative risks (the stone is what accidentally awakened a fragment of Shabranigdo)."
           }
         }
@@ -2578,11 +2578,11 @@
       "slots": 1,
       "entity": null,
       "description": {
-        "es": "Manuscrito parcial que contiene una copia limitada de la memoria y conciencia residual del Rey Dragon del Agua, Laguladia, la fuente de conocimiento magico mas completa del mundo.",
+        "es": "Manuscrito parcial que contiene una copia limitada de la memoria y conciencia residual del Rey Dragón del Agua, Laguladia, la fuente de conocimiento mágico más completa del mundo.",
         "en": "A partial manuscript containing a limited copy of the residual memory and consciousness of the Water Dragon King Laguladia, the world's most complete source of magical knowledge."
       },
       "base": {
-        "es": "Consultado en voz alta o en silencio, responde preguntas sobre mazoku, shinzoku, la Señora de las Pesadillas u objetos magicos dentro del conocimiento que Laguladia tenia al morir; no predice el futuro ni revela planes actuales de un enemigo.",
+        "es": "Consultado en voz alta o en silencio, responde preguntas sobre mazoku, shinzoku, la Señora de las Pesadillas u objetos mágicos dentro del conocimiento que Laguladia tenía al morir; no predice el futuro ni revela planes actuales de un enemigo.",
         "en": "Consulted aloud or in silence, it answers questions about mazoku, shinzoku, the Lord of Nightmares or magical objects within what Laguladia knew at death; it does not predict the future or reveal an enemy's current plans."
       },
       "awakenings": [
@@ -2592,7 +2592,7 @@
             "en": "Greater fragment"
           },
           "effect": {
-            "es": "El portador consigue una copia mas extensa del manuscrito, que ademas de responder preguntas revela un hechizo fuerte perdido u olvidado (a eleccion del GM) que el personaje puede aprender como si tuviera un grimorio para ese unico hechizo.",
+            "es": "El portador consigue una copia más extensa del manuscrito, que además de responder preguntas revela un hechizo fuerte perdido u olvidado (a elección del GM) que el personaje puede aprender como si tuviera un grimorio para ese único hechizo.",
             "en": "The bearer obtains a more extensive copy of the manuscript, which besides answering questions reveals a lost or forgotten strong spell (GM's choice) the character can learn as if they had a grimoire for that single spell."
           }
         }
@@ -2605,7 +2605,7 @@
       "slots": 1,
       "entity": null,
       "description": {
-        "es": "Anillo capaz de multiplicar enormemente la capacidad magica de un ser humano. Peligroso: Lina Inverse y McKellen terminaron deshaciendose del suyo arrojandolo a un volcan.",
+        "es": "Anillo capaz de multiplicar enormemente la capacidad mágica de un ser humano. Peligroso: Lina Inverse y McKellen terminaron deshaciendose del suyo arrojándolo a un volcán.",
         "en": "A ring able to enormously multiply a human being's magical capacity. Dangerous: Lina Inverse and McKellen ended up disposing of theirs by throwing it into a volcano."
       },
       "base": {
@@ -2621,21 +2621,21 @@
       "slots": 1,
       "entity": null,
       "description": {
-        "es": "Espada tallada a partir de las raices de un arbol sagrado, capaz de absorber miasma y energia negativa de seres astrales.",
+        "es": "Espada tallada a partir de las raíces de un árbol sagrado, capaz de absorber miasma y energía negativa de seres astrales.",
         "en": "A sword carved from the roots of a sacred tree, able to absorb miasma and negative energy from astral beings."
       },
       "base": {
-        "es": "Da +1 al daño contra no-muertos, espiritus y mazoku, y una vez por dia puede canalizar una version menor de Recovery (cura 1 herida) al tocar a un aliado con la hoja envainada.",
+        "es": "Da +1 al daño contra no-muertos, espíritus y mazoku, y una vez por día puede canalizar una versión menor de Recovery (cura 1 herida) al tocar a un aliado con la hoja envainada.",
         "en": "Grants +1 damage against undead, spirits and mazoku, and once per day can channel a lesser version of Recovery (heals 1 wound) by touching an ally with the sheathed blade."
       },
       "awakenings": [
         {
           "name": {
-            "es": "Raiz plena",
+            "es": "Raíz plena",
             "en": "Full root"
           },
           "effect": {
-            "es": "La espada aprende a purificar una maldicion o posesion menor con un toque, una vez por semana de juego.",
+            "es": "La espada aprende a purificar una maldición o posesión menor con un toque, una vez por semana de juego.",
             "en": "The sword learns to purify a minor curse or possession with a touch, once per game week."
           }
         }
@@ -2652,7 +2652,7 @@
         "en": "A sword able to generate demolishing shockwaves on impact, devastating the surroundings near the hit."
       },
       "base": {
-        "es": "Al golpear con exito, ademas del daño normal del arma, genera una onda de choque que hace 1d6 de daño adicional a todo lo que este pegado al objetivo (aliados incluidos si estan muy cerca).",
+        "es": "Al golpear con éxito, además del daño normal del arma, genera una onda de choque que hace 1d6 de daño adicional a todo lo que este pegado al objetivo (aliados incluidos si están muy cerca).",
         "en": "On a successful hit, besides the weapon's normal damage, it generates a shockwave dealing 1d6 additional damage to anything adjacent to the target (allies included if they stand too close)."
       },
       "awakenings": [
@@ -2662,7 +2662,7 @@
             "en": "Charged resonance"
           },
           "effect": {
-            "es": "La espada aprende a cargarse con energia magica absorbida de un golpe recibido, pudiendo resistir el choque directo contra un Arma de Luz sin romperse (algo que un arma comun no logra).",
+            "es": "La espada aprende a cargarse con energía mágica absorbida de un golpe recibido, pudiendo resistir el choque directo contra un Arma de Luz sin romperse (algo que un arma común no logra).",
             "en": "The sword learns to charge itself with magical energy absorbed from a blow received, allowing it to withstand a direct clash against a Weapon of Light without breaking (something an ordinary weapon cannot do)."
           }
         }
